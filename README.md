@@ -1,6 +1,6 @@
-# 📊 Analyse Google Trends de 5 mots-clés
+#  Analyse Google Trends de 5 mots-clés
 
-## 🎯 Objectif du projet
+##  Objectif du projet
 
 Ce projet vise à analyser et comparer l’intérêt relatif pour 5 mots-clés à l’échelle mondiale, en combinant :
 
@@ -12,7 +12,7 @@ L’objectif est de construire une pipeline data complète allant de la collecte
 
 ---
 
-## 🧠 Problématique
+##  Problématique
 
 Comment comparer l’intérêt pour différents mots-clés :
 
@@ -24,9 +24,9 @@ tout en tenant compte du fait que Google Trends fournit des données relatives (
 
 ---
 
-## 🏗️ Architecture du projet
+##  Architecture du projet
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 projet_trends/
@@ -53,7 +53,7 @@ projet_trends/
 ```
 ---
 
-## 🔄 Pipeline de traitement
+##  Pipeline de traitement
 
 ### 1. Collecte des données
 
@@ -98,7 +98,7 @@ Ajout de métadonnées pays :
 - continent
 - région
 
-👉 Permet :
+ Permet :
 
 - cartes interactives
 - agrégations géographiques
@@ -117,7 +117,7 @@ Variables créées :
 - score_2eme
 - ecart_top2
 
-👉 Permet d’identifier :
+ Permet d’identifier :
 
 - le mot-clé dominant par pays
 - l’intensité de domination
@@ -141,7 +141,7 @@ L’application permet :
 
 ---
 
-## 📊 Graphes utilisés pour les slides
+##  Graphes utilisés pour les slides
 
 1. Search Momentum
 → montre l’évolution globale et les pics d’intérêt dans le temps
@@ -159,7 +159,7 @@ L’application permet :
 → identifie le mot-clé le plus fort en moyenne par continent
 
 
-## ⚠️ Limites du projet
+##  Limites du projet
 
 - Google Trends fournit un score relatif (0–100)  
 - pas de volume absolu de recherche  
@@ -168,7 +168,7 @@ L’application permet :
 
 ---
 
-## 🚀 Lancer le projet
+##  Lancer le projet
 
 ### 1. Installer les dépendances
 
@@ -192,7 +192,7 @@ bash python -m streamlit run app/streamlit_app.py
 
 ---
 
-## 📌 Résultats principaux
+##  Résultats principaux
 
 - certains mots-clés dominent largement selon les zones géographiques  
 - la popularité varie fortement selon les pays  
@@ -201,7 +201,7 @@ bash python -m streamlit run app/streamlit_app.py
 
 ---
 
-## 🧠 Apports du projet
+##  Apports du projet
 
 Ce projet illustre :
 
@@ -212,7 +212,7 @@ Ce projet illustre :
 
 ---
 
-## 🔮 Améliorations possibles
+##  Améliorations possibles
 
 - ajout d’autres mots-clés  
 - intégration de nouvelles sources de données  
@@ -222,6 +222,6 @@ Ce projet illustre :
 
 ---
 
-## 👤 Auteur
+##  Auteur
 
-Projet réalisé dans le cadre d’un projet académique en data
+Projet réalisé dans le cadre d’un projet académique en data avec comme participant Vanilla et Can Pekgoz
