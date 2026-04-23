@@ -503,14 +503,6 @@ Il s’agit uniquement d’indices relatifs d’intérêt.
 
 Ce dashboard transforme des données Google Trends en outil d’analyse interactif.
 Il permet une lecture claire des dynamiques temporelles, géographiques et comparatives, avec un niveau de présentation adapté à une soutenance ou à un projet de data visualisation.
-
----
-
-Si tu veux, je peux maintenant te rédiger un `README.md` complet, directement prêt à copier-coller, avec :
-
-* titre
-* installation
-* structure du projet
 * explication du code
 * captures à ajouter
 * conclusion propre.
