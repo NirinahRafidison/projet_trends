@@ -1,0 +1,52 @@
+country,iso3,continent
+Afghanistan,AFG,Asia
+Albania,ALB,Europe
+Algeria,DZA,Africa
+Argentina,ARG,South America
+Australia,AUS,Oceania
+Austria,AUT,Europe
+Belgium,BEL,Europe
+Brazil,BRA,South America
+Canada,CAN,North America
+Chile,CHL,South America
+China,CHN,Asia
+Colombia,COL,South America
+Denmark,DNK,Europe
+Egypt,EGY,Africa
+Finland,FIN,Europe
+France,FRA,Europe
+Germany,DEU,Europe
+Greece,GRC,Europe
+India,IND,Asia
+Indonesia,IDN,Asia
+Iran,IRN,Asia
+Ireland,IRL,Europe
+Israel,ISR,Asia
+Italy,ITA,Europe
+Japan,JPN,Asia
+Kenya,KEN,Africa
+Mexico,MEX,North America
+Morocco,MAR,Africa
+Netherlands,NLD,Europe
+New Zealand,NZL,Oceania
+Nigeria,NGA,Africa
+Norway,NOR,Europe
+Pakistan,PAK,Asia
+Peru,PER,South America
+Philippines,PHL,Asia
+Poland,POL,Europe
+Portugal,PRT,Europe
+Romania,ROU,Europe
+Russia,RUS,Europe
+Saudi Arabia,SAU,Asia
+South Africa,ZAF,Africa
+South Korea,KOR,Asia
+Spain,ESP,Europe
+Sweden,SWE,Europe
+Switzerland,CHE,Europe
+Thailand,THA,Asia
+Turkey,TUR,Asia
+Ukraine,UKR,Europe
+United Kingdom,GBR,Europe
+United States,USA,North America
+Vietnam,VNM,Asia

@@ -1,0 +1,251 @@
+country,iso3,continent,mot_cle_dominant,score_max,score_2eme,ecart_top2
+Afghanistan,AFG,Asia,ChatGPT,24,22,2
+Afrique du Sud,ZAF,Africa,Netflix,71,27,44
+Albanie,ALB,Europe,Netflix,39,38,1
+Algérie,DZA,Africa,ChatGPT,22,18,4
+Allemagne,DEU,Europe,Netflix,44,38,6
+Andorre,,,Netflix,63,41,22
+Angola,,,Netflix,38,27,11
+Anguilla,,,Netflix,74,68,6
+Antarctique,,,intelligence artificielle,0,0,0
+Antigua-et-Barbuda,,,Netflix,59,28,31
+Arabie saoudite,SAU,Asia,Netflix,19,11,8
+Argentine,ARG,South America,Netflix,74,15,59
+Arménie,,,Tesla,34,24,10
+Aruba,,,Netflix,65,34,31
+Australie,AUS,Oceania,Netflix,56,41,15
+Autriche,AUT,Europe,Netflix,45,45,0
+Azerbaïdjan,,,ChatGPT,26,18,8
+Bahamas,,,Netflix,61,35,26
+Bahreïn,,,Netflix,32,27,5
+Bangladesh,,,ChatGPT,33,18,15
+Barbade,,,Netflix,54,27,27
+Belgique,BEL,Europe,Netflix,58,42,16
+Belize,,,Netflix,52,44,8
+Bermudes,,,Netflix,66,52,14
+Bhoutan,,,ChatGPT,100,44,56
+Biélorussie,,,Tesla,7,5,2
+Bolivie,,,Netflix,45,38,7
+Bosnie-Herzégovine,,,Netflix,37,25,12
+Botswana,,,Netflix,89,58,31
+Brunei,,,Netflix,63,36,27
+Brésil,BRA,South America,Netflix,52,23,29
+Bulgarie,,,crypto,27,19,8
+Burkina Faso,,,intelligence artificielle,90,37,53
+Burundi,,,intelligence artificielle,62,32,30
+Bénin,,,intelligence artificielle,74,46,28
+Cambodge,,,crypto,56,34,22
+Cameroun,,,intelligence artificielle,58,29,29
+Canada,CAN,North America,Tesla,60,57,3
+Cap-Vert,,,ChatGPT,70,64,6
+Chili,CHL,South America,Netflix,64,21,43
+Chine,CHN,Asia,ChatGPT,37,27,10
+Chypre,,,Netflix,55,45,10
+Colombie,COL,South America,Netflix,62,31,31
+Comores,,,intelligence artificielle,55,35,20
+Congo-Brazzaville,,,intelligence artificielle,76,38,38
+Congo-Kinshasa,,,intelligence artificielle,53,15,38
+Corée du Nord,,,Netflix,64,0,64
+Corée du Sud,KOR,Asia,crypto,20,16,4
+Costa Rica,,,Netflix,55,36,19
+Croatie,,,Netflix,50,33,17
+Cuba,,,Netflix,36,8,28
+Curaçao,,,Netflix,65,38,27
+Côte d’Ivoire,,,intelligence artificielle,69,40,29
+Danemark,DNK,Europe,Tesla,85,45,40
+Djibouti,,,intelligence artificielle,68,53,15
+Dominique,,,Netflix,62,33,29
+Espagne,ESP,Europe,Netflix,58,25,33
+Estonie,,,Tesla,35,31,4
+Eswatini,,,Netflix,37,27,10
+Fidji,,,ChatGPT,66,60,6
+Finlande,FIN,Europe,Tesla,46,37,9
+France,FRA,Europe,Netflix,60,42,18
+Gabon,,,intelligence artificielle,62,51,11
+Gambie,,,Netflix,23,18,5
+Ghana,,,Netflix,34,30,4
+Gibraltar,,,crypto,81,69,12
+Grenade,,,Netflix,60,32,28
+Groenland,,,Netflix,53,22,31
+Grèce,GRC,Europe,Netflix,47,20,27
+Guadeloupe,,,Netflix,66,54,12
+Guam,,,Netflix,55,28,27
+Guatemala,,,Netflix,47,30,17
+Guernesey,,,Netflix,61,45,16
+Guinée,,,intelligence artificielle,50,20,30
+Guinée équatoriale,,,Netflix,41,12,29
+Guinée-Bissau,,,Netflix,23,14,9
+Guyana,,,Netflix,52,25,27
+Guyane française,,,Netflix,70,37,33
+Géorgie,,,crypto,27,26,1
+Géorgie du Sud-et-les Îles Sandwich du Sud,,,intelligence artificielle,0,0,0
+Haïti,,,intelligence artificielle,35,32,3
+Honduras,,,Netflix,49,31,18
+Hong Kong,,,Tesla,44,38,6
+Hongrie,,,Netflix,60,32,28
+Inde,IND,Asia,Netflix,30,29,1
+Indonésie,IDN,Asia,Netflix,28,23,5
+Irak,,,crypto,14,10,4
+Iran,IRN,Asia,ChatGPT,7,6,1
+Irlande,IRL,Europe,Netflix,68,31,37
+Islande,,,Tesla,76,56,20
+Israël,ISR,Asia,Netflix,28,25,3
+Italie,ITA,Europe,Netflix,48,26,22
+Jamaïque,,,Netflix,60,26,34
+Japon,JPN,Asia,Netflix,11,4,7
+Jersey,,,Netflix,59,56,3
+Jordanie,,,Netflix,18,17,1
+Kazakhstan,,,ChatGPT,8,7,1
+Kenya,KEN,Africa,ChatGPT,46,45,1
+Kirghizstan,,,crypto,8,8,0
+Kiribati,,,Netflix,73,62,11
+Kosovo,,,crypto,58,45,13
+Koweït,,,Netflix,30,18,12
+La Réunion,,,Netflix,78,40,38
+Laos,,,crypto,35,27,8
+Lesotho,,,ChatGPT,40,36,4
+Lettonie,,,crypto,36,25,11
+Liban,,,Netflix,39,34,5
+Liberia,,,ChatGPT,23,20,3
+Libye,,,crypto,9,8,1
+Liechtenstein,,,Tesla,69,43,26
+Lituanie,,,Tesla,37,36,1
+Luxembourg,,,Netflix,55,53,2
+Macao,,,Netflix,37,33,4
+Macédoine du Nord,,,Netflix,42,41,1
+Madagascar,,,intelligence artificielle,100,65,35
+Malaisie,,,Netflix,55,46,9
+Malawi,,,Netflix,30,24,6
+Maldives,,,Netflix,62,41,21
+Mali,,,intelligence artificielle,41,15,26
+Malte,,,Netflix,63,53,10
+Maroc,MAR,Africa,Netflix,37,34,3
+Martinique,,,Netflix,69,55,14
+Maurice,,,Netflix,69,40,29
+Mauritanie,,,intelligence artificielle,28,21,7
+Mayotte,,,Netflix,73,39,34
+Mexique,MEX,North America,Netflix,61,20,41
+Micronésie,,,Netflix,67,32,35
+Moldavie,,,crypto,20,16,4
+Monaco,,,intelligence artificielle,0,0,0
+Mongolie,,,ChatGPT,47,30,17
+Montserrat,,,Netflix,67,14,53
+Monténégro,,,Netflix,37,31,6
+Mozambique,,,Netflix,38,29,9
+Myanmar (Birmanie),,,ChatGPT,42,28,14
+Namibie,,,Netflix,79,54,25
+Nauru,,,intelligence artificielle,0,0,0
+Nicaragua,,,Netflix,46,27,19
+Niger,,,intelligence artificielle,59,19,40
+Nigeria,NGA,Africa,crypto,76,34,42
+Niue,,,intelligence artificielle,0,0,0
+Norvège,NOR,Europe,Tesla,100,45,55
+Nouvelle-Calédonie,,,Netflix,75,52,23
+Nouvelle-Zélande,NZL,Oceania,Netflix,62,33,29
+Népal,,,ChatGPT,43,33,10
+Oman,,,ChatGPT,25,23,2
+Ouganda,,,Netflix,22,19,3
+Ouzbékistan,,,ChatGPT,40,12,28
+Pakistan,PAK,Asia,Netflix,47,46,1
+Palaos,,,Netflix,85,29,56
+Palestine,,,ChatGPT,18,14,4
+Panama,,,Netflix,48,40,8
+Papouasie-Nouvelle-Guinée,,,Netflix,41,34,7
+Paraguay,,,Netflix,49,23,26
+Pays-Bas,NLD,Europe,crypto,65,48,17
+Pays-Bas caribéens,,,Netflix,69,32,37
+Philippines,PHL,Asia,Netflix,54,48,6
+Pologne,POL,Europe,Netflix,54,18,36
+Polynésie française,,,Netflix,61,54,7
+Porto Rico,,,Netflix,61,28,33
+Portugal,PRT,Europe,Netflix,56,47,9
+Pérou,PER,South America,Netflix,65,50,15
+Qatar,,,Netflix,35,34,1
+Roumanie,ROU,Europe,Netflix,62,27,35
+Royaume-Uni,GBR,Europe,Netflix,56,34,22
+Russie,RUS,Europe,crypto,8,3,5
+Rwanda,,,ChatGPT,66,34,32
+République centrafricaine,,,intelligence artificielle,91,12,79
+République dominicaine,,,Netflix,59,32,27
+Sahara occidental,,,ChatGPT,30,28,2
+Saint-Barthélemy,,,Netflix,66,59,7
+Saint-Christophe-et-Niévès,,,Netflix,60,26,34
+Saint-Marin,,,Netflix,47,35,12
+Saint-Martin,,,Netflix,88,67,21
+Saint-Martin (partie néerlandaise),,,Netflix,77,40,37
+Saint-Pierre-et-Miquelon,,,Netflix,90,9,81
+Saint-Vincent-et-les Grenadines,,,Netflix,56,33,23
+Sainte-Hélène,,,crypto,66,21,45
+Sainte-Lucie,,,Netflix,66,36,30
+Salvador,,,Netflix,53,36,17
+Samoa,,,Netflix,50,45,5
+Samoa américaines,,,Netflix,94,51,43
+Sao Tomé-et-Principe,,,Netflix,60,36,24
+Serbie,,,Tesla,68,40,28
+Seychelles,,,Netflix,69,37,32
+Sierra Leone,,,Netflix,27,21,6
+Singapour,,,crypto,57,52,5
+Slovaquie,,,Netflix,42,32,10
+Slovénie,,,crypto,43,41,2
+Somalie,,,crypto,69,48,21
+Soudan,,,crypto,5,5,0
+Soudan du Sud,,,Netflix,23,22,1
+Sri Lanka,,,ChatGPT,55,29,26
+Suisse,CHE,Europe,Tesla,52,50,2
+Suriname,,,Netflix,49,33,16
+Suède,SWE,Europe,Tesla,56,45,11
+Svalbard et Jan Mayen,,,Netflix,34,12,22
+Syrie,,,crypto,6,3,3
+Sénégal,,,intelligence artificielle,66,42,24
+Tadjikistan,,,crypto,7,6,1
+Tanzanie,,,ChatGPT,28,23,5
+Taïwan,,,Netflix,51,21,30
+Tchad,,,intelligence artificielle,81,10,71
+Tchéquie,,,Netflix,46,35,11
+Terres australes françaises,,,intelligence artificielle,0,0,0
+Territoire britannique de l’océan Indien,,,intelligence artificielle,0,0,0
+Thaïlande,THA,Asia,Netflix,49,13,36
+Timor oriental,,,ChatGPT,33,15,18
+Togo,,,intelligence artificielle,68,38,30
+Tokelau,,,intelligence artificielle,0,0,0
+Tonga,,,Netflix,54,48,6
+Trinité-et-Tobago,,,Netflix,61,30,31
+Tunisie,,,ChatGPT,40,34,6
+Turkménistan,,,Tesla,7,5,2
+Turquie,TUR,Asia,Netflix,40,31,9
+Tuvalu,,,Netflix,100,57,43
+Ukraine,UKR,Europe,Tesla,12,10,2
+Uruguay,,,Netflix,72,20,52
+Vanuatu,,,ChatGPT,87,47,40
+Venezuela,,,Netflix,40,8,32
+Viêt Nam,,,crypto,14,13,1
+Wallis-et-Futuna,,,ChatGPT,38,0,38
+Yémen,,,crypto,8,5,3
+Zambie,,,Netflix,38,19,19
+Zimbabwe,,,Netflix,53,21,32
+Égypte,EGY,Africa,ChatGPT,13,12,1
+Émirats arabes unis,,,crypto,49,38,11
+Équateur,,,Netflix,51,50,1
+Érythrée,,,Tesla,29,25,4
+État de la Cité du Vatican,,,intelligence artificielle,0,0,0
+États-Unis,USA,North America,Tesla,61,48,13
+Éthiopie,,,ChatGPT,40,32,8
+Île Bouvet,,,intelligence artificielle,0,0,0
+Île Christmas,,,intelligence artificielle,0,0,0
+Île Norfolk,,,intelligence artificielle,0,0,0
+Île de Man,,,Netflix,52,49,3
+Îles Caïmans,,,crypto,100,64,36
+Îles Cocos,,,intelligence artificielle,0,0,0
+Îles Cook,,,Netflix,73,36,37
+Îles Féroé,,,Netflix,54,41,13
+Îles Heard-et-MacDonald,,,intelligence artificielle,0,0,0
+Îles Malouines (Îles Falkland),,,Netflix,71,8,63
+Îles Mariannes du Nord,,,Netflix,61,28,33
+Îles Marshall,,,Netflix,62,26,36
+Îles Pitcairn,,,intelligence artificielle,0,0,0
+Îles Salomon,,,ChatGPT,78,42,36
+Îles Turques-et-Caïques,,,Netflix,69,31,38
+Îles Vierges britanniques,,,crypto,58,51,7
+Îles Vierges des États-Unis,,,Netflix,58,34,24
+Îles mineures éloignées des États-Unis,,,intelligence artificielle,0,0,0
+Îles Åland,,,Netflix,46,45,1

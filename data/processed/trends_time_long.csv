@@ -1,0 +1,786 @@
+date,mot_cle,score
+2023-01-01,intelligence artificielle,0
+2023-01-08,intelligence artificielle,0
+2023-01-15,intelligence artificielle,0
+2023-01-22,intelligence artificielle,0
+2023-01-29,intelligence artificielle,0
+2023-02-05,intelligence artificielle,0
+2023-02-12,intelligence artificielle,0
+2023-02-19,intelligence artificielle,0
+2023-02-26,intelligence artificielle,0
+2023-03-05,intelligence artificielle,0
+2023-03-12,intelligence artificielle,0
+2023-03-19,intelligence artificielle,0
+2023-03-26,intelligence artificielle,0
+2023-04-02,intelligence artificielle,0
+2023-04-09,intelligence artificielle,0
+2023-04-16,intelligence artificielle,0
+2023-04-23,intelligence artificielle,0
+2023-04-30,intelligence artificielle,0
+2023-05-07,intelligence artificielle,0
+2023-05-14,intelligence artificielle,0
+2023-05-21,intelligence artificielle,0
+2023-05-28,intelligence artificielle,0
+2023-06-04,intelligence artificielle,0
+2023-06-11,intelligence artificielle,0
+2023-06-18,intelligence artificielle,0
+2023-06-25,intelligence artificielle,0
+2023-07-02,intelligence artificielle,0
+2023-07-09,intelligence artificielle,0
+2023-07-16,intelligence artificielle,0
+2023-07-23,intelligence artificielle,0
+2023-07-30,intelligence artificielle,0
+2023-08-06,intelligence artificielle,0
+2023-08-13,intelligence artificielle,0
+2023-08-20,intelligence artificielle,0
+2023-08-27,intelligence artificielle,0
+2023-09-03,intelligence artificielle,0
+2023-09-10,intelligence artificielle,0
+2023-09-17,intelligence artificielle,0
+2023-09-24,intelligence artificielle,0
+2023-10-01,intelligence artificielle,0
+2023-10-08,intelligence artificielle,0
+2023-10-15,intelligence artificielle,0
+2023-10-22,intelligence artificielle,0
+2023-10-29,intelligence artificielle,0
+2023-11-05,intelligence artificielle,0
+2023-11-12,intelligence artificielle,0
+2023-11-19,intelligence artificielle,0
+2023-11-26,intelligence artificielle,0
+2023-12-03,intelligence artificielle,0
+2023-12-10,intelligence artificielle,0
+2023-12-17,intelligence artificielle,0
+2023-12-24,intelligence artificielle,0
+2023-12-31,intelligence artificielle,0
+2024-01-07,intelligence artificielle,0
+2024-01-14,intelligence artificielle,0
+2024-01-21,intelligence artificielle,0
+2024-01-28,intelligence artificielle,0
+2024-02-04,intelligence artificielle,0
+2024-02-11,intelligence artificielle,0
+2024-02-18,intelligence artificielle,0
+2024-02-25,intelligence artificielle,0
+2024-03-03,intelligence artificielle,0
+2024-03-10,intelligence artificielle,0
+2024-03-17,intelligence artificielle,0
+2024-03-24,intelligence artificielle,0
+2024-03-31,intelligence artificielle,0
+2024-04-07,intelligence artificielle,0
+2024-04-14,intelligence artificielle,0
+2024-04-21,intelligence artificielle,0
+2024-04-28,intelligence artificielle,0
+2024-05-05,intelligence artificielle,0
+2024-05-12,intelligence artificielle,0
+2024-05-19,intelligence artificielle,0
+2024-05-26,intelligence artificielle,0
+2024-06-02,intelligence artificielle,0
+2024-06-09,intelligence artificielle,0
+2024-06-16,intelligence artificielle,0
+2024-06-23,intelligence artificielle,0
+2024-06-30,intelligence artificielle,0
+2024-07-07,intelligence artificielle,0
+2024-07-14,intelligence artificielle,0
+2024-07-21,intelligence artificielle,0
+2024-07-28,intelligence artificielle,0
+2024-08-04,intelligence artificielle,0
+2024-08-11,intelligence artificielle,0
+2024-08-18,intelligence artificielle,0
+2024-08-25,intelligence artificielle,0
+2024-09-01,intelligence artificielle,0
+2024-09-08,intelligence artificielle,0
+2024-09-15,intelligence artificielle,0
+2024-09-22,intelligence artificielle,0
+2024-09-29,intelligence artificielle,0
+2024-10-06,intelligence artificielle,0
+2024-10-13,intelligence artificielle,0
+2024-10-20,intelligence artificielle,0
+2024-10-27,intelligence artificielle,0
+2024-11-03,intelligence artificielle,0
+2024-11-10,intelligence artificielle,0
+2024-11-17,intelligence artificielle,0
+2024-11-24,intelligence artificielle,0
+2024-12-01,intelligence artificielle,0
+2024-12-08,intelligence artificielle,0
+2024-12-15,intelligence artificielle,0
+2024-12-22,intelligence artificielle,0
+2024-12-29,intelligence artificielle,0
+2025-01-05,intelligence artificielle,0
+2025-01-12,intelligence artificielle,0
+2025-01-19,intelligence artificielle,0
+2025-01-26,intelligence artificielle,0
+2025-02-02,intelligence artificielle,0
+2025-02-09,intelligence artificielle,0
+2025-02-16,intelligence artificielle,0
+2025-02-23,intelligence artificielle,0
+2025-03-02,intelligence artificielle,0
+2025-03-09,intelligence artificielle,0
+2025-03-16,intelligence artificielle,0
+2025-03-23,intelligence artificielle,0
+2025-03-30,intelligence artificielle,0
+2025-04-06,intelligence artificielle,0
+2025-04-13,intelligence artificielle,0
+2025-04-20,intelligence artificielle,0
+2025-04-27,intelligence artificielle,0
+2025-05-04,intelligence artificielle,0
+2025-05-11,intelligence artificielle,0
+2025-05-18,intelligence artificielle,0
+2025-05-25,intelligence artificielle,0
+2025-06-01,intelligence artificielle,0
+2025-06-08,intelligence artificielle,0
+2025-06-15,intelligence artificielle,0
+2025-06-22,intelligence artificielle,0
+2025-06-29,intelligence artificielle,0
+2025-07-06,intelligence artificielle,0
+2025-07-13,intelligence artificielle,0
+2025-07-20,intelligence artificielle,0
+2025-07-27,intelligence artificielle,0
+2025-08-03,intelligence artificielle,0
+2025-08-10,intelligence artificielle,0
+2025-08-17,intelligence artificielle,0
+2025-08-24,intelligence artificielle,0
+2025-08-31,intelligence artificielle,0
+2025-09-07,intelligence artificielle,0
+2025-09-14,intelligence artificielle,0
+2025-09-21,intelligence artificielle,0
+2025-09-28,intelligence artificielle,0
+2025-10-05,intelligence artificielle,0
+2025-10-12,intelligence artificielle,0
+2025-10-19,intelligence artificielle,0
+2025-10-26,intelligence artificielle,0
+2025-11-02,intelligence artificielle,0
+2025-11-09,intelligence artificielle,0
+2025-11-16,intelligence artificielle,0
+2025-11-23,intelligence artificielle,0
+2025-11-30,intelligence artificielle,0
+2025-12-07,intelligence artificielle,0
+2025-12-14,intelligence artificielle,0
+2025-12-21,intelligence artificielle,0
+2025-12-28,intelligence artificielle,0
+2023-01-01,crypto,2
+2023-01-08,crypto,2
+2023-01-15,crypto,2
+2023-01-22,crypto,2
+2023-01-29,crypto,2
+2023-02-05,crypto,2
+2023-02-12,crypto,2
+2023-02-19,crypto,2
+2023-02-26,crypto,2
+2023-03-05,crypto,2
+2023-03-12,crypto,3
+2023-03-19,crypto,2
+2023-03-26,crypto,2
+2023-04-02,crypto,2
+2023-04-09,crypto,2
+2023-04-16,crypto,2
+2023-04-23,crypto,2
+2023-04-30,crypto,2
+2023-05-07,crypto,2
+2023-05-14,crypto,2
+2023-05-21,crypto,2
+2023-05-28,crypto,2
+2023-06-04,crypto,2
+2023-06-11,crypto,2
+2023-06-18,crypto,2
+2023-06-25,crypto,2
+2023-07-02,crypto,2
+2023-07-09,crypto,2
+2023-07-16,crypto,2
+2023-07-23,crypto,2
+2023-07-30,crypto,2
+2023-08-06,crypto,2
+2023-08-13,crypto,2
+2023-08-20,crypto,2
+2023-08-27,crypto,2
+2023-09-03,crypto,2
+2023-09-10,crypto,2
+2023-09-17,crypto,2
+2023-09-24,crypto,2
+2023-10-01,crypto,2
+2023-10-08,crypto,2
+2023-10-15,crypto,2
+2023-10-22,crypto,2
+2023-10-29,crypto,2
+2023-11-05,crypto,2
+2023-11-12,crypto,2
+2023-11-19,crypto,2
+2023-11-26,crypto,2
+2023-12-03,crypto,3
+2023-12-10,crypto,3
+2023-12-17,crypto,3
+2023-12-24,crypto,3
+2023-12-31,crypto,3
+2024-01-07,crypto,3
+2024-01-14,crypto,3
+2024-01-21,crypto,2
+2024-01-28,crypto,2
+2024-02-04,crypto,2
+2024-02-11,crypto,3
+2024-02-18,crypto,3
+2024-02-25,crypto,4
+2024-03-03,crypto,6
+2024-03-10,crypto,5
+2024-03-17,crypto,4
+2024-03-24,crypto,4
+2024-03-31,crypto,4
+2024-04-07,crypto,3
+2024-04-14,crypto,3
+2024-04-21,crypto,3
+2024-04-28,crypto,3
+2024-05-05,crypto,2
+2024-05-12,crypto,3
+2024-05-19,crypto,3
+2024-05-26,crypto,3
+2024-06-02,crypto,3
+2024-06-09,crypto,3
+2024-06-16,crypto,3
+2024-06-23,crypto,2
+2024-06-30,crypto,3
+2024-07-07,crypto,2
+2024-07-14,crypto,3
+2024-07-21,crypto,3
+2024-07-28,crypto,2
+2024-08-04,crypto,3
+2024-08-11,crypto,2
+2024-08-18,crypto,2
+2024-08-25,crypto,2
+2024-09-01,crypto,2
+2024-09-08,crypto,2
+2024-09-15,crypto,2
+2024-09-22,crypto,3
+2024-09-29,crypto,2
+2024-10-06,crypto,2
+2024-10-13,crypto,2
+2024-10-20,crypto,2
+2024-10-27,crypto,3
+2024-11-03,crypto,3
+2024-11-10,crypto,6
+2024-11-17,crypto,5
+2024-11-24,crypto,5
+2024-12-01,crypto,7
+2024-12-08,crypto,6
+2024-12-15,crypto,5
+2024-12-22,crypto,4
+2024-12-29,crypto,4
+2025-01-05,crypto,4
+2025-01-12,crypto,5
+2025-01-19,crypto,8
+2025-01-26,crypto,5
+2025-02-02,crypto,5
+2025-02-09,crypto,3
+2025-02-16,crypto,4
+2025-02-23,crypto,4
+2025-03-02,crypto,5
+2025-03-09,crypto,3
+2025-03-16,crypto,3
+2025-03-23,crypto,3
+2025-03-30,crypto,3
+2025-04-06,crypto,3
+2025-04-13,crypto,2
+2025-04-20,crypto,3
+2025-04-27,crypto,2
+2025-05-04,crypto,3
+2025-05-11,crypto,3
+2025-05-18,crypto,3
+2025-05-25,crypto,3
+2025-06-01,crypto,3
+2025-06-08,crypto,3
+2025-06-15,crypto,3
+2025-06-22,crypto,3
+2025-06-29,crypto,2
+2025-07-06,crypto,3
+2025-07-13,crypto,5
+2025-07-20,crypto,4
+2025-07-27,crypto,5
+2025-08-03,crypto,6
+2025-08-10,crypto,10
+2025-08-17,crypto,9
+2025-08-24,crypto,7
+2025-08-31,crypto,6
+2025-09-07,crypto,7
+2025-09-14,crypto,6
+2025-09-21,crypto,7
+2025-09-28,crypto,7
+2025-10-05,crypto,7
+2025-10-12,crypto,7
+2025-10-19,crypto,6
+2025-10-26,crypto,5
+2025-11-02,crypto,6
+2025-11-09,crypto,5
+2025-11-16,crypto,6
+2025-11-23,crypto,5
+2025-11-30,crypto,5
+2025-12-07,crypto,5
+2025-12-14,crypto,5
+2025-12-21,crypto,4
+2025-12-28,crypto,3
+2023-01-01,Netflix,41
+2023-01-08,Netflix,35
+2023-01-15,Netflix,33
+2023-01-22,Netflix,35
+2023-01-29,Netflix,35
+2023-02-05,Netflix,34
+2023-02-12,Netflix,32
+2023-02-19,Netflix,33
+2023-02-26,Netflix,31
+2023-03-05,Netflix,30
+2023-03-12,Netflix,29
+2023-03-19,Netflix,28
+2023-03-26,Netflix,29
+2023-04-02,Netflix,29
+2023-04-09,Netflix,31
+2023-04-16,Netflix,31
+2023-04-23,Netflix,30
+2023-04-30,Netflix,30
+2023-05-07,Netflix,28
+2023-05-14,Netflix,29
+2023-05-21,Netflix,33
+2023-05-28,Netflix,30
+2023-06-04,Netflix,32
+2023-06-11,Netflix,31
+2023-06-18,Netflix,32
+2023-06-25,Netflix,32
+2023-07-02,Netflix,30
+2023-07-09,Netflix,31
+2023-07-16,Netflix,31
+2023-07-23,Netflix,31
+2023-07-30,Netflix,30
+2023-08-06,Netflix,30
+2023-08-13,Netflix,30
+2023-08-20,Netflix,29
+2023-08-27,Netflix,32
+2023-09-03,Netflix,32
+2023-09-10,Netflix,29
+2023-09-17,Netflix,32
+2023-09-24,Netflix,29
+2023-10-01,Netflix,30
+2023-10-08,Netflix,30
+2023-10-15,Netflix,29
+2023-10-22,Netflix,28
+2023-10-29,Netflix,31
+2023-11-05,Netflix,30
+2023-11-12,Netflix,28
+2023-11-19,Netflix,29
+2023-11-26,Netflix,29
+2023-12-03,Netflix,30
+2023-12-10,Netflix,33
+2023-12-17,Netflix,31
+2023-12-24,Netflix,37
+2023-12-31,Netflix,39
+2024-01-07,Netflix,33
+2024-01-14,Netflix,33
+2024-01-21,Netflix,34
+2024-01-28,Netflix,32
+2024-02-04,Netflix,30
+2024-02-11,Netflix,32
+2024-02-18,Netflix,34
+2024-02-25,Netflix,33
+2024-03-03,Netflix,33
+2024-03-10,Netflix,31
+2024-03-17,Netflix,30
+2024-03-24,Netflix,33
+2024-03-31,Netflix,30
+2024-04-07,Netflix,29
+2024-04-14,Netflix,28
+2024-04-21,Netflix,30
+2024-04-28,Netflix,32
+2024-05-05,Netflix,28
+2024-05-12,Netflix,29
+2024-05-19,Netflix,29
+2024-05-26,Netflix,30
+2024-06-02,Netflix,30
+2024-06-09,Netflix,31
+2024-06-16,Netflix,28
+2024-06-23,Netflix,27
+2024-06-30,Netflix,28
+2024-07-07,Netflix,27
+2024-07-14,Netflix,28
+2024-07-21,Netflix,30
+2024-07-28,Netflix,26
+2024-08-04,Netflix,26
+2024-08-11,Netflix,28
+2024-08-18,Netflix,28
+2024-08-25,Netflix,28
+2024-09-01,Netflix,29
+2024-09-08,Netflix,27
+2024-09-15,Netflix,28
+2024-09-22,Netflix,31
+2024-09-29,Netflix,29
+2024-10-06,Netflix,30
+2024-10-13,Netflix,29
+2024-10-20,Netflix,28
+2024-10-27,Netflix,30
+2024-11-03,Netflix,28
+2024-11-10,Netflix,42
+2024-11-17,Netflix,30
+2024-11-24,Netflix,30
+2024-12-01,Netflix,30
+2024-12-08,Netflix,30
+2024-12-15,Netflix,31
+2024-12-22,Netflix,42
+2024-12-29,Netflix,41
+2025-01-05,Netflix,36
+2025-01-12,Netflix,31
+2025-01-19,Netflix,30
+2025-01-26,Netflix,31
+2025-02-02,Netflix,29
+2025-02-09,Netflix,28
+2025-02-16,Netflix,30
+2025-02-23,Netflix,28
+2025-03-02,Netflix,30
+2025-03-09,Netflix,28
+2025-03-16,Netflix,33
+2025-03-23,Netflix,30
+2025-03-30,Netflix,30
+2025-04-06,Netflix,27
+2025-04-13,Netflix,28
+2025-04-20,Netflix,28
+2025-04-27,Netflix,27
+2025-05-04,Netflix,27
+2025-05-11,Netflix,26
+2025-05-18,Netflix,27
+2025-05-25,Netflix,29
+2025-06-01,Netflix,28
+2025-06-08,Netflix,27
+2025-06-15,Netflix,27
+2025-06-22,Netflix,30
+2025-06-29,Netflix,28
+2025-07-06,Netflix,35
+2025-07-13,Netflix,31
+2025-07-20,Netflix,31
+2025-07-27,Netflix,31
+2025-08-03,Netflix,30
+2025-08-10,Netflix,30
+2025-08-17,Netflix,29
+2025-08-24,Netflix,30
+2025-08-31,Netflix,30
+2025-09-07,Netflix,29
+2025-09-14,Netflix,28
+2025-09-21,Netflix,28
+2025-09-28,Netflix,31
+2025-10-05,Netflix,31
+2025-10-12,Netflix,30
+2025-10-19,Netflix,31
+2025-10-26,Netflix,28
+2025-11-02,Netflix,26
+2025-11-09,Netflix,27
+2025-11-16,Netflix,27
+2025-11-23,Netflix,28
+2025-11-30,Netflix,32
+2025-12-07,Netflix,31
+2025-12-14,Netflix,31
+2025-12-21,Netflix,34
+2025-12-28,Netflix,37
+2023-01-01,Tesla,8
+2023-01-08,Tesla,8
+2023-01-15,Tesla,8
+2023-01-22,Tesla,8
+2023-01-29,Tesla,7
+2023-02-05,Tesla,7
+2023-02-12,Tesla,7
+2023-02-19,Tesla,7
+2023-02-26,Tesla,8
+2023-03-05,Tesla,7
+2023-03-12,Tesla,6
+2023-03-19,Tesla,6
+2023-03-26,Tesla,6
+2023-04-02,Tesla,7
+2023-04-09,Tesla,6
+2023-04-16,Tesla,7
+2023-04-23,Tesla,6
+2023-04-30,Tesla,6
+2023-05-07,Tesla,6
+2023-05-14,Tesla,6
+2023-05-21,Tesla,6
+2023-05-28,Tesla,6
+2023-06-04,Tesla,7
+2023-06-11,Tesla,7
+2023-06-18,Tesla,7
+2023-06-25,Tesla,7
+2023-07-02,Tesla,7
+2023-07-09,Tesla,7
+2023-07-16,Tesla,8
+2023-07-23,Tesla,7
+2023-07-30,Tesla,7
+2023-08-06,Tesla,7
+2023-08-13,Tesla,7
+2023-08-20,Tesla,7
+2023-08-27,Tesla,7
+2023-09-03,Tesla,7
+2023-09-10,Tesla,7
+2023-09-17,Tesla,7
+2023-09-24,Tesla,7
+2023-10-01,Tesla,7
+2023-10-08,Tesla,6
+2023-10-15,Tesla,7
+2023-10-22,Tesla,6
+2023-10-29,Tesla,6
+2023-11-05,Tesla,6
+2023-11-12,Tesla,6
+2023-11-19,Tesla,6
+2023-11-26,Tesla,7
+2023-12-03,Tesla,7
+2023-12-10,Tesla,7
+2023-12-17,Tesla,7
+2023-12-24,Tesla,7
+2023-12-31,Tesla,6
+2024-01-07,Tesla,6
+2024-01-14,Tesla,6
+2024-01-21,Tesla,7
+2024-01-28,Tesla,7
+2024-02-04,Tesla,7
+2024-02-11,Tesla,6
+2024-02-18,Tesla,6
+2024-02-25,Tesla,6
+2024-03-03,Tesla,6
+2024-03-10,Tesla,6
+2024-03-17,Tesla,7
+2024-03-24,Tesla,7
+2024-03-31,Tesla,7
+2024-04-07,Tesla,7
+2024-04-14,Tesla,8
+2024-04-21,Tesla,9
+2024-04-28,Tesla,8
+2024-05-05,Tesla,7
+2024-05-12,Tesla,7
+2024-05-19,Tesla,7
+2024-05-26,Tesla,7
+2024-06-02,Tesla,7
+2024-06-09,Tesla,7
+2024-06-16,Tesla,7
+2024-06-23,Tesla,6
+2024-06-30,Tesla,7
+2024-07-07,Tesla,7
+2024-07-14,Tesla,7
+2024-07-21,Tesla,8
+2024-07-28,Tesla,6
+2024-08-04,Tesla,7
+2024-08-11,Tesla,7
+2024-08-18,Tesla,6
+2024-08-25,Tesla,6
+2024-09-01,Tesla,6
+2024-09-08,Tesla,6
+2024-09-15,Tesla,6
+2024-09-22,Tesla,6
+2024-09-29,Tesla,6
+2024-10-06,Tesla,8
+2024-10-13,Tesla,8
+2024-10-20,Tesla,8
+2024-10-27,Tesla,7
+2024-11-03,Tesla,9
+2024-11-10,Tesla,9
+2024-11-17,Tesla,8
+2024-11-24,Tesla,8
+2024-12-01,Tesla,8
+2024-12-08,Tesla,9
+2024-12-15,Tesla,9
+2024-12-22,Tesla,8
+2024-12-29,Tesla,10
+2025-01-05,Tesla,8
+2025-01-12,Tesla,8
+2025-01-19,Tesla,8
+2025-01-26,Tesla,8
+2025-02-02,Tesla,8
+2025-02-09,Tesla,8
+2025-02-16,Tesla,7
+2025-02-23,Tesla,9
+2025-03-02,Tesla,10
+2025-03-09,Tesla,17
+2025-03-16,Tesla,15
+2025-03-23,Tesla,13
+2025-03-30,Tesla,14
+2025-04-06,Tesla,12
+2025-04-13,Tesla,8
+2025-04-20,Tesla,10
+2025-04-27,Tesla,8
+2025-05-04,Tesla,7
+2025-05-11,Tesla,8
+2025-05-18,Tesla,7
+2025-05-25,Tesla,7
+2025-06-01,Tesla,10
+2025-06-08,Tesla,8
+2025-06-15,Tesla,7
+2025-06-22,Tesla,8
+2025-06-29,Tesla,8
+2025-07-06,Tesla,8
+2025-07-13,Tesla,8
+2025-07-20,Tesla,9
+2025-07-27,Tesla,8
+2025-08-03,Tesla,10
+2025-08-10,Tesla,10
+2025-08-17,Tesla,10
+2025-08-24,Tesla,9
+2025-08-31,Tesla,9
+2025-09-07,Tesla,9
+2025-09-14,Tesla,10
+2025-09-21,Tesla,10
+2025-09-28,Tesla,10
+2025-10-05,Tesla,9
+2025-10-12,Tesla,8
+2025-10-19,Tesla,8
+2025-10-26,Tesla,8
+2025-11-02,Tesla,9
+2025-11-09,Tesla,8
+2025-11-16,Tesla,9
+2025-11-23,Tesla,8
+2025-11-30,Tesla,8
+2025-12-07,Tesla,8
+2025-12-14,Tesla,8
+2025-12-21,Tesla,7
+2025-12-28,Tesla,7
+2023-01-01,ChatGPT,5
+2023-01-08,ChatGPT,8
+2023-01-15,ChatGPT,9
+2023-01-22,ChatGPT,11
+2023-01-29,ChatGPT,13
+2023-02-05,ChatGPT,16
+2023-02-12,ChatGPT,17
+2023-02-19,ChatGPT,17
+2023-02-26,ChatGPT,15
+2023-03-05,ChatGPT,16
+2023-03-12,ChatGPT,18
+2023-03-19,ChatGPT,20
+2023-03-26,ChatGPT,21
+2023-04-02,ChatGPT,20
+2023-04-09,ChatGPT,21
+2023-04-16,ChatGPT,21
+2023-04-23,ChatGPT,22
+2023-04-30,ChatGPT,21
+2023-05-07,ChatGPT,22
+2023-05-14,ChatGPT,22
+2023-05-21,ChatGPT,22
+2023-05-28,ChatGPT,21
+2023-06-04,ChatGPT,21
+2023-06-11,ChatGPT,20
+2023-06-18,ChatGPT,19
+2023-06-25,ChatGPT,17
+2023-07-02,ChatGPT,17
+2023-07-09,ChatGPT,18
+2023-07-16,ChatGPT,16
+2023-07-23,ChatGPT,16
+2023-07-30,ChatGPT,15
+2023-08-06,ChatGPT,17
+2023-08-13,ChatGPT,16
+2023-08-20,ChatGPT,16
+2023-08-27,ChatGPT,18
+2023-09-03,ChatGPT,19
+2023-09-10,ChatGPT,20
+2023-09-17,ChatGPT,21
+2023-09-24,ChatGPT,22
+2023-10-01,ChatGPT,22
+2023-10-08,ChatGPT,22
+2023-10-15,ChatGPT,23
+2023-10-22,ChatGPT,23
+2023-10-29,ChatGPT,21
+2023-11-05,ChatGPT,25
+2023-11-12,ChatGPT,24
+2023-11-19,ChatGPT,24
+2023-11-26,ChatGPT,26
+2023-12-03,ChatGPT,27
+2023-12-10,ChatGPT,25
+2023-12-17,ChatGPT,20
+2023-12-24,ChatGPT,15
+2023-12-31,ChatGPT,18
+2024-01-07,ChatGPT,23
+2024-01-14,ChatGPT,23
+2024-01-21,ChatGPT,22
+2024-01-28,ChatGPT,22
+2024-02-04,ChatGPT,23
+2024-02-11,ChatGPT,24
+2024-02-18,ChatGPT,24
+2024-02-25,ChatGPT,26
+2024-03-03,ChatGPT,27
+2024-03-10,ChatGPT,25
+2024-03-17,ChatGPT,25
+2024-03-24,ChatGPT,23
+2024-03-31,ChatGPT,23
+2024-04-07,ChatGPT,25
+2024-04-14,ChatGPT,27
+2024-04-21,ChatGPT,28
+2024-04-28,ChatGPT,26
+2024-05-05,ChatGPT,25
+2024-05-12,ChatGPT,29
+2024-05-19,ChatGPT,29
+2024-05-26,ChatGPT,29
+2024-06-02,ChatGPT,34
+2024-06-09,ChatGPT,27
+2024-06-16,ChatGPT,24
+2024-06-23,ChatGPT,23
+2024-06-30,ChatGPT,22
+2024-07-07,ChatGPT,22
+2024-07-14,ChatGPT,22
+2024-07-21,ChatGPT,22
+2024-07-28,ChatGPT,22
+2024-08-04,ChatGPT,25
+2024-08-11,ChatGPT,27
+2024-08-18,ChatGPT,29
+2024-08-25,ChatGPT,32
+2024-09-01,ChatGPT,34
+2024-09-08,ChatGPT,38
+2024-09-15,ChatGPT,38
+2024-09-22,ChatGPT,42
+2024-09-29,ChatGPT,40
+2024-10-06,ChatGPT,45
+2024-10-13,ChatGPT,46
+2024-10-20,ChatGPT,48
+2024-10-27,ChatGPT,44
+2024-11-03,ChatGPT,50
+2024-11-10,ChatGPT,52
+2024-11-17,ChatGPT,52
+2024-11-24,ChatGPT,51
+2024-12-01,ChatGPT,51
+2024-12-08,ChatGPT,53
+2024-12-15,ChatGPT,46
+2024-12-22,ChatGPT,37
+2024-12-29,ChatGPT,33
+2025-01-05,ChatGPT,49
+2025-01-12,ChatGPT,46
+2025-01-19,ChatGPT,52
+2025-01-26,ChatGPT,54
+2025-02-02,ChatGPT,56
+2025-02-09,ChatGPT,55
+2025-02-16,ChatGPT,57
+2025-02-23,ChatGPT,58
+2025-03-02,ChatGPT,59
+2025-03-09,ChatGPT,58
+2025-03-16,ChatGPT,61
+2025-03-23,ChatGPT,66
+2025-03-30,ChatGPT,95
+2025-04-06,ChatGPT,76
+2025-04-13,ChatGPT,69
+2025-04-20,ChatGPT,73
+2025-04-27,ChatGPT,75
+2025-05-04,ChatGPT,74
+2025-05-11,ChatGPT,78
+2025-05-18,ChatGPT,81
+2025-05-25,ChatGPT,78
+2025-06-01,ChatGPT,80
+2025-06-08,ChatGPT,84
+2025-06-15,ChatGPT,78
+2025-06-22,ChatGPT,79
+2025-06-29,ChatGPT,76
+2025-07-06,ChatGPT,75
+2025-07-13,ChatGPT,77
+2025-07-20,ChatGPT,76
+2025-07-27,ChatGPT,81
+2025-08-03,ChatGPT,85
+2025-08-10,ChatGPT,85
+2025-08-17,ChatGPT,87
+2025-08-24,ChatGPT,91
+2025-08-31,ChatGPT,89
+2025-09-07,ChatGPT,100
+2025-09-14,ChatGPT,100
+2025-09-21,ChatGPT,93
+2025-09-28,ChatGPT,92
+2025-10-05,ChatGPT,97
+2025-10-12,ChatGPT,97
+2025-10-19,ChatGPT,96
+2025-10-26,ChatGPT,91
+2025-11-02,ChatGPT,94
+2025-11-09,ChatGPT,96
+2025-11-16,ChatGPT,99
+2025-11-23,ChatGPT,84
+2025-11-30,ChatGPT,86
+2025-12-07,ChatGPT,84
+2025-12-14,ChatGPT,81
+2025-12-21,ChatGPT,64
+2025-12-28,ChatGPT,61
