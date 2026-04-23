@@ -3,11 +3,7 @@ import numpy as np
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
-import streamlit.components.v1 as components
-
-
 from pathlib import Path
-
 
 # =========================================================
 # CONFIG
@@ -21,142 +17,186 @@ st.set_page_config(
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 PROCESSED_DIR = BASE_DIR / "data" / "processed"
-
 TIME_FILE = PROCESSED_DIR / "trends_time_long.csv"
 COUNTRY_FILE = PROCESSED_DIR / "trends_country_enriched.csv"
 INSIGHTS_FILE = PROCESSED_DIR / "country_insights.csv"
 
-PAPER_BG = "#081120"
-PLOT_BG = "#0b1728"
-CARD_BG = "rgba(15,23,42,0.82)"
-FONT = "#F8FAFC"
-GRID = "rgba(148,163,184,0.12)"
-
+COLORS = {
+    "ChatGPT":                "#4285F4",
+    "crypto":                 "#EA4335",
+    "Netflix":                "#34A853",
+    "Tesla":                  "#FBBC05",
+    "artificial intelligence":"#8AB4F8"
+}
 
 # =========================================================
-# STYLE
+# CSS DARK THEME
 # =========================================================
 st.markdown("""
 <style>
-    .stApp {
-        background:
-            radial-gradient(circle at top left, rgba(37,99,235,0.18), transparent 28%),
-            radial-gradient(circle at top right, rgba(14,165,233,0.12), transparent 20%),
-            linear-gradient(180deg, #06101d 0%, #0b1220 100%);
-        color: #f8fafc;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap');
 
-    .block-container {
-        max-width: 1520px;
-        padding-top: 1.0rem;
-        padding-bottom: 2rem;
-        padding-left: 1.8rem;
-        padding-right: 1.8rem;
-    }
+* { box-sizing: border-box; }
 
-    section[data-testid="stSidebar"] {
-        background: linear-gradient(180deg, #09111f 0%, #111827 100%);
-        border-right: 1px solid rgba(255,255,255,0.06);
-    }
+.stApp {
+    background: #0b1220;
+    font-family: 'Google Sans', 'Roboto', sans-serif;
+    color: #f8fafc;
+}
 
-    h1, h2, h3, h4 {
-        color: #ffffff !important;
-        letter-spacing: -0.3px;
-    }
+.hero {
+    background: linear-gradient(135deg, rgba(37,99,235,0.20), rgba(14,165,233,0.10));
+    border: 1px solid rgba(96,165,250,0.16);
+    border-radius: 24px;
+    padding: 24px;
+    margin-bottom: 18px;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.28);
+}
+.hero-title {
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+.hero-sub {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #dbeafe;
+}
 
-    .hero {
-        background: linear-gradient(135deg, rgba(37,99,235,0.20), rgba(14,165,233,0.10));
-        border: 1px solid rgba(96,165,250,0.16);
-        border-radius: 24px;
-        padding: 24px;
-        margin-bottom: 18px;
-        box-shadow: 0 12px 40px rgba(0,0,0,0.28);
-    }
+.info {
+    background: rgba(30,41,59,0.70);
+    border-left: 4px solid #60a5fa;
+    padding: 15px 18px;
+    border-radius: 14px;
+    color: #dbeafe;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
 
-    .hero-title {
-        font-size: 2.1rem;
-        font-weight: 800;
-        color: #ffffff;
-        margin-bottom: 8px;
-    }
+.metrics-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding: 24px 0;
+}
+.metric-card {
+    padding: 20px 24px;
+    border-radius: 12px;
+    background: #111827;
+    border: 1px solid rgba(255,255,255,0.07);
+    transition: box-shadow 0.2s;
+}
+.metric-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.4); }
+.metric-label { font-size: 0.8rem; color: #94a3b8; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+.metric-value { font-size: 1.9rem; font-weight: 700; color: #f8fafc; line-height: 1.1; }
+.metric-note { font-size: 0.82rem; color: #94a3b8; margin-top: 4px; }
+.metric-badge {
+    display: inline-block;
+    background: rgba(66,133,244,0.2);
+    color: #8ab4f8;
+    border-radius: 12px; padding: 2px 10px;
+    font-size: 0.78rem; font-weight: 600; margin-top: 6px;
+}
 
-    .hero-sub {
-        font-size: 1rem;
-        line-height: 1.7;
-        color: #dbeafe;
-    }
+.section-header { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
+.section-title { font-size: 1.15rem; font-weight: 600; color: #f8fafc; }
+.section-badge {
+    background: rgba(66,133,244,0.2);
+    color: #8ab4f8;
+    border-radius: 8px; padding: 3px 10px;
+    font-size: 0.78rem; font-weight: 600;
+}
 
-    .card {
-        background: rgba(15,23,42,0.76);
-        border: 1px solid rgba(255,255,255,0.06);
-        border-radius: 22px;
-        padding: 18px 18px 12px 18px;
-        box-shadow: 0 10px 28px rgba(0,0,0,0.22);
-        backdrop-filter: blur(8px);
-        margin-bottom: 18px;
-    }
+.gt-card {
+    background: #111827;
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 16px; padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    transition: box-shadow 0.2s;
+}
+.gt-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.5); }
 
-    .kpi {
-        background: linear-gradient(145deg, #111827, #1e293b);
-        border: 1px solid rgba(255,255,255,0.06);
-        border-radius: 20px;
-        padding: 16px 18px;
-        min-height: 118px;
-        box-shadow: 0 8px 24px rgba(0,0,0,0.26);
-    }
+@keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.7; transform: scale(1.05); }
+}
+.live-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: rgba(234,67,53,0.15); color: #f28b82;
+    border-radius: 12px; padding: 4px 12px;
+    font-size: 0.8rem; font-weight: 600;
+}
+.live-dot {
+    width: 7px; height: 7px;
+    background: #f28b82; border-radius: 50%;
+    animation: pulse 1.5s ease-in-out infinite;
+}
 
-    .kpi-label {
-        color: #94a3b8;
-        font-size: 0.9rem;
-        margin-bottom: 8px;
-    }
+.insight-box {
+    background: rgba(66,133,244,0.12);
+    border-left: 4px solid #4285F4;
+    border-radius: 0 8px 8px 0;
+    padding: 14px 18px; font-size: 0.9rem;
+    color: #cbd5e1; line-height: 1.6; margin: 12px 0;
+}
 
-    .kpi-value {
-        color: white;
-        font-size: 1.85rem;
-        font-weight: 800;
-        line-height: 1.15;
-    }
+.summary-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.summary-table th {
+    background: #1e293b; color: #94a3b8;
+    font-weight: 600; font-size: 0.78rem;
+    text-transform: uppercase; letter-spacing: 0.5px;
+    padding: 12px 16px;
+    border-bottom: 2px solid rgba(255,255,255,0.08);
+    text-align: left;
+}
+.summary-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    color: #e2e8f0;
+}
+.summary-table tr:hover td { background: #1e293b; }
 
-    .kpi-note {
-        color: #cbd5e1;
-        font-size: 0.83rem;
-        line-height: 1.5;
-        margin-top: 6px;
-    }
+.block-container {
+    padding-top: 1.5rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    max-width: 100% !important;
+}
+header[data-testid="stHeader"] { background: transparent !important; }
+div[data-testid="stToolbar"] { display: none; }
 
-    .info {
-        background: rgba(30,41,59,0.70);
-        border-left: 4px solid #60a5fa;
-        padding: 15px 18px;
-        border-radius: 14px;
-        color: #dbeafe;
-        line-height: 1.7;
-        margin-bottom: 18px;
-    }
+.stTabs [data-baseweb="tab-list"] {
+    background: #0d1829;
+    border-bottom: 2px solid rgba(255,255,255,0.07);
+    gap: 0; padding: 0 8px;
+}
+.stTabs [data-baseweb="tab"] {
+    font-family: 'Google Sans', sans-serif !important;
+    font-weight: 500; color: #94a3b8;
+    padding: 16px 24px; font-size: 0.92rem;
+}
+.stTabs [aria-selected="true"] {
+    color: #8ab4f8 !important;
+    border-bottom: 3px solid #4285F4 !important;
+}
+.stTabs [data-baseweb="tab-border"] { display: none; }
+.stTabs [data-baseweb="tab-panel"] {
+    background: #0b1220;
+    padding: 24px 8px !important;
+}
 
-    .mini {
-        color: #cbd5e1;
-        font-size: 0.95rem;
-        line-height: 1.7;
-        margin-top: 8px;
-    }
-
-    .summary {
-        background: linear-gradient(145deg, rgba(17,24,39,0.98), rgba(30,41,59,0.98));
-        border-radius: 18px;
-        border: 1px solid rgba(255,255,255,0.06);
-        padding: 18px 20px;
-        color: #e2e8f0;
-        line-height: 1.85;
-    }
-
-    .footer-note {
-        color: #94a3b8;
-        font-size: 0.92rem;
-        line-height: 1.7;
-        margin-top: 6px;
-    }
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #09111f 0%, #111827 100%);
+    border-right: 1px solid rgba(255,255,255,0.06);
+}
+.stSelectbox label, .stMultiSelect label, .stSlider label,
+.stCheckbox label, .stRadio label {
+    color: #f8fafc !important;
+    font-family: 'Google Sans', sans-serif !important;
+    font-size: 0.9rem !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -164,62 +204,41 @@ st.markdown("""
 # =========================================================
 # HELPERS
 # =========================================================
-def validate_columns(df, required_cols, name):
-    missing = [c for c in required_cols if c not in df.columns]
-    if missing:
-        st.error(f"Colonnes manquantes dans {name} : {missing}")
-        st.stop()
+def to_num(s, fill=0):
+    return pd.to_numeric(s, errors="coerce").fillna(fill)
 
-
-def to_num(series, fill=0):
-    return pd.to_numeric(series, errors="coerce").fillna(fill)
-
-
-def common_layout(fig, height=450, title=None):
+def gt_layout(fig, height=420, show_legend=True):
     fig.update_layout(
         height=height,
-        title=title,
-        paper_bgcolor=PAPER_BG,
-        plot_bgcolor=PLOT_BG,
-        font=dict(color=FONT),
-        margin=dict(l=20, r=20, t=60, b=20),
-        legend_title_text="",
+        paper_bgcolor="#111827",
+        plot_bgcolor="#111827",
+        font=dict(family="Google Sans, Roboto, sans-serif", size=13, color="#f8fafc"),
+        margin=dict(l=16, r=16, t=48, b=16),
+        legend=dict(
+            orientation="h",
+            yanchor="bottom", y=1.02,
+            xanchor="left", x=0,
+            bgcolor="rgba(0,0,0,0)",
+            font=dict(size=12, color="#f8fafc"),
+        ) if show_legend else dict(visible=False),
+        showlegend=show_legend,
+        hoverlabel=dict(
+            bgcolor="#1e293b", font_size=13,
+            font_family="Google Sans, sans-serif",
+            font_color="#f8fafc", bordercolor="#334155"
+        )
     )
-    fig.update_xaxes(showgrid=True, gridcolor=GRID, zeroline=False)
-    fig.update_yaxes(showgrid=True, gridcolor=GRID, zeroline=False)
+    fig.update_xaxes(
+        showgrid=True, gridcolor="rgba(255,255,255,0.06)",
+        zeroline=False, showline=False,
+        tickfont=dict(size=11, color="#94a3b8")
+    )
+    fig.update_yaxes(
+        showgrid=True, gridcolor="rgba(255,255,255,0.06)",
+        zeroline=False, showline=False,
+        tickfont=dict(size=11, color="#94a3b8")
+    )
     return fig
-
-
-def add_metric_columns(df):
-    """
-    Vraie correction du bug :
-    - score_absolu = score brut Google Trends
-    - score_normalise = min-max normalization sur le sous-ensemble visible
-    - part_du_max = part du meilleur pays visible
-    """
-    out = df.copy()
-    out["score_absolu"] = to_num(out["score"])
-
-    if out.empty:
-        out["score_normalise"] = []
-        out["part_du_max"] = []
-        return out
-
-    s_min = out["score_absolu"].min()
-    s_max = out["score_absolu"].max()
-
-    if pd.isna(s_min) or pd.isna(s_max) or s_max == s_min:
-        out["score_normalise"] = 100.0
-    else:
-        out["score_normalise"] = ((out["score_absolu"] - s_min) / (s_max - s_min) * 100).round(2)
-
-    if s_max == 0 or pd.isna(s_max):
-        out["part_du_max"] = 0.0
-    else:
-        out["part_du_max"] = (out["score_absolu"] / s_max * 100).round(2)
-
-    return out
-
 
 def get_metric_config(metric_mode):
     if metric_mode == "Score absolu":
@@ -228,129 +247,114 @@ def get_metric_config(metric_mode):
         return "score_normalise", "Score normalisé (min-max)"
     return "part_du_max", "Part du maximum (%)"
 
+def add_metric_columns(df):
+    out = df.copy()
+    out["score_absolu"] = to_num(out["score"])
+    if out.empty:
+        out["score_normalise"] = []
+        out["part_du_max"] = []
+        return out
+    s_min = out["score_absolu"].min()
+    s_max = out["score_absolu"].max()
+    if pd.isna(s_min) or pd.isna(s_max) or s_max == s_min:
+        out["score_normalise"] = 100.0
+    else:
+        out["score_normalise"] = ((out["score_absolu"] - s_min) / (s_max - s_min) * 100).round(2)
+    if s_max == 0 or pd.isna(s_max):
+        out["part_du_max"] = 0.0
+    else:
+        out["part_du_max"] = (out["score_absolu"] / s_max * 100).round(2)
+    return out
+
 
 # =========================================================
-# LOAD
+# LOAD DATA
 # =========================================================
 @st.cache_data(show_spinner=False)
 def load_data():
     df_time = pd.read_csv(TIME_FILE)
     df_country = pd.read_csv(COUNTRY_FILE)
     df_insights = pd.read_csv(INSIGHTS_FILE)
-
-    validate_columns(df_time, ["date", "mot_cle", "score"], "trends_time_long.csv")
-    validate_columns(df_country, ["country", "continent", "iso3", "mot_cle", "score"], "trends_country_enriched.csv")
-    validate_columns(df_insights, ["country", "continent", "mot_cle_dominant", "score_max", "score_2eme", "ecart_top2"], "country_insights.csv")
-
     df_time["date"] = pd.to_datetime(df_time["date"], errors="coerce")
     df_time["score"] = to_num(df_time["score"])
-
-    df_country["country"] = df_country["country"].astype(str).str.strip()
-    df_country["continent"] = df_country["continent"].astype(str).str.strip()
-    df_country["iso3"] = df_country["iso3"].astype(str).str.strip().str.upper()
-    df_country["mot_cle"] = df_country["mot_cle"].astype(str).str.strip()
     df_country["score"] = to_num(df_country["score"])
-
-    df_insights["country"] = df_insights["country"].astype(str).str.strip()
-    df_insights["continent"] = df_insights["continent"].astype(str).str.strip()
-    df_insights["mot_cle_dominant"] = df_insights["mot_cle_dominant"].astype(str).str.strip()
+    df_country["continent"] = df_country["continent"].fillna("Inconnu").astype(str)
+    df_country["iso3"] = df_country["iso3"].fillna("").astype(str).str.upper()
+    df_country = df_country[df_country["iso3"] != "NAN"]
     df_insights["score_max"] = to_num(df_insights["score_max"])
     df_insights["score_2eme"] = to_num(df_insights["score_2eme"])
     df_insights["ecart_top2"] = to_num(df_insights["ecart_top2"])
-
-    df_country = df_country[df_country["country"].ne("")]
-    df_country = df_country[df_country["mot_cle"].ne("")]
-    df_country = df_country[df_country["iso3"].ne("NAN")]
-
     return df_time, df_country, df_insights
-
 
 df_time, df_country, df_insights = load_data()
 
 
 # =========================================================
-# SIDEBAR
+# SIDEBAR ORIGINAL COMPLET
 # =========================================================
-st.sidebar.title("Contrôles")
+with st.sidebar:
+    st.title("Contrôles")
+    keywords = sorted(df_time["mot_cle"].dropna().unique().tolist())
+    continents = sorted([c for c in df_country["continent"].dropna().unique() if c.lower() != "nan"])
 
-keywords = sorted(df_time["mot_cle"].dropna().unique().tolist())
-continents = sorted([c for c in df_country["continent"].dropna().unique().tolist() if c and c.lower() != "nan"])
+    selected_kw = st.selectbox("Mot-clé principal", keywords,
+        index=keywords.index("ChatGPT") if "ChatGPT" in keywords else 0)
 
-selected_keyword = st.sidebar.selectbox("Mot-clé principal", keywords)
+    selected_continents = st.multiselect("Continents", options=continents, default=continents)
 
-selected_continents = st.sidebar.multiselect(
-    "Continents",
-    options=continents,
-    default=continents
-)
+    metric_mode = st.radio(
+        "Métrique d'affichage",
+        ["Score absolu", "Score normalisé", "Part du maximum (%)"]
+    )
 
-metric_mode = st.sidebar.radio(
-    "Métrique d'affichage",
-    ["Score absolu", "Score normalisé", "Part du maximum (%)"]
-)
-
-top_n = st.sidebar.slider("Top pays", 5, 30, 12, 1)
-min_score = st.sidebar.slider("Score minimum", 0, 100, 0, 1)
-show_avg_line = st.sidebar.checkbox("Afficher la moyenne globale", value=True)
-show_raw = st.sidebar.checkbox("Afficher les données brutes", value=False)
+    top_n = st.slider("Top pays", 5, 30, 12, 1)
+    min_score = st.slider("Score minimum", 0, 100, 0, 1)
+    show_avg = st.checkbox("Afficher la moyenne globale", value=True)
+    show_raw = st.checkbox("Afficher les données brutes", value=False)
 
 
 # =========================================================
 # FILTERS
 # =========================================================
-country_filtered = df_country.copy()
-insights_filtered = df_insights.copy()
-
+df_c_filtered = df_country.copy()
 if selected_continents:
-    country_filtered = country_filtered[country_filtered["continent"].isin(selected_continents)]
-    insights_filtered = insights_filtered[insights_filtered["continent"].isin(selected_continents)]
+    df_c_filtered = df_c_filtered[df_c_filtered["continent"].isin(selected_continents)]
+df_c_filtered = df_c_filtered[df_c_filtered["score"] >= min_score]
 
-country_filtered = country_filtered[country_filtered["score"] >= min_score]
+df_insights_f = df_insights.copy()
+if selected_continents:
+    df_insights_f = df_insights_f[df_insights_f["continent"].isin(selected_continents)]
 
-selected_country_df = country_filtered[country_filtered["mot_cle"] == selected_keyword].copy()
-selected_country_df = add_metric_columns(selected_country_df)
-
+df_kw = add_metric_columns(df_c_filtered[df_c_filtered["mot_cle"] == selected_kw].copy())
 metric_col, metric_label = get_metric_config(metric_mode)
+if not df_kw.empty:
+    df_kw = df_kw.sort_values(metric_col, ascending=False)
 
-if not selected_country_df.empty:
-    selected_country_df = selected_country_df.sort_values(metric_col, ascending=False)
-
-time_keyword_df = df_time[df_time["mot_cle"] == selected_keyword].copy()
+df_time_kw = df_time[df_time["mot_cle"] == selected_kw]
 
 
 # =========================================================
-# GLOBAL METRICS
+# KPIs
 # =========================================================
-nb_pays = int(insights_filtered["country"].nunique()) if not insights_filtered.empty else 0
-
-if not insights_filtered.empty:
-    dom_counts = insights_filtered["mot_cle_dominant"].value_counts()
-    global_top_keyword = dom_counts.idxmax()
-    global_top_count = int(dom_counts.max())
-
-    gap_row = insights_filtered.sort_values("ecart_top2", ascending=False).iloc[0]
+nb_pays = df_insights_f["country"].nunique()
+if not df_insights_f.empty:
+    dom = df_insights_f["mot_cle_dominant"].value_counts()
+    top_kw_global = dom.idxmax()
+    top_kw_count = int(dom.max())
+    gap_row = df_insights_f.sort_values("ecart_top2", ascending=False).iloc[0]
     strongest_country = gap_row["country"]
     strongest_gap = int(gap_row["ecart_top2"])
 else:
-    global_top_keyword = "N/A"
-    global_top_count = 0
-    strongest_country = "N/A"
-    strongest_gap = 0
+    top_kw_global, top_kw_count, strongest_country, strongest_gap = "N/A", 0, "N/A", 0
 
-if not selected_country_df.empty:
-    top_country = selected_country_df.iloc[0]["country"]
-    top_value = float(selected_country_df.iloc[0][metric_col])
-    mean_value = float(selected_country_df[metric_col].mean())
-    median_value = float(selected_country_df[metric_col].median())
-else:
-    top_country = "N/A"
-    top_value = 0
-    mean_value = 0
-    median_value = 0
+top_country = df_kw.iloc[0]["country"] if not df_kw.empty else "N/A"
+top_score = float(df_kw.iloc[0][metric_col]) if not df_kw.empty else 0
+mean_score = float(df_kw[metric_col].mean()) if not df_kw.empty else 0
+kw_dom_count = int((df_insights_f["mot_cle_dominant"] == selected_kw).sum()) if not df_insights_f.empty else 0
 
 
 # =========================================================
-# HEADER
+# HEADER ORIGINAL
 # =========================================================
 st.markdown(f"""
 <div class="hero">
@@ -358,7 +362,7 @@ st.markdown(f"""
     <div class="hero-sub">
         Dashboard analytique avancé pour comparer des mots-clés selon leur évolution dans le temps,
         leur répartition mondiale et leur intensité relative par pays.
-        Mot-clé étudié : <b>{selected_keyword}</b> — métrique affichée : <b>{metric_mode}</b>.
+        Mot-clé étudié : <b>{selected_kw}</b> — métrique affichée : <b>{metric_mode}</b>.
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -368,492 +372,415 @@ st.markdown("""
 <b>Lecture correcte des scores :</b><br>
 • Le <b>score absolu</b> correspond au score Google Trends brut.<br>
 • Le <b>score normalisé</b> est recalculé sur les pays visibles après filtres, entre le minimum et le maximum observés.<br>
-• La <b>part du maximum</b> mesure le poids d’un pays par rapport au meilleur pays visible.<br>
+• La <b>part du maximum</b> mesure le poids d'un pays par rapport au meilleur pays visible.<br>
 • Ainsi, ces trois métriques sont maintenant réellement différentes et utilisables.
 </div>
 """, unsafe_allow_html=True)
 
 
 # =========================================================
-# KPI
+# METRICS
 # =========================================================
-k1, k2, k3, k4 = st.columns(4)
-
-with k1:
-    st.markdown(f"""
-    <div class="kpi">
-        <div class="kpi-label">🌍 Pays analysés</div>
-        <div class="kpi-value">{nb_pays}</div>
-        <div class="kpi-note">Après application des filtres</div>
+st.markdown(f"""
+<div class="metrics-row">
+    <div class="metric-card">
+        <div class="metric-label">🌍 Pays analysés</div>
+        <div class="metric-value">{nb_pays}</div>
+        <div class="metric-note">Après filtres appliqués</div>
     </div>
-    """, unsafe_allow_html=True)
-
-with k2:
-    st.markdown(f"""
-    <div class="kpi">
-        <div class="kpi-label">🏆 Mot-clé dominant global</div>
-        <div class="kpi-value">{global_top_keyword}</div>
-        <div class="kpi-note">Dominant dans {global_top_count} pays</div>
+    <div class="metric-card">
+        <div class="metric-label">🏆 Mot-clé dominant</div>
+        <div class="metric-value" style="font-size:1.4rem;color:{COLORS.get(top_kw_global,'#f8fafc')}">{top_kw_global}</div>
+        <div class="metric-note">Leader dans {top_kw_count} pays</div>
+        <span class="metric-badge">Global</span>
     </div>
-    """, unsafe_allow_html=True)
-
-with k3:
-    st.markdown(f"""
-    <div class="kpi">
-        <div class="kpi-label">📌 Leader pour {selected_keyword}</div>
-        <div class="kpi-value">{top_country}</div>
-        <div class="kpi-note">{metric_label} : {top_value:.1f}</div>
+    <div class="metric-card">
+        <div class="metric-label">📌 Leader — {selected_kw}</div>
+        <div class="metric-value" style="font-size:1.35rem">{top_country}</div>
+        <div class="metric-note">{metric_label} : {top_score:.1f} | Moy. : {mean_score:.1f}</div>
+        <span class="metric-badge">{kw_dom_count} pays dominés</span>
     </div>
-    """, unsafe_allow_html=True)
-
-with k4:
-    st.markdown(f"""
-    <div class="kpi">
-        <div class="kpi-label">⚡ Plus fort écart top 2</div>
-        <div class="kpi-value">{strongest_gap}</div>
-        <div class="kpi-note">{strongest_country}</div>
+    <div class="metric-card">
+        <div class="metric-label">⚡ Écart max top 2</div>
+        <div class="metric-value">{strongest_gap}</div>
+        <div class="metric-note">{strongest_country}</div>
+        <span class="metric-badge">Dominance nette</span>
     </div>
-    """, unsafe_allow_html=True)
+</div>
+""", unsafe_allow_html=True)
 
 
 # =========================================================
 # TABS
 # =========================================================
 tab1, tab2, tab3, tab4 = st.tabs([
-    "Vue générale",
-    "Carte & pays",
-    "Comparaisons",
-    "Résumé & données"
+    "📈 Tendances temporelles",
+    "🗺️ Carte mondiale",
+    "📊 Comparaisons",
+    "🔍 Données & Résumé"
 ])
 
 
-# =========================================================
-# TAB 1
-# =========================================================
+# ==== TAB 1 ====
 with tab1:
-    c_left, c_right = st.columns([1.5, 1])
+    col1, col2 = st.columns([2, 1])
 
-    with c_left:
-        st.markdown('<div class="card">', unsafe_allow_html=True)
-        st.subheader("Évolution temporelle des mots-clés")
+    with col1:
+        st.markdown('<div class="gt-card">', unsafe_allow_html=True)
+        st.markdown("""
+        <div class="section-header">
+            <span class="section-title">Évolution de l'intérêt dans le temps</span>
+            <span class="section-badge">Line chart animé</span>
+        </div>
+        """, unsafe_allow_html=True)
 
-        fig_time = px.line(
-            df_time.sort_values("date"),
-            x="date",
-            y="score",
-            color="mot_cle",
-            line_shape="spline",
-            title="Popularité relative dans le temps"
+        df_sorted = df_time.sort_values(["mot_cle", "date"]).copy()
+        df_sorted["score_lisse"] = df_sorted.groupby("mot_cle")["score"].transform(
+            lambda s: s.rolling(4, min_periods=1).mean()
         )
 
-        if show_avg_line:
-            avg_curve = df_time.groupby("date", as_index=False)["score"].mean()
+        dates = sorted(df_sorted["date"].unique())
+        step = max(1, len(dates) // min(60, len(dates)))
+        frame_dates = dates[::step]
+
+        frames = []
+        for fd in frame_dates:
+            sub = df_sorted[df_sorted["date"] <= fd]
+            frame_traces = []
+            for kw in keywords:
+                kw_data = sub[sub["mot_cle"] == kw]
+                frame_traces.append(go.Scatter(
+                    x=kw_data["date"], y=kw_data["score_lisse"],
+                    mode="lines", name=kw,
+                    line=dict(color=COLORS.get(kw, "#888"), width=2.5)
+                ))
+            frames.append(go.Frame(data=frame_traces, name=str(fd)))
+
+        fig_time = go.Figure()
+        for kw in keywords:
+            kw_data = df_sorted[df_sorted["mot_cle"] == kw]
             fig_time.add_trace(go.Scatter(
-                x=avg_curve["date"],
-                y=avg_curve["score"],
-                mode="lines",
-                name="Moyenne",
-                line=dict(width=3, dash="dash")
+                x=kw_data["date"], y=kw_data["score_lisse"],
+                mode="lines", name=kw,
+                line=dict(color=COLORS.get(kw, "#888"), width=2.5),
+                hovertemplate=f"<b>{kw}</b><br>%{{x|%b %Y}}<br>Score : %{{y:.0f}}<extra></extra>"
             ))
 
-        common_layout(fig_time, height=500)
-        fig_time.update_layout(hovermode="x unified")
-        fig_time.update_xaxes(title="Date")
-        fig_time.update_yaxes(title="Score Trends")
+        if show_avg:
+            avg = df_time.groupby("date", as_index=False)["score"].mean()
+            fig_time.add_trace(go.Scatter(
+                x=avg["date"], y=avg["score"],
+                mode="lines", name="Moyenne",
+                line=dict(color="#64748b", width=1.5, dash="dot"),
+                hovertemplate="Moyenne<br>%{x|%b %Y}<br>%{y:.1f}<extra></extra>"
+            ))
+
+        fig_time.frames = frames
+        fig_time.update_layout(
+            updatemenus=[dict(
+                type="buttons", showactive=False,
+                y=-0.12, x=0.5, xanchor="center",
+                buttons=[dict(
+                    label="▶ Rejouer l'animation",
+                    method="animate",
+                    args=[None, dict(
+                        frame=dict(duration=80, redraw=True),
+                        fromcurrent=False,
+                        transition=dict(duration=0)
+                    )]
+                )],
+                bgcolor="#1a73e8",
+                font=dict(color="white", size=13)
+            )]
+        )
+        gt_layout(fig_time, height=460)
+        fig_time.update_layout(hovermode="x unified", title="Popularité relative des mots-clés (2023–2026)")
         st.plotly_chart(fig_time, use_container_width=True)
 
         st.markdown("""
-        <div class="mini">
-        Cette vue permet de repérer les pics d’intérêt, les phases de stabilité et les éventuels décrochages.
+        <div class="insight-box">
+            💡 <b>Lecture :</b> ChatGPT explose à partir de Jan 2024, dépassant Netflix dès mi-2024.
+            Les scores sont relatifs (0–100) et normalisés par Google Trends sur la période sélectionnée.
         </div>
         """, unsafe_allow_html=True)
         st.markdown('</div>', unsafe_allow_html=True)
 
-    with c_right:
-        st.markdown('<div class="card">', unsafe_allow_html=True)
-        st.subheader(f"Indicateurs — {selected_keyword}")
+    with col2:
+        st.markdown('<div class="gt-card">', unsafe_allow_html=True)
+        st.markdown("""
+        <div class="section-header">
+            <span class="section-title">Intensité mensuelle</span>
+            <span class="section-badge">Heatmap</span>
+        </div>
+        """, unsafe_allow_html=True)
 
-        if not time_keyword_df.empty:
-            latest_date = time_keyword_df["date"].max()
-            max_time = float(time_keyword_df["score"].max())
-            mean_time = float(time_keyword_df["score"].mean())
-            last_value = float(time_keyword_df.sort_values("date").iloc[-1]["score"])
-        else:
-            latest_date = None
-            max_time = mean_time = last_value = 0
+        df_heat = df_time.copy()
+        df_heat["mois"] = df_heat["date"].dt.to_period("M").astype(str)
+        pivot_heat = df_heat.groupby(["mot_cle", "mois"])["score"].mean().reset_index()
+        pivot_heat = pivot_heat.pivot(index="mot_cle", columns="mois", values="score").fillna(0)
 
-        st.metric("Max temporel", f"{max_time:.1f}")
-        st.metric("Moyenne temporelle", f"{mean_time:.1f}")
-        st.metric("Dernière valeur", f"{last_value:.1f}")
-        st.metric("Moyenne géographique", f"{mean_value:.1f}")
-
-        if latest_date is not None:
-            st.caption(f"Dernière date observée : {latest_date.strftime('%d/%m/%Y')}")
-
+        fig_heat = go.Figure(data=go.Heatmap(
+            z=pivot_heat.values,
+            x=pivot_heat.columns,
+            y=pivot_heat.index,
+            colorscale=[[0, "#0d1829"], [0.3, "#1e3a5f"], [0.7, "#2563eb"], [1, "#60a5fa"]],
+            showscale=True,
+            hovertemplate="%{y}<br>%{x}<br>Score : %{z:.0f}<extra></extra>"
+        ))
+        gt_layout(fig_heat, height=280, show_legend=False)
+        fig_heat.update_layout(title="Score moyen par mois")
+        fig_heat.update_xaxes(tickangle=-45, nticks=8)
+        st.plotly_chart(fig_heat, use_container_width=True)
         st.markdown('</div>', unsafe_allow_html=True)
 
-        st.markdown('<div class="card">', unsafe_allow_html=True)
-        st.subheader("Répartition par continent")
+        st.markdown('<div class="gt-card">', unsafe_allow_html=True)
+        st.markdown(f"""
+        <div class="section-header">
+            <span class="section-title">Stats — {selected_kw}</span>
+        </div>
+        """, unsafe_allow_html=True)
 
-        if not selected_country_df.empty:
-            continent_df = (
-                selected_country_df.groupby("continent", as_index=False)[metric_col]
-                .mean()
-                .sort_values(metric_col, ascending=False)
-            )
-
-            fig_cont = px.bar(
-                continent_df,
-                x="continent",
-                y=metric_col,
-                text=metric_col,
-                color=metric_col,
-                color_continuous_scale="Blues",
-                title=f"Moyenne continentale — {metric_mode}"
-            )
-            common_layout(fig_cont, height=360)
-            fig_cont.update_layout(coloraxis_showscale=False)
-            fig_cont.update_traces(texttemplate="%{text:.1f}", textposition="outside")
-            fig_cont.update_xaxes(title="Continent")
-            fig_cont.update_yaxes(title=metric_label)
-            st.plotly_chart(fig_cont, use_container_width=True)
-        else:
-            st.warning("Aucune donnée continentale disponible.")
-
+        if not df_time_kw.empty:
+            s = df_time_kw["score"]
+            stats = {
+                "Maximum": f"{s.max():.0f}",
+                "Moyenne": f"{s.mean():.1f}",
+                "Médiane": f"{s.median():.1f}",
+                "Écart-type": f"{s.std():.1f}",
+                "Dernière valeur": f"{df_time_kw.sort_values('date').iloc[-1]['score']:.0f}"
+            }
+            rows = "".join([
+                f"<tr><td>{k}</td><td style='font-weight:600;color:#8ab4f8'>{v}</td></tr>"
+                for k, v in stats.items()
+            ])
+            st.markdown(f"<table class='summary-table'>{rows}</table>", unsafe_allow_html=True)
         st.markdown('</div>', unsafe_allow_html=True)
 
 
-# =========================================================
-# TAB 2
-# =========================================================
+# ==== TAB 2 ====
 with tab2:
-    map_col, rank_col = st.columns([1.2, 0.8])
+    map_col, rank_col = st.columns([1.4, 0.6])
 
     with map_col:
-        st.markdown('<div class="card">', unsafe_allow_html=True)
-        st.subheader(f"Carte mondiale — {selected_keyword}")
+        st.markdown('<div class="gt-card">', unsafe_allow_html=True)
+        st.markdown("""
+        <div class="section-header">
+            <span class="section-title">Répartition mondiale des mots-clés dominants</span>
+            <span class="section-badge">Choroplèthe</span>
+        </div>
+        """, unsafe_allow_html=True)
 
-        df_map = selected_country_df.dropna(subset=["iso3"]).copy()
-
-        if not df_map.empty:
-            fig_map = px.choropleth(
-                df_map,
-                locations="iso3",
-                color=metric_col,
-                hover_name="country",
-                hover_data={
-                    "iso3": True,
-                    "score_absolu": ":.1f",
-                    "score_normalise": ":.1f",
-                    "part_du_max": ":.1f",
-                    "continent": True,
-                },
-                color_continuous_scale=[
-                    [0.00, "#dbeafe"],
-                    [0.20, "#93c5fd"],
-                    [0.40, "#60a5fa"],
-                    [0.60, "#3b82f6"],
-                    [0.80, "#2563eb"],
-                    [1.00, "#1d4ed8"],
-                ],
-                projection="natural earth",
-                title=f"Répartition mondiale — {metric_mode}"
+        df_map = df_insights_f[df_insights_f["iso3"].str.len() == 3].copy()
+        fig_map = px.choropleth(
+            df_map, locations="iso3", color="mot_cle_dominant",
+            hover_name="country",
+            hover_data={"score_max": ":.0f", "ecart_top2": ":.0f"},
+            color_discrete_map=COLORS,
+            projection="natural earth",
+        )
+        fig_map.update_layout(
+            height=520,
+            paper_bgcolor="#111827",
+            font=dict(family="Google Sans, sans-serif", color="#f8fafc"),
+            margin=dict(l=0, r=0, t=40, b=0),
+            title="Mot-clé dominant par pays",
+            geo=dict(
+                bgcolor="#0b1220",
+                showframe=False,
+                showcoastlines=True, coastlinecolor="rgba(255,255,255,0.15)",
+                showcountries=True, countrycolor="rgba(255,255,255,0.15)",
+                showland=True, landcolor="#1e293b",
+                showocean=True, oceancolor="#0d1829",
+                lakecolor="#0d1829",
+            ),
+            legend=dict(
+                orientation="h", yanchor="bottom", y=-0.08,
+                xanchor="center", x=0.5, font=dict(color="#f8fafc")
             )
-
-            fig_map.update_layout(
-                height=640,
-                paper_bgcolor=PAPER_BG,
-                font=dict(color=FONT),
-                margin=dict(l=10, r=10, t=60, b=10),
-                coloraxis_colorbar=dict(
-                    title=metric_label,
-                    thickness=14,
-                    len=0.75
-                ),
-                geo=dict(
-                    bgcolor="#07111d",
-                    showframe=False,
-                    showcoastlines=True,
-                    coastlinecolor="rgba(255,255,255,0.20)",
-                    showcountries=True,
-                    countrycolor="rgba(255,255,255,0.20)",
-                    showland=True,
-                    landcolor="#162235",
-                    showocean=True,
-                    oceancolor="#04101b",
-                    lakecolor="#04101b",
-                    projection_type="natural earth"
-                )
-            )
-
-            st.plotly_chart(fig_map, use_container_width=True)
-        else:
-            st.warning("Carte indisponible.")
+        )
+        st.plotly_chart(fig_map, use_container_width=True)
+        st.markdown("""
+        <div class="insight-box">
+            💡 Netflix domine en Europe, Amérique du Sud et Océanie.
+            Crypto domine en Russie et Asie Centrale (instabilité monétaire).
+            ChatGPT s'impose au Moyen-Orient et Asie du Sud-Est.
+        </div>
+        """, unsafe_allow_html=True)
         st.markdown('</div>', unsafe_allow_html=True)
 
     with rank_col:
-        st.markdown('<div class="card">', unsafe_allow_html=True)
-        st.subheader(f"Top {top_n} pays")
-
-        df_bar = selected_country_df.head(top_n).copy()
-
-        if not df_bar.empty:
-            fig_bar = px.bar(
-                df_bar,
-                x=metric_col,
-                y="country",
-                orientation="h",
-                text=metric_col,
-                color=metric_col,
-                color_continuous_scale="Blues",
-                title=f"Classement — {metric_mode}"
-            )
-            common_layout(fig_bar, height=640)
-            fig_bar.update_layout(coloraxis_showscale=False)
-            fig_bar.update_yaxes(autorange="reversed", title="Pays")
-            fig_bar.update_xaxes(title=metric_label)
-            fig_bar.update_traces(texttemplate="%{text:.1f}", textposition="outside")
-            st.plotly_chart(fig_bar, use_container_width=True)
-        else:
-            st.warning("Aucun pays à afficher.")
-        st.markdown('</div>', unsafe_allow_html=True)
-
-    st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.subheader("Nuage d’analyse : score vs écart de domination")
-
-    if not selected_country_df.empty and not insights_filtered.empty:
-        scatter_df = selected_country_df.merge(
-            insights_filtered[["country", "ecart_top2", "mot_cle_dominant"]],
-            on="country",
-            how="left"
-        )
-        scatter_df["statut"] = np.where(
-            scatter_df["mot_cle_dominant"] == selected_keyword,
-            "Dominant",
-            "Secondaire"
-        )
-
-        fig_scatter = px.scatter(
-            scatter_df,
-            x=metric_col,
-            y="ecart_top2",
-            size="score_absolu",
-            color="continent",
-            symbol="statut",
-            hover_name="country",
-            title="Position des pays selon intensité et domination"
-        )
-        common_layout(fig_scatter, height=480)
-        fig_scatter.update_xaxes(title=metric_label)
-        fig_scatter.update_yaxes(title="Écart top 2")
-        st.plotly_chart(fig_scatter, use_container_width=True)
-    else:
-        st.warning("Scatter indisponible.")
-    st.markdown('</div>', unsafe_allow_html=True)
-
-
-# =========================================================
-# TAB 3
-# =========================================================
-with tab3:
-    left_cmp, right_cmp = st.columns(2)
-
-    with left_cmp:
-        st.markdown('<div class="card">', unsafe_allow_html=True)
-        st.subheader("Nombre de pays dominés par mot-clé")
-
-        if not insights_filtered.empty:
-            df_dom = insights_filtered["mot_cle_dominant"].value_counts().reset_index()
-            df_dom.columns = ["mot_cle", "nb_pays"]
-
-            fig_dom = px.bar(
-                df_dom,
-                x="mot_cle",
-                y="nb_pays",
-                text="nb_pays",
-                color="nb_pays",
-                color_continuous_scale="Blues",
-                title="Dominance géographique"
-            )
-            common_layout(fig_dom, height=420)
-            fig_dom.update_layout(coloraxis_showscale=False)
-            fig_dom.update_xaxes(title="Mot-clé")
-            fig_dom.update_yaxes(title="Nombre de pays")
-            fig_dom.update_traces(textposition="outside")
-            st.plotly_chart(fig_dom, use_container_width=True)
-        else:
-            st.warning("Aucune donnée de dominance.")
-        st.markdown('</div>', unsafe_allow_html=True)
-
-    with right_cmp:
-        st.markdown('<div class="card">', unsafe_allow_html=True)
-        st.subheader("Distribution des scores")
-
-        if not country_filtered.empty:
-            fig_box = px.box(
-                country_filtered,
-                x="mot_cle",
-                y="score",
-                color="mot_cle",
-                points="outliers",
-                title="Dispersion des scores par mot-clé"
-            )
-            common_layout(fig_box, height=420)
-            fig_box.update_layout(showlegend=False)
-            fig_box.update_xaxes(title="Mot-clé")
-            fig_box.update_yaxes(title="Score Trends")
-            st.plotly_chart(fig_box, use_container_width=True)
-        else:
-            st.warning("Aucune distribution disponible.")
-        st.markdown('</div>', unsafe_allow_html=True)
-
-    st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.subheader("Heatmap pays × mots-clés")
-
-    heatmap_base = country_filtered.copy()
-    top_heat_countries = (
-        heatmap_base.groupby("country")["score"]
-        .max()
-        .sort_values(ascending=False)
-        .head(15)
-        .index.tolist()
-    )
-    heatmap_df = heatmap_base[heatmap_base["country"].isin(top_heat_countries)].copy()
-
-    if not heatmap_df.empty:
-        pivot = heatmap_df.pivot_table(
-            index="country",
-            columns="mot_cle",
-            values="score",
-            aggfunc="mean",
-            fill_value=0
-        )
-
-        fig_heat = px.imshow(
-            pivot,
-            text_auto=".0f",
-            aspect="auto",
-            color_continuous_scale="Blues",
-            title="Intensité relative par pays et par mot-clé"
-        )
-        fig_heat.update_layout(
-            height=560,
-            paper_bgcolor=PAPER_BG,
-            plot_bgcolor=PLOT_BG,
-            font=dict(color=FONT),
-            margin=dict(l=20, r=20, t=60, b=20)
-        )
-        st.plotly_chart(fig_heat, use_container_width=True)
-    else:
-        st.warning("Heatmap indisponible.")
-    st.markdown('</div>', unsafe_allow_html=True)
-
-    st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.subheader(f"Radar des 5 premiers pays — {selected_keyword}")
-
-    radar_df = selected_country_df.head(5).copy()
-
-    if not radar_df.empty:
-        labels = radar_df["country"].tolist()
-        values = radar_df[metric_col].tolist()
-
-        fig_radar = go.Figure()
-        fig_radar.add_trace(go.Scatterpolar(
-            r=values + [values[0]],
-            theta=labels + [labels[0]],
-            fill="toself",
-            name=selected_keyword
-        ))
-        fig_radar.update_layout(
-            height=500,
-            paper_bgcolor=PAPER_BG,
-            plot_bgcolor=PLOT_BG,
-            font=dict(color=FONT),
-            polar=dict(
-                bgcolor=PLOT_BG,
-                radialaxis=dict(visible=True, gridcolor=GRID, linecolor=GRID),
-                angularaxis=dict(gridcolor=GRID, linecolor=GRID)
-            ),
-            margin=dict(l=20, r=20, t=60, b=20),
-            title=f"Profil des pays — {metric_mode}"
-        )
-        st.plotly_chart(fig_radar, use_container_width=True)
-    else:
-        st.warning("Radar indisponible.")
-    st.markdown('</div>', unsafe_allow_html=True)
-
-
-# =========================================================
-# TAB 4
-# =========================================================
-with tab4:
-    st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.subheader("Résumé automatique")
-
-    if not selected_country_df.empty:
-        if not insights_filtered.empty:
-            total_countries = insights_filtered["country"].nunique()
-            selected_dom_count = int((insights_filtered["mot_cle_dominant"] == selected_keyword).sum())
-            selected_dom_share = (selected_dom_count / total_countries * 100) if total_countries else 0
-        else:
-            selected_dom_count = 0
-            selected_dom_share = 0
-
-        top3 = selected_country_df.head(3)["country"].tolist()
-        top3_txt = ", ".join(top3) if top3 else "N/A"
-
+        st.markdown('<div class="gt-card">', unsafe_allow_html=True)
         st.markdown(f"""
-        <div class="summary">
-        <b>Lecture analytique :</b><br><br>
-
-        • Le mot-clé sélectionné est <b>{selected_keyword}</b>.<br>
-        • Le pays leader selon la métrique <b>{metric_mode}</b> est <b>{top_country}</b>, avec une valeur de <b>{top_value:.1f}</b>.<br>
-        • Les trois pays les plus associés à ce mot-clé sont <b>{top3_txt}</b>.<br>
-        • La moyenne observée sur la métrique choisie est de <b>{mean_value:.1f}</b>, pour une médiane de <b>{median_value:.1f}</b>.<br>
-        • Au niveau global, <b>{global_top_keyword}</b> est le mot-clé qui domine le plus de pays, avec <b>{global_top_count}</b> territoires.<br>
-        • <b>{selected_keyword}</b> arrive en tête dans <b>{selected_dom_count}</b> pays, soit <b>{selected_dom_share:.1f}%</b> des pays visibles.<br>
-        • Le pays présentant la domination la plus nette entre le 1er et le 2e mot-clé est <b>{strongest_country}</b>, avec un écart de <b>{strongest_gap}</b>.<br><br>
-
-        <b>Formulation propre pour l’oral :</b><br>
-        “Les résultats montrent des niveaux d’intérêt relatifs. Le score absolu donne la lecture brute de Google Trends,
-        le score normalisé permet une comparaison plus lisible dans le sous-ensemble affiché,
-        et la part du maximum mesure l’écart au leader. On observe ainsi à la fois la hiérarchie géographique,
-        l’intensité relative et la domination comparative par pays.”
+        <div class="section-header">
+            <span class="section-title">Top {top_n} pays — {selected_kw}</span>
         </div>
         """, unsafe_allow_html=True)
-    else:
-        st.warning("Résumé indisponible.")
+
+        if not df_kw.empty:
+            df_bar = df_kw.head(top_n)
+            fig_bar = px.bar(
+                df_bar, x=metric_col, y="country",
+                orientation="h", text=metric_col,
+                color_discrete_sequence=[COLORS.get(selected_kw, "#4285F4")]
+            )
+            gt_layout(fig_bar, height=520, show_legend=False)
+            fig_bar.update_yaxes(autorange="reversed", title="")
+            fig_bar.update_xaxes(title=metric_label)
+            fig_bar.update_traces(texttemplate="%{text:.1f}", textposition="outside")
+            fig_bar.update_layout(title="Classement pays")
+            st.plotly_chart(fig_bar, use_container_width=True)
+        st.markdown('</div>', unsafe_allow_html=True)
+
+
+# ==== TAB 3 ====
+with tab3:
+    col_a, col_b = st.columns(2)
+
+    with col_a:
+        st.markdown('<div class="gt-card">', unsafe_allow_html=True)
+        st.markdown("""
+        <div class="section-header">
+            <span class="section-title">Distribution des scores</span>
+            <span class="section-badge">Box plot</span>
+        </div>
+        """, unsafe_allow_html=True)
+        fig_box = px.box(
+            df_time, x="mot_cle", y="score",
+            color="mot_cle", color_discrete_map=COLORS,
+            points="outliers"
+        )
+        gt_layout(fig_box, height=400, show_legend=False)
+        fig_box.update_layout(title="Variance et médiane par mot-clé")
+        fig_box.update_xaxes(title="")
+        fig_box.update_yaxes(title="Score (0–100)")
+        st.plotly_chart(fig_box, use_container_width=True)
+        st.markdown("""
+        <div class="insight-box">
+            💡 ChatGPT : variance maximale (outliers ~95) → intérêt viral.<br>
+            Netflix : boîte compacte → usage quotidien stable.
+        </div>
+        """, unsafe_allow_html=True)
+        st.markdown('</div>', unsafe_allow_html=True)
+
+    with col_b:
+        st.markdown('<div class="gt-card">', unsafe_allow_html=True)
+        st.markdown("""
+        <div class="section-header">
+            <span class="section-title">Matrice de corrélation</span>
+            <span class="section-badge">Co-évolutions</span>
+        </div>
+        """, unsafe_allow_html=True)
+        df_pivot_corr = df_time.pivot_table(index="date", columns="mot_cle", values="score").fillna(0)
+        corr = df_pivot_corr.corr().round(2)
+        fig_corr = go.Figure(data=go.Heatmap(
+            z=corr.values,
+            x=corr.columns.tolist(),
+            y=corr.index.tolist(),
+            colorscale=[[0, "#ea4335"], [0.5, "#1e293b"], [1, "#4285F4"]],
+            zmin=-1, zmax=1,
+            text=corr.values,
+            texttemplate="%{text:.2f}",
+            showscale=True,
+            hovertemplate="%{y} × %{x}<br>r = %{z:.2f}<extra></extra>"
+        ))
+        gt_layout(fig_corr, height=400, show_legend=False)
+        fig_corr.update_layout(title="Corrélation entre mots-clés")
+        st.plotly_chart(fig_corr, use_container_width=True)
+        st.markdown("""
+        <div class="insight-box">
+            💡 ChatGPT & Crypto : r = 0.68 → deux sujets médiatiques.<br>
+            ChatGPT & AI : r = 0.35 → public cherche l'outil, pas le concept.
+        </div>
+        """, unsafe_allow_html=True)
+        st.markdown('</div>', unsafe_allow_html=True)
+
+    st.markdown('<div class="gt-card">', unsafe_allow_html=True)
+    st.markdown("""
+    <div class="section-header">
+        <span class="section-title">Dominance géographique par mot-clé</span>
+        <span class="section-badge">Nombre de pays</span>
+    </div>
+    """, unsafe_allow_html=True)
+    col_dom, col_avg = st.columns(2)
+    with col_dom:
+        if not df_insights_f.empty:
+            df_dom = df_insights_f["mot_cle_dominant"].value_counts().reset_index()
+            df_dom.columns = ["mot_cle", "nb_pays"]
+            fig_dom = px.bar(df_dom, x="mot_cle", y="nb_pays", text="nb_pays",
+                color="mot_cle", color_discrete_map=COLORS)
+            gt_layout(fig_dom, height=320, show_legend=False)
+            fig_dom.update_layout(title="Pays dominés par mot-clé")
+            fig_dom.update_traces(textposition="outside")
+            fig_dom.update_xaxes(title="")
+            fig_dom.update_yaxes(title="Nombre de pays")
+            st.plotly_chart(fig_dom, use_container_width=True)
+    with col_avg:
+        avg_df = df_time.groupby("mot_cle", as_index=False)["score"].mean().sort_values("score")
+        fig_avg = px.bar(avg_df, x="score", y="mot_cle", orientation="h", text="score",
+            color="mot_cle", color_discrete_map=COLORS)
+        gt_layout(fig_avg, height=320, show_legend=False)
+        fig_avg.update_layout(title="Score moyen global")
+        fig_avg.update_traces(texttemplate="%{text:.1f}", textposition="outside")
+        fig_avg.update_xaxes(title="Score moyen")
+        fig_avg.update_yaxes(title="")
+        st.plotly_chart(fig_avg, use_container_width=True)
+    st.markdown('</div>', unsafe_allow_html=True)
+
+
+# ==== TAB 4 ====
+with tab4:
+    st.markdown('<div class="gt-card">', unsafe_allow_html=True)
+    st.markdown("""
+    <div class="section-header">
+        <span class="section-title">Résumé analytique automatique</span>
+    </div>
+    """, unsafe_allow_html=True)
+
+    kw_dom_share = (kw_dom_count / nb_pays * 100) if nb_pays else 0
+    top3 = df_kw.head(3)["country"].tolist()
+    top3_txt = ", ".join(top3) if top3 else "N/A"
+
+    st.markdown(f"""
+    <table class="summary-table">
+        <tr><th>Indicateur</th><th>Valeur</th><th>Interprétation</th></tr>
+        <tr><td>Mot-clé dominant global</td>
+            <td><b style="color:{COLORS.get(top_kw_global,'#f8fafc')}">{top_kw_global}</b></td>
+            <td>Leader dans {top_kw_count} pays</td></tr>
+        <tr><td>Leader pour {selected_kw}</td>
+            <td><b>{top_country}</b></td>
+            <td>{metric_label} : {top_score:.1f}</td></tr>
+        <tr><td>Top 3 pays — {selected_kw}</td>
+            <td><b>{top3_txt}</b></td>
+            <td>Pays avec intérêt le plus élevé</td></tr>
+        <tr><td>Domination de {selected_kw}</td>
+            <td><b>{kw_dom_count} pays</b></td>
+            <td>{kw_dom_share:.1f}% des pays analysés</td></tr>
+        <tr><td>Écart de domination max</td>
+            <td><b>{strongest_gap} pts</b></td>
+            <td>{strongest_country} — domination nette</td></tr>
+        <tr><td>Score moyen — {selected_kw}</td>
+            <td><b>{mean_score:.1f}</b></td>
+            <td>Sur l'ensemble des pays filtrés</td></tr>
+    </table>
+    """, unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
     if show_raw:
-        st.markdown('<div class="card">', unsafe_allow_html=True)
+        st.markdown('<div class="gt-card">', unsafe_allow_html=True)
         st.subheader("Données brutes")
-
-        t1, t2, t3, t4 = st.tabs([
-            "Séries temporelles",
-            "Données pays filtrées",
-            "Pays du mot-clé",
-            "Insights"
-        ])
-
-        with t1:
-            st.dataframe(df_time, use_container_width=True, height=320)
-
-        with t2:
-            st.dataframe(country_filtered, use_container_width=True, height=320)
-
-        with t3:
-            st.dataframe(selected_country_df, use_container_width=True, height=320)
-
-        with t4:
-            st.dataframe(insights_filtered, use_container_width=True, height=320)
-
+        t1, t2, t3 = st.tabs(["Séries temporelles", "Données pays", "Insights"])
+        with t1: st.dataframe(df_time, use_container_width=True, height=300)
+        with t2: st.dataframe(df_c_filtered, use_container_width=True, height=300)
+        with t3: st.dataframe(df_insights_f, use_container_width=True, height=300)
         st.markdown('</div>', unsafe_allow_html=True)
 
 
+# =========================================================
+# FOOTER
+# =========================================================
 st.markdown("""
-<div class="footer-note">
-Les scores Google Trends ne sont pas des volumes absolus. Ils servent à comparer des intensités relatives d’intérêt.
-La normalisation ajoutée ici est une transformation analytique interne au dashboard pour améliorer la lecture comparative.
+<div style="text-align:center;padding:24px 0 16px;color:#475569;font-size:0.82rem;
+font-family:'Google Sans',sans-serif;border-top:1px solid rgba(255,255,255,0.06);margin-top:8px;">
+    TrendScope · M1 BIDABI 2025–2026 · Données Google Trends via pytrends · Vanilla Savienny & Can Pekgoz
 </div>
 """, unsafe_allow_html=True)
