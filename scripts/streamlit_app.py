@@ -37,7 +37,16 @@ st.markdown("""
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap');
 
 * { box-sizing: border-box; }
-
+/* Force sidebar ouverte */
+section[data-testid="stSidebar"] {
+    width: 280px !important;
+    transform: translateX(0) !important;
+    visibility: visible !important;
+    display: block !important;
+}
+[data-testid="collapsedControl"] {
+    display: none !important;
+}
 .stApp {
     background: #0b1220;
     font-family: 'Google Sans', 'Roboto', sans-serif;
