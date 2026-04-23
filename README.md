@@ -224,4 +224,4 @@ Ce projet illustre :
 
 ##  Auteur
 
-Projet réalisé dans le cadre d’un projet académique en data avec comme participant Vanilla et Can Pekgoz
+Projet réalisé dans le cadre d’un projet académique en data avec comme participant Can Pekgoz et Vanilla Nirinah Rafidison
