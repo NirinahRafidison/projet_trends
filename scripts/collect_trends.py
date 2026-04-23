@@ -4,7 +4,7 @@ import pandas as pd
 from pytrends.request import TrendReq
 
 KEYWORDS = [
-    "intelligence artificielle",
+    "artificial intelligence",
     "crypto",
     "Netflix",
     "Tesla",

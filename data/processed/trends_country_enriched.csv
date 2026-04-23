@@ -1,472 +1,472 @@
 country,mot_cle,score,country_clean,iso3,continent
-Afghanistan,intelligence artificielle,0,afghanistan,AFG,Asia
-Afrique du Sud,intelligence artificielle,0,south africa,ZAF,Africa
-Albanie,intelligence artificielle,0,albania,ALB,Europe
-Algérie,intelligence artificielle,17,algeria,DZA,Africa
-Allemagne,intelligence artificielle,1,germany,DEU,Europe
-Andorre,intelligence artificielle,0,andorre,,
-Angola,intelligence artificielle,1,angola,,
-Anguilla,intelligence artificielle,0,anguilla,,
-Antarctique,intelligence artificielle,0,antarctique,,
-Antigua-et-Barbuda,intelligence artificielle,0,antigua-et-barbuda,,
-Arabie saoudite,intelligence artificielle,0,saudi arabia,SAU,Asia
-Argentine,intelligence artificielle,0,argentina,ARG,South America
-Arménie,intelligence artificielle,0,armenia,,
-Aruba,intelligence artificielle,0,aruba,,
-Australie,intelligence artificielle,0,australia,AUS,Oceania
-Autriche,intelligence artificielle,0,austria,AUT,Europe
-Azerbaïdjan,intelligence artificielle,0,azerbaidjan,,
-Bahamas,intelligence artificielle,0,bahamas,,
-Bahreïn,intelligence artificielle,0,bahrein,,
-Bangladesh,intelligence artificielle,0,bangladesh,,
-Barbade,intelligence artificielle,0,barbade,,
-Belgique,intelligence artificielle,16,belgium,BEL,Europe
-Belize,intelligence artificielle,0,belize,,
-Bermudes,intelligence artificielle,0,bermudes,,
-Bhoutan,intelligence artificielle,0,bhoutan,,
-Biélorussie,intelligence artificielle,0,belarus,,
-Bolivie,intelligence artificielle,1,bolivia,,
-Bosnie-Herzégovine,intelligence artificielle,0,bosnie-herzegovine,,
-Botswana,intelligence artificielle,0,botswana,,
-Brunei,intelligence artificielle,0,brunei,,
-Brésil,intelligence artificielle,0,brazil,BRA,South America
-Bulgarie,intelligence artificielle,0,bulgaria,,
-Burkina Faso,intelligence artificielle,90,burkina faso,,
-Burundi,intelligence artificielle,62,burundi,,
-Bénin,intelligence artificielle,74,benin,,
-Cambodge,intelligence artificielle,1,cambodia,,
-Cameroun,intelligence artificielle,58,cameroon,,
-Canada,intelligence artificielle,8,canada,CAN,North America
-Cap-Vert,intelligence artificielle,0,cap-vert,,
-Chili,intelligence artificielle,0,chile,CHL,South America
-Chine,intelligence artificielle,1,china,CHN,Asia
-Chypre,intelligence artificielle,1,chypre,,
-Colombie,intelligence artificielle,0,colombia,COL,South America
-Comores,intelligence artificielle,55,comores,,
-Congo-Brazzaville,intelligence artificielle,76,congo-brazzaville,,
-Congo-Kinshasa,intelligence artificielle,53,congo-kinshasa,,
-Corée du Nord,intelligence artificielle,0,coree du nord,,
-Corée du Sud,intelligence artificielle,1,south korea,KOR,Asia
-Costa Rica,intelligence artificielle,0,costa rica,,
-Croatie,intelligence artificielle,0,croatia,,
-Cuba,intelligence artificielle,1,cuba,,
-Curaçao,intelligence artificielle,0,curacao,,
-Côte d’Ivoire,intelligence artificielle,69,cote divoire,,
-Danemark,intelligence artificielle,0,denmark,DNK,Europe
-Djibouti,intelligence artificielle,68,djibouti,,
-Dominique,intelligence artificielle,0,dominique,,
-Espagne,intelligence artificielle,1,spain,ESP,Europe
-Estonie,intelligence artificielle,0,estonia,,
-Eswatini,intelligence artificielle,0,eswatini,,
-Fidji,intelligence artificielle,0,fidji,,
-Finlande,intelligence artificielle,0,finland,FIN,Europe
-France,intelligence artificielle,42,france,FRA,Europe
-Gabon,intelligence artificielle,62,gabon,,
-Gambie,intelligence artificielle,0,gambie,,
-Ghana,intelligence artificielle,0,ghana,,
-Gibraltar,intelligence artificielle,0,gibraltar,,
-Grenade,intelligence artificielle,0,grenade,,
-Groenland,intelligence artificielle,0,groenland,,
-Grèce,intelligence artificielle,0,greece,GRC,Europe
-Guadeloupe,intelligence artificielle,54,guadeloupe,,
-Guam,intelligence artificielle,0,guam,,
-Guatemala,intelligence artificielle,1,guatemala,,
-Guernesey,intelligence artificielle,0,guernesey,,
-Guinée,intelligence artificielle,50,guinee,,
-Guinée équatoriale,intelligence artificielle,0,guinee equatoriale,,
-Guinée-Bissau,intelligence artificielle,0,guinee-bissau,,
-Guyana,intelligence artificielle,0,guyana,,
-Guyane française,intelligence artificielle,37,guyane francaise,,
-Géorgie,intelligence artificielle,0,georgie,,
-Géorgie du Sud-et-les Îles Sandwich du Sud,intelligence artificielle,0,georgie du sud-et-les iles sandwich du sud,,
-Haïti,intelligence artificielle,35,haiti,,
-Honduras,intelligence artificielle,0,honduras,,
-Hong Kong,intelligence artificielle,0,hong kong,,
-Hongrie,intelligence artificielle,0,hungary,,
-Inde,intelligence artificielle,0,india,IND,Asia
-Indonésie,intelligence artificielle,0,indonesia,IDN,Asia
-Irak,intelligence artificielle,0,irak,,
-Iran,intelligence artificielle,0,iran,IRN,Asia
-Irlande,intelligence artificielle,0,ireland,IRL,Europe
-Islande,intelligence artificielle,0,iceland,,
-Israël,intelligence artificielle,1,israel,ISR,Asia
-Italie,intelligence artificielle,1,italy,ITA,Europe
-Jamaïque,intelligence artificielle,0,jamaique,,
-Japon,intelligence artificielle,0,japan,JPN,Asia
-Jersey,intelligence artificielle,0,jersey,,
-Jordanie,intelligence artificielle,0,jordanie,,
-Kazakhstan,intelligence artificielle,0,kazakhstan,,
-Kenya,intelligence artificielle,0,kenya,KEN,Africa
-Kirghizstan,intelligence artificielle,0,kirghizstan,,
-Kiribati,intelligence artificielle,0,kiribati,,
-Kosovo,intelligence artificielle,0,kosovo,,
-Koweït,intelligence artificielle,0,koweit,,
-La Réunion,intelligence artificielle,40,la reunion,,
-Laos,intelligence artificielle,1,laos,,
-Lesotho,intelligence artificielle,0,lesotho,,
-Lettonie,intelligence artificielle,1,lettonie,,
-Liban,intelligence artificielle,4,liban,,
-Liberia,intelligence artificielle,0,liberia,,
-Libye,intelligence artificielle,1,libye,,
-Liechtenstein,intelligence artificielle,0,liechtenstein,,
-Lituanie,intelligence artificielle,0,lituanie,,
-Luxembourg,intelligence artificielle,17,luxembourg,,
-Macao,intelligence artificielle,0,macao,,
-Macédoine du Nord,intelligence artificielle,0,macedoine du nord,,
-Madagascar,intelligence artificielle,100,madagascar,,
-Malaisie,intelligence artificielle,0,malaysia,,
-Malawi,intelligence artificielle,0,malawi,,
-Maldives,intelligence artificielle,0,maldives,,
-Mali,intelligence artificielle,41,mali,,
-Malte,intelligence artificielle,0,malte,,
-Maroc,intelligence artificielle,28,morocco,MAR,Africa
-Martinique,intelligence artificielle,55,martinique,,
-Maurice,intelligence artificielle,6,maurice,,
-Mauritanie,intelligence artificielle,28,mauritanie,,
-Mayotte,intelligence artificielle,39,mayotte,,
-Mexique,intelligence artificielle,0,mexico,MEX,North America
-Micronésie,intelligence artificielle,0,micronesie,,
-Moldavie,intelligence artificielle,0,moldavie,,
-Monaco,intelligence artificielle,0,monaco,,
-Mongolie,intelligence artificielle,0,mongolie,,
-Montserrat,intelligence artificielle,0,montserrat,,
-Monténégro,intelligence artificielle,0,montenegro,,
-Mozambique,intelligence artificielle,0,mozambique,,
-Myanmar (Birmanie),intelligence artificielle,0,myanmar (birmanie),,
-Namibie,intelligence artificielle,0,namibie,,
-Nauru,intelligence artificielle,0,nauru,,
-Nicaragua,intelligence artificielle,0,nicaragua,,
-Niger,intelligence artificielle,59,niger,,
-Nigeria,intelligence artificielle,0,nigeria,NGA,Africa
-Niue,intelligence artificielle,0,niue,,
-Norvège,intelligence artificielle,0,norway,NOR,Europe
-Nouvelle-Calédonie,intelligence artificielle,52,nouvelle-caledonie,,
-Nouvelle-Zélande,intelligence artificielle,0,new zealand,NZL,Oceania
-Népal,intelligence artificielle,0,nepal,,
-Oman,intelligence artificielle,0,oman,,
-Ouganda,intelligence artificielle,0,ouganda,,
-Ouzbékistan,intelligence artificielle,0,ouzbekistan,,
-Pakistan,intelligence artificielle,0,pakistan,PAK,Asia
-Palaos,intelligence artificielle,0,palaos,,
-Palestine,intelligence artificielle,0,palestine,,
-Panama,intelligence artificielle,0,panama,,
-Papouasie-Nouvelle-Guinée,intelligence artificielle,0,papouasie-nouvelle-guinee,,
-Paraguay,intelligence artificielle,0,paraguay,,
-Pays-Bas,intelligence artificielle,1,netherlands,NLD,Europe
-Pays-Bas caribéens,intelligence artificielle,0,pays-bas caribeens,,
-Philippines,intelligence artificielle,0,philippines,PHL,Asia
-Pologne,intelligence artificielle,0,poland,POL,Europe
-Polynésie française,intelligence artificielle,49,polynesie francaise,,
-Porto Rico,intelligence artificielle,0,porto rico,,
-Portugal,intelligence artificielle,1,portugal,PRT,Europe
-Pérou,intelligence artificielle,0,peru,PER,South America
-Qatar,intelligence artificielle,1,qatar,,
-Roumanie,intelligence artificielle,1,romania,ROU,Europe
-Royaume-Uni,intelligence artificielle,0,united kingdom,GBR,Europe
-Russie,intelligence artificielle,0,russia,RUS,Europe
-Rwanda,intelligence artificielle,3,rwanda,,
-République centrafricaine,intelligence artificielle,91,republique centrafricaine,,
-République dominicaine,intelligence artificielle,1,republique dominicaine,,
-Sahara occidental,intelligence artificielle,17,sahara occidental,,
-Saint-Barthélemy,intelligence artificielle,59,saint-barthelemy,,
-Saint-Christophe-et-Niévès,intelligence artificielle,0,saint-christophe-et-nieves,,
-Saint-Marin,intelligence artificielle,0,saint-marin,,
-Saint-Martin,intelligence artificielle,0,saint-martin,,
-Saint-Martin (partie néerlandaise),intelligence artificielle,0,saint-martin (partie neerlandaise),,
-Saint-Pierre-et-Miquelon,intelligence artificielle,0,saint-pierre-et-miquelon,,
-Saint-Vincent-et-les Grenadines,intelligence artificielle,0,saint-vincent-et-les grenadines,,
-Sainte-Hélène,intelligence artificielle,4,sainte-helene,,
-Sainte-Lucie,intelligence artificielle,0,sainte-lucie,,
-Salvador,intelligence artificielle,0,salvador,,
-Samoa,intelligence artificielle,0,samoa,,
-Samoa américaines,intelligence artificielle,0,samoa americaines,,
-Sao Tomé-et-Principe,intelligence artificielle,0,sao tome-et-principe,,
-Serbie,intelligence artificielle,0,serbie,,
-Seychelles,intelligence artificielle,0,seychelles,,
-Sierra Leone,intelligence artificielle,6,sierra leone,,
-Singapour,intelligence artificielle,0,singapore,,
-Slovaquie,intelligence artificielle,0,slovakia,,
-Slovénie,intelligence artificielle,0,slovenia,,
-Somalie,intelligence artificielle,0,somalie,,
-Soudan,intelligence artificielle,0,soudan,,
-Soudan du Sud,intelligence artificielle,0,soudan du sud,,
-Sri Lanka,intelligence artificielle,0,sri lanka,,
-Suisse,intelligence artificielle,9,switzerland,CHE,Europe
-Suriname,intelligence artificielle,0,suriname,,
-Suède,intelligence artificielle,0,sweden,SWE,Europe
-Svalbard et Jan Mayen,intelligence artificielle,0,svalbard et jan mayen,,
-Syrie,intelligence artificielle,0,syrie,,
-Sénégal,intelligence artificielle,66,senegal,,
-Tadjikistan,intelligence artificielle,0,tadjikistan,,
-Tanzanie,intelligence artificielle,0,tanzanie,,
-Taïwan,intelligence artificielle,0,taiwan,,
-Tchad,intelligence artificielle,81,tchad,,
-Tchéquie,intelligence artificielle,0,czechia,,
-Terres australes françaises,intelligence artificielle,0,terres australes francaises,,
-Territoire britannique de l’océan Indien,intelligence artificielle,0,territoire britannique de locean indien,,
-Thaïlande,intelligence artificielle,0,thailand,THA,Asia
-Timor oriental,intelligence artificielle,0,timor oriental,,
-Togo,intelligence artificielle,68,togo,,
-Tokelau,intelligence artificielle,0,tokelau,,
-Tonga,intelligence artificielle,0,tonga,,
-Trinité-et-Tobago,intelligence artificielle,0,trinite-et-tobago,,
-Tunisie,intelligence artificielle,34,tunisia,,
-Turkménistan,intelligence artificielle,0,turkmenistan,,
-Turquie,intelligence artificielle,0,turkey,TUR,Asia
-Tuvalu,intelligence artificielle,0,tuvalu,,
-Ukraine,intelligence artificielle,0,ukraine,UKR,Europe
-Uruguay,intelligence artificielle,0,uruguay,,
-Vanuatu,intelligence artificielle,0,vanuatu,,
-Venezuela,intelligence artificielle,0,venezuela,,
-Viêt Nam,intelligence artificielle,1,viet nam,,
-Wallis-et-Futuna,intelligence artificielle,0,wallis-et-futuna,,
-Yémen,intelligence artificielle,0,yemen,,
-Zambie,intelligence artificielle,0,zambie,,
-Zimbabwe,intelligence artificielle,0,zimbabwe,,
-Égypte,intelligence artificielle,0,egypt,EGY,Africa
-Émirats arabes unis,intelligence artificielle,1,united arab emirates,,
-Équateur,intelligence artificielle,1,equateur,,
-Érythrée,intelligence artificielle,0,erythree,,
-État de la Cité du Vatican,intelligence artificielle,0,etat de la cite du vatican,,
-États-Unis,intelligence artificielle,1,united states,USA,North America
-Éthiopie,intelligence artificielle,0,ethiopie,,
-Île Bouvet,intelligence artificielle,0,ile bouvet,,
-Île Christmas,intelligence artificielle,0,ile christmas,,
-Île Norfolk,intelligence artificielle,0,ile norfolk,,
-Île de Man,intelligence artificielle,0,ile de man,,
-Îles Caïmans,intelligence artificielle,0,iles caimans,,
-Îles Cocos,intelligence artificielle,0,iles cocos,,
-Îles Cook,intelligence artificielle,0,iles cook,,
-Îles Féroé,intelligence artificielle,0,iles feroe,,
-Îles Heard-et-MacDonald,intelligence artificielle,0,iles heard-et-macdonald,,
-Îles Malouines (Îles Falkland),intelligence artificielle,0,iles malouines (iles falkland),,
-Îles Mariannes du Nord,intelligence artificielle,0,iles mariannes du nord,,
-Îles Marshall,intelligence artificielle,0,iles marshall,,
-Îles Pitcairn,intelligence artificielle,0,iles pitcairn,,
-Îles Salomon,intelligence artificielle,0,iles salomon,,
-Îles Turques-et-Caïques,intelligence artificielle,0,iles turques-et-caiques,,
-Îles Vierges britanniques,intelligence artificielle,0,iles vierges britanniques,,
-Îles Vierges des États-Unis,intelligence artificielle,0,iles vierges des etats-unis,,
-Îles mineures éloignées des États-Unis,intelligence artificielle,0,iles mineures eloignees des etats-unis,,
-Îles Åland,intelligence artificielle,0,iles aland,,
-Afghanistan,crypto,22,afghanistan,AFG,Asia
-Afrique du Sud,crypto,23,south africa,ZAF,Africa
-Albanie,crypto,37,albania,ALB,Europe
+Afghanistan,artificial intelligence,7,afghanistan,AFG,Asia
+Afrique du Sud,artificial intelligence,8,south africa,ZAF,Africa
+Albanie,artificial intelligence,8,albania,ALB,Europe
+Algérie,artificial intelligence,5,algeria,DZA,Africa
+Allemagne,artificial intelligence,4,germany,DEU,Europe
+Andorre,artificial intelligence,6,andorre,,
+Angola,artificial intelligence,3,angola,,
+Anguilla,artificial intelligence,0,anguilla,,
+Antarctique,artificial intelligence,0,antarctique,,
+Antigua-et-Barbuda,artificial intelligence,5,antigua-et-barbuda,,
+Arabie saoudite,artificial intelligence,6,saudi arabia,SAU,Asia
+Argentine,artificial intelligence,2,argentina,ARG,South America
+Arménie,artificial intelligence,4,armenia,,
+Aruba,artificial intelligence,6,aruba,,
+Australie,artificial intelligence,6,australia,AUS,Oceania
+Autriche,artificial intelligence,4,austria,AUT,Europe
+Azerbaïdjan,artificial intelligence,7,azerbaidjan,,
+Bahamas,artificial intelligence,6,bahamas,,
+Bahreïn,artificial intelligence,8,bahrein,,
+Bangladesh,artificial intelligence,7,bangladesh,,
+Barbade,artificial intelligence,8,barbade,,
+Belgique,artificial intelligence,4,belgium,BEL,Europe
+Belize,artificial intelligence,8,belize,,
+Bermudes,artificial intelligence,7,bermudes,,
+Bhoutan,artificial intelligence,10,bhoutan,,
+Biélorussie,artificial intelligence,1,belarus,,
+Bolivie,artificial intelligence,2,bolivia,,
+Bosnie-Herzégovine,artificial intelligence,3,bosnie-herzegovine,,
+Botswana,artificial intelligence,16,botswana,,
+Brunei,artificial intelligence,9,brunei,,
+Brésil,artificial intelligence,3,brazil,BRA,South America
+Bulgarie,artificial intelligence,4,bulgaria,,
+Burkina Faso,artificial intelligence,3,burkina faso,,
+Burundi,artificial intelligence,5,burundi,,
+Bénin,artificial intelligence,4,benin,,
+Cambodge,artificial intelligence,3,cambodia,,
+Cameroun,artificial intelligence,6,cameroon,,
+Canada,artificial intelligence,6,canada,CAN,North America
+Cap-Vert,artificial intelligence,5,cap-vert,,
+Chili,artificial intelligence,2,chile,CHL,South America
+Chine,artificial intelligence,22,china,CHN,Asia
+Chypre,artificial intelligence,6,chypre,,
+Colombie,artificial intelligence,2,colombia,COL,South America
+Comores,artificial intelligence,0,comores,,
+Congo-Brazzaville,artificial intelligence,2,congo-brazzaville,,
+Congo-Kinshasa,artificial intelligence,1,congo-kinshasa,,
+Corée du Nord,artificial intelligence,0,coree du nord,,
+Corée du Sud,artificial intelligence,11,south korea,KOR,Asia
+Costa Rica,artificial intelligence,4,costa rica,,
+Croatie,artificial intelligence,3,croatia,,
+Cuba,artificial intelligence,1,cuba,,
+Curaçao,artificial intelligence,7,curacao,,
+Côte d’Ivoire,artificial intelligence,2,cote divoire,,
+Danemark,artificial intelligence,4,denmark,DNK,Europe
+Djibouti,artificial intelligence,7,djibouti,,
+Dominique,artificial intelligence,0,dominique,,
+Espagne,artificial intelligence,4,spain,ESP,Europe
+Estonie,artificial intelligence,5,estonia,,
+Eswatini,artificial intelligence,19,eswatini,,
+Fidji,artificial intelligence,8,fidji,,
+Finlande,artificial intelligence,4,finland,FIN,Europe
+France,artificial intelligence,3,france,FRA,Europe
+Gabon,artificial intelligence,3,gabon,,
+Gambie,artificial intelligence,8,gambie,,
+Ghana,artificial intelligence,12,ghana,,
+Gibraltar,artificial intelligence,0,gibraltar,,
+Grenade,artificial intelligence,10,grenade,,
+Groenland,artificial intelligence,0,groenland,,
+Grèce,artificial intelligence,5,greece,GRC,Europe
+Guadeloupe,artificial intelligence,0,guadeloupe,,
+Guam,artificial intelligence,5,guam,,
+Guatemala,artificial intelligence,1,guatemala,,
+Guernesey,artificial intelligence,4,guernesey,,
+Guinée,artificial intelligence,2,guinee,,
+Guinée équatoriale,artificial intelligence,0,guinee equatoriale,,
+Guinée-Bissau,artificial intelligence,0,guinee-bissau,,
+Guyana,artificial intelligence,9,guyana,,
+Guyane française,artificial intelligence,0,guyane francaise,,
+Géorgie,artificial intelligence,5,georgie,,
+Géorgie du Sud-et-les Îles Sandwich du Sud,artificial intelligence,0,georgie du sud-et-les iles sandwich du sud,,
+Haïti,artificial intelligence,2,haiti,,
+Honduras,artificial intelligence,2,honduras,,
+Hong Kong,artificial intelligence,8,hong kong,,
+Hongrie,artificial intelligence,3,hungary,,
+Inde,artificial intelligence,13,india,IND,Asia
+Indonésie,artificial intelligence,4,indonesia,IDN,Asia
+Irak,artificial intelligence,8,irak,,
+Iran,artificial intelligence,3,iran,IRN,Asia
+Irlande,artificial intelligence,6,ireland,IRL,Europe
+Islande,artificial intelligence,6,iceland,,
+Israël,artificial intelligence,5,israel,ISR,Asia
+Italie,artificial intelligence,5,italy,ITA,Europe
+Jamaïque,artificial intelligence,7,jamaique,,
+Japon,artificial intelligence,2,japan,JPN,Asia
+Jersey,artificial intelligence,4,jersey,,
+Jordanie,artificial intelligence,8,jordanie,,
+Kazakhstan,artificial intelligence,4,kazakhstan,,
+Kenya,artificial intelligence,11,kenya,KEN,Africa
+Kirghizstan,artificial intelligence,2,kirghizstan,,
+Kiribati,artificial intelligence,0,kiribati,,
+Kosovo,artificial intelligence,9,kosovo,,
+Koweït,artificial intelligence,5,koweit,,
+La Réunion,artificial intelligence,1,la reunion,,
+Laos,artificial intelligence,5,laos,,
+Lesotho,artificial intelligence,17,lesotho,,
+Lettonie,artificial intelligence,5,lettonie,,
+Liban,artificial intelligence,9,liban,,
+Liberia,artificial intelligence,10,liberia,,
+Libye,artificial intelligence,5,libye,,
+Liechtenstein,artificial intelligence,6,liechtenstein,,
+Lituanie,artificial intelligence,6,lituanie,,
+Luxembourg,artificial intelligence,7,luxembourg,,
+Macao,artificial intelligence,6,macao,,
+Macédoine du Nord,artificial intelligence,6,macedoine du nord,,
+Madagascar,artificial intelligence,4,madagascar,,
+Malaisie,artificial intelligence,8,malaysia,,
+Malawi,artificial intelligence,13,malawi,,
+Maldives,artificial intelligence,7,maldives,,
+Mali,artificial intelligence,1,mali,,
+Malte,artificial intelligence,8,malte,,
+Maroc,artificial intelligence,6,morocco,MAR,Africa
+Martinique,artificial intelligence,2,martinique,,
+Maurice,artificial intelligence,9,maurice,,
+Mauritanie,artificial intelligence,3,mauritanie,,
+Mayotte,artificial intelligence,0,mayotte,,
+Mexique,artificial intelligence,2,mexico,MEX,North America
+Micronésie,artificial intelligence,0,micronesie,,
+Moldavie,artificial intelligence,3,moldavie,,
+Monaco,artificial intelligence,0,monaco,,
+Mongolie,artificial intelligence,8,mongolie,,
+Montserrat,artificial intelligence,0,montserrat,,
+Monténégro,artificial intelligence,4,montenegro,,
+Mozambique,artificial intelligence,2,mozambique,,
+Myanmar (Birmanie),artificial intelligence,5,myanmar (birmanie),,
+Namibie,artificial intelligence,11,namibie,,
+Nauru,artificial intelligence,0,nauru,,
+Nicaragua,artificial intelligence,2,nicaragua,,
+Niger,artificial intelligence,2,niger,,
+Nigeria,artificial intelligence,14,nigeria,NGA,Africa
+Niue,artificial intelligence,0,niue,,
+Norvège,artificial intelligence,4,norway,NOR,Europe
+Nouvelle-Calédonie,artificial intelligence,0,nouvelle-caledonie,,
+Nouvelle-Zélande,artificial intelligence,4,new zealand,NZL,Oceania
+Népal,artificial intelligence,10,nepal,,
+Oman,artificial intelligence,8,oman,,
+Ouganda,artificial intelligence,9,ouganda,,
+Ouzbékistan,artificial intelligence,6,ouzbekistan,,
+Pakistan,artificial intelligence,14,pakistan,PAK,Asia
+Palaos,artificial intelligence,0,palaos,,
+Palestine,artificial intelligence,8,palestine,,
+Panama,artificial intelligence,3,panama,,
+Papouasie-Nouvelle-Guinée,artificial intelligence,25,papouasie-nouvelle-guinee,,
+Paraguay,artificial intelligence,2,paraguay,,
+Pays-Bas,artificial intelligence,6,netherlands,NLD,Europe
+Pays-Bas caribéens,artificial intelligence,0,pays-bas caribeens,,
+Philippines,artificial intelligence,11,philippines,PHL,Asia
+Pologne,artificial intelligence,2,poland,POL,Europe
+Polynésie française,artificial intelligence,0,polynesie francaise,,
+Porto Rico,artificial intelligence,4,porto rico,,
+Portugal,artificial intelligence,5,portugal,PRT,Europe
+Pérou,artificial intelligence,3,peru,PER,South America
+Qatar,artificial intelligence,8,qatar,,
+Roumanie,artificial intelligence,4,romania,ROU,Europe
+Royaume-Uni,artificial intelligence,6,united kingdom,GBR,Europe
+Russie,artificial intelligence,2,russia,RUS,Europe
+Rwanda,artificial intelligence,18,rwanda,,
+République centrafricaine,artificial intelligence,0,republique centrafricaine,,
+République dominicaine,artificial intelligence,2,republique dominicaine,,
+Sahara occidental,artificial intelligence,6,sahara occidental,,
+Saint-Barthélemy,artificial intelligence,0,saint-barthelemy,,
+Saint-Christophe-et-Niévès,artificial intelligence,0,saint-christophe-et-nieves,,
+Saint-Marin,artificial intelligence,0,saint-marin,,
+Saint-Martin,artificial intelligence,0,saint-martin,,
+Saint-Martin (partie néerlandaise),artificial intelligence,0,saint-martin (partie neerlandaise),,
+Saint-Pierre-et-Miquelon,artificial intelligence,0,saint-pierre-et-miquelon,,
+Saint-Vincent-et-les Grenadines,artificial intelligence,7,saint-vincent-et-les grenadines,,
+Sainte-Hélène,artificial intelligence,22,sainte-helene,,
+Sainte-Lucie,artificial intelligence,6,sainte-lucie,,
+Salvador,artificial intelligence,2,salvador,,
+Samoa,artificial intelligence,0,samoa,,
+Samoa américaines,artificial intelligence,0,samoa americaines,,
+Sao Tomé-et-Principe,artificial intelligence,0,sao tome-et-principe,,
+Serbie,artificial intelligence,4,serbie,,
+Seychelles,artificial intelligence,0,seychelles,,
+Sierra Leone,artificial intelligence,11,sierra leone,,
+Singapour,artificial intelligence,13,singapore,,
+Slovaquie,artificial intelligence,3,slovakia,,
+Slovénie,artificial intelligence,5,slovenia,,
+Somalie,artificial intelligence,10,somalie,,
+Soudan,artificial intelligence,4,soudan,,
+Soudan du Sud,artificial intelligence,15,soudan du sud,,
+Sri Lanka,artificial intelligence,10,sri lanka,,
+Suisse,artificial intelligence,5,switzerland,CHE,Europe
+Suriname,artificial intelligence,5,suriname,,
+Suède,artificial intelligence,3,sweden,SWE,Europe
+Svalbard et Jan Mayen,artificial intelligence,0,svalbard et jan mayen,,
+Syrie,artificial intelligence,2,syrie,,
+Sénégal,artificial intelligence,3,senegal,,
+Tadjikistan,artificial intelligence,2,tadjikistan,,
+Tanzanie,artificial intelligence,10,tanzanie,,
+Taïwan,artificial intelligence,4,taiwan,,
+Tchad,artificial intelligence,3,tchad,,
+Tchéquie,artificial intelligence,4,czechia,,
+Terres australes françaises,artificial intelligence,0,terres australes francaises,,
+Territoire britannique de l’océan Indien,artificial intelligence,0,territoire britannique de locean indien,,
+Thaïlande,artificial intelligence,3,thailand,THA,Asia
+Timor oriental,artificial intelligence,6,timor oriental,,
+Togo,artificial intelligence,5,togo,,
+Tokelau,artificial intelligence,0,tokelau,,
+Tonga,artificial intelligence,17,tonga,,
+Trinité-et-Tobago,artificial intelligence,9,trinite-et-tobago,,
+Tunisie,artificial intelligence,6,tunisia,,
+Turkménistan,artificial intelligence,1,turkmenistan,,
+Turquie,artificial intelligence,3,turkey,TUR,Asia
+Tuvalu,artificial intelligence,0,tuvalu,,
+Ukraine,artificial intelligence,2,ukraine,UKR,Europe
+Uruguay,artificial intelligence,2,uruguay,,
+Vanuatu,artificial intelligence,0,vanuatu,,
+Venezuela,artificial intelligence,1,venezuela,,
+Viêt Nam,artificial intelligence,5,viet nam,,
+Wallis-et-Futuna,artificial intelligence,0,wallis-et-futuna,,
+Yémen,artificial intelligence,6,yemen,,
+Zambie,artificial intelligence,8,zambie,,
+Zimbabwe,artificial intelligence,20,zimbabwe,,
+Égypte,artificial intelligence,6,egypt,EGY,Africa
+Émirats arabes unis,artificial intelligence,11,united arab emirates,,
+Équateur,artificial intelligence,3,equateur,,
+Érythrée,artificial intelligence,100,erythree,,
+État de la Cité du Vatican,artificial intelligence,0,etat de la cite du vatican,,
+États-Unis,artificial intelligence,10,united states,USA,North America
+Éthiopie,artificial intelligence,23,ethiopie,,
+Île Bouvet,artificial intelligence,0,ile bouvet,,
+Île Christmas,artificial intelligence,0,ile christmas,,
+Île Norfolk,artificial intelligence,0,ile norfolk,,
+Île de Man,artificial intelligence,5,ile de man,,
+Îles Caïmans,artificial intelligence,6,iles caimans,,
+Îles Cocos,artificial intelligence,0,iles cocos,,
+Îles Cook,artificial intelligence,26,iles cook,,
+Îles Féroé,artificial intelligence,0,iles feroe,,
+Îles Heard-et-MacDonald,artificial intelligence,0,iles heard-et-macdonald,,
+Îles Malouines (Îles Falkland),artificial intelligence,0,iles malouines (iles falkland),,
+Îles Mariannes du Nord,artificial intelligence,0,iles mariannes du nord,,
+Îles Marshall,artificial intelligence,0,iles marshall,,
+Îles Pitcairn,artificial intelligence,0,iles pitcairn,,
+Îles Salomon,artificial intelligence,15,iles salomon,,
+Îles Turques-et-Caïques,artificial intelligence,0,iles turques-et-caiques,,
+Îles Vierges britanniques,artificial intelligence,0,iles vierges britanniques,,
+Îles Vierges des États-Unis,artificial intelligence,6,iles vierges des etats-unis,,
+Îles mineures éloignées des États-Unis,artificial intelligence,0,iles mineures eloignees des etats-unis,,
+Îles Åland,artificial intelligence,0,iles aland,,
+Afghanistan,crypto,23,afghanistan,AFG,Asia
+Afrique du Sud,crypto,22,south africa,ZAF,Africa
+Albanie,crypto,39,albania,ALB,Europe
 Algérie,crypto,11,algeria,DZA,Africa
 Allemagne,crypto,20,germany,DEU,Europe
-Andorre,crypto,41,andorre,,
+Andorre,crypto,43,andorre,,
 Angola,crypto,8,angola,,
 Anguilla,crypto,0,anguilla,,
 Antarctique,crypto,0,antarctique,,
 Antigua-et-Barbuda,crypto,28,antigua-et-barbuda,,
 Arabie saoudite,crypto,11,saudi arabia,SAU,Asia
 Argentine,crypto,10,argentina,ARG,South America
-Arménie,crypto,24,armenia,,
+Arménie,crypto,23,armenia,,
 Aruba,crypto,34,aruba,,
-Australie,crypto,41,australia,AUS,Oceania
-Autriche,crypto,18,austria,AUT,Europe
+Australie,crypto,40,australia,AUS,Oceania
+Autriche,crypto,19,austria,AUT,Europe
 Azerbaïdjan,crypto,14,azerbaidjan,,
-Bahamas,crypto,35,bahamas,,
+Bahamas,crypto,36,bahamas,,
 Bahreïn,crypto,27,bahrein,,
-Bangladesh,crypto,18,bangladesh,,
-Barbade,crypto,27,barbade,,
+Bangladesh,crypto,19,bangladesh,,
+Barbade,crypto,28,barbade,,
 Belgique,crypto,42,belgium,BEL,Europe
 Belize,crypto,15,belize,,
-Bermudes,crypto,52,bermudes,,
-Bhoutan,crypto,33,bhoutan,,
-Biélorussie,crypto,5,belarus,,
+Bermudes,crypto,54,bermudes,,
+Bhoutan,crypto,32,bhoutan,,
+Biélorussie,crypto,6,belarus,,
 Bolivie,crypto,8,bolivia,,
-Bosnie-Herzégovine,crypto,16,bosnie-herzegovine,,
-Botswana,crypto,19,botswana,,
+Bosnie-Herzégovine,crypto,17,bosnie-herzegovine,,
+Botswana,crypto,20,botswana,,
 Brunei,crypto,14,brunei,,
 Brésil,crypto,7,brazil,BRA,South America
-Bulgarie,crypto,27,bulgaria,,
-Burkina Faso,crypto,37,burkina faso,,
+Bulgarie,crypto,26,bulgaria,,
+Burkina Faso,crypto,38,burkina faso,,
 Burundi,crypto,29,burundi,,
-Bénin,crypto,46,benin,,
-Cambodge,crypto,56,cambodia,,
-Cameroun,crypto,29,cameroon,,
-Canada,crypto,35,canada,CAN,North America
-Cap-Vert,crypto,17,cap-vert,,
+Bénin,crypto,47,benin,,
+Cambodge,crypto,55,cambodia,,
+Cameroun,crypto,24,cameroon,,
+Canada,crypto,36,canada,CAN,North America
+Cap-Vert,crypto,18,cap-vert,,
 Chili,crypto,6,chile,CHL,South America
-Chine,crypto,27,china,CHN,Asia
-Chypre,crypto,45,chypre,,
+Chine,crypto,28,china,CHN,Asia
+Chypre,crypto,48,chypre,,
 Colombie,crypto,6,colombia,COL,South America
-Comores,crypto,7,comores,,
+Comores,crypto,0,comores,,
 Congo-Brazzaville,crypto,22,congo-brazzaville,,
 Congo-Kinshasa,crypto,8,congo-kinshasa,,
 Corée du Nord,crypto,0,coree du nord,,
 Corée du Sud,crypto,20,south korea,KOR,Asia
 Costa Rica,crypto,10,costa rica,,
-Croatie,crypto,24,croatia,,
+Croatie,crypto,26,croatia,,
 Cuba,crypto,5,cuba,,
 Curaçao,crypto,38,curacao,,
-Côte d’Ivoire,crypto,21,cote divoire,,
-Danemark,crypto,17,denmark,DNK,Europe
+Côte d’Ivoire,crypto,19,cote divoire,,
+Danemark,crypto,18,denmark,DNK,Europe
 Djibouti,crypto,27,djibouti,,
-Dominique,crypto,27,dominique,,
+Dominique,crypto,29,dominique,,
 Espagne,crypto,16,spain,ESP,Europe
-Estonie,crypto,31,estonia,,
+Estonie,crypto,33,estonia,,
 Eswatini,crypto,23,eswatini,,
 Fidji,crypto,13,fidji,,
-Finlande,crypto,22,finland,FIN,Europe
+Finlande,crypto,23,finland,FIN,Europe
 France,crypto,28,france,FRA,Europe
 Gabon,crypto,18,gabon,,
 Gambie,crypto,16,gambie,,
 Ghana,crypto,30,ghana,,
-Gibraltar,crypto,81,gibraltar,,
-Grenade,crypto,17,grenade,,
-Groenland,crypto,22,groenland,,
+Gibraltar,crypto,83,gibraltar,,
+Grenade,crypto,20,grenade,,
+Groenland,crypto,21,groenland,,
 Grèce,crypto,20,greece,GRC,Europe
 Guadeloupe,crypto,31,guadeloupe,,
-Guam,crypto,28,guam,,
+Guam,crypto,29,guam,,
 Guatemala,crypto,4,guatemala,,
-Guernesey,crypto,45,guernesey,,
+Guernesey,crypto,46,guernesey,,
 Guinée,crypto,13,guinee,,
-Guinée équatoriale,crypto,11,guinee equatoriale,,
+Guinée équatoriale,crypto,13,guinee equatoriale,,
 Guinée-Bissau,crypto,5,guinee-bissau,,
-Guyana,crypto,14,guyana,,
-Guyane française,crypto,29,guyane francaise,,
-Géorgie,crypto,27,georgie,,
+Guyana,crypto,15,guyana,,
+Guyane française,crypto,30,guyane francaise,,
+Géorgie,crypto,26,georgie,,
 Géorgie du Sud-et-les Îles Sandwich du Sud,crypto,0,georgie du sud-et-les iles sandwich du sud,,
 Haïti,crypto,11,haiti,,
 Honduras,crypto,5,honduras,,
-Hong Kong,crypto,25,hong kong,,
-Hongrie,crypto,17,hungary,,
+Hong Kong,crypto,26,hong kong,,
+Hongrie,crypto,16,hungary,,
 Inde,crypto,18,india,IND,Asia
-Indonésie,crypto,22,indonesia,IDN,Asia
+Indonésie,crypto,23,indonesia,IDN,Asia
 Irak,crypto,14,irak,,
 Iran,crypto,6,iran,IRN,Asia
-Irlande,crypto,30,ireland,IRL,Europe
+Irlande,crypto,31,ireland,IRL,Europe
 Islande,crypto,27,iceland,,
-Israël,crypto,19,israel,ISR,Asia
-Italie,crypto,15,italy,ITA,Europe
+Israël,crypto,20,israel,ISR,Asia
+Italie,crypto,16,italy,ITA,Europe
 Jamaïque,crypto,22,jamaique,,
-Japon,crypto,3,japan,JPN,Asia
-Jersey,crypto,56,jersey,,
-Jordanie,crypto,13,jordanie,,
+Japon,crypto,4,japan,JPN,Asia
+Jersey,crypto,57,jersey,,
+Jordanie,crypto,14,jordanie,,
 Kazakhstan,crypto,7,kazakhstan,,
-Kenya,crypto,31,kenya,KEN,Africa
+Kenya,crypto,32,kenya,KEN,Africa
 Kirghizstan,crypto,8,kirghizstan,,
 Kiribati,crypto,0,kiribati,,
-Kosovo,crypto,58,kosovo,,
-Koweït,crypto,18,koweit,,
+Kosovo,crypto,56,kosovo,,
+Koweït,crypto,16,koweit,,
 La Réunion,crypto,21,la reunion,,
-Laos,crypto,35,laos,,
+Laos,crypto,33,laos,,
 Lesotho,crypto,18,lesotho,,
-Lettonie,crypto,36,lettonie,,
-Liban,crypto,28,liban,,
-Liberia,crypto,12,liberia,,
+Lettonie,crypto,37,lettonie,,
+Liban,crypto,27,liban,,
+Liberia,crypto,13,liberia,,
 Libye,crypto,9,libye,,
-Liechtenstein,crypto,43,liechtenstein,,
-Lituanie,crypto,36,lituanie,,
-Luxembourg,crypto,39,luxembourg,,
+Liechtenstein,crypto,40,liechtenstein,,
+Lituanie,crypto,35,lituanie,,
+Luxembourg,crypto,41,luxembourg,,
 Macao,crypto,11,macao,,
-Macédoine du Nord,crypto,41,macedoine du nord,,
-Madagascar,crypto,38,madagascar,,
+Macédoine du Nord,crypto,43,macedoine du nord,,
+Madagascar,crypto,39,madagascar,,
 Malaisie,crypto,21,malaysia,,
-Malawi,crypto,14,malawi,,
-Maldives,crypto,41,maldives,,
+Malawi,crypto,15,malawi,,
+Maldives,crypto,42,maldives,,
 Mali,crypto,8,mali,,
-Malte,crypto,53,malte,,
-Maroc,crypto,20,morocco,MAR,Africa
+Malte,crypto,54,malte,,
+Maroc,crypto,21,morocco,MAR,Africa
 Martinique,crypto,24,martinique,,
 Maurice,crypto,28,maurice,,
 Mauritanie,crypto,12,mauritanie,,
-Mayotte,crypto,13,mayotte,,
+Mayotte,crypto,15,mayotte,,
 Mexique,crypto,6,mexico,MEX,North America
-Micronésie,crypto,20,micronesie,,
-Moldavie,crypto,20,moldavie,,
+Micronésie,crypto,23,micronesie,,
+Moldavie,crypto,21,moldavie,,
 Monaco,crypto,0,monaco,,
 Mongolie,crypto,16,mongolie,,
 Montserrat,crypto,0,montserrat,,
 Monténégro,crypto,22,montenegro,,
 Mozambique,crypto,6,mozambique,,
-Myanmar (Birmanie),crypto,28,myanmar (birmanie),,
-Namibie,crypto,24,namibie,,
+Myanmar (Birmanie),crypto,29,myanmar (birmanie),,
+Namibie,crypto,25,namibie,,
 Nauru,crypto,0,nauru,,
 Nicaragua,crypto,5,nicaragua,,
-Niger,crypto,19,niger,,
-Nigeria,crypto,76,nigeria,NGA,Africa
+Niger,crypto,20,niger,,
+Nigeria,crypto,79,nigeria,NGA,Africa
 Niue,crypto,0,niue,,
 Norvège,crypto,25,norway,NOR,Europe
-Nouvelle-Calédonie,crypto,47,nouvelle-caledonie,,
+Nouvelle-Calédonie,crypto,49,nouvelle-caledonie,,
 Nouvelle-Zélande,crypto,33,new zealand,NZL,Oceania
-Népal,crypto,17,nepal,,
+Népal,crypto,18,nepal,,
 Oman,crypto,15,oman,,
 Ouganda,crypto,16,ouganda,,
 Ouzbékistan,crypto,12,ouzbekistan,,
-Pakistan,crypto,43,pakistan,PAK,Asia
+Pakistan,crypto,41,pakistan,PAK,Asia
 Palaos,crypto,21,palaos,,
 Palestine,crypto,11,palestine,,
 Panama,crypto,12,panama,,
 Papouasie-Nouvelle-Guinée,crypto,17,papouasie-nouvelle-guinee,,
 Paraguay,crypto,8,paraguay,,
-Pays-Bas,crypto,65,netherlands,NLD,Europe
-Pays-Bas caribéens,crypto,32,pays-bas caribeens,,
-Philippines,crypto,22,philippines,PHL,Asia
-Pologne,crypto,12,poland,POL,Europe
-Polynésie française,crypto,54,polynesie francaise,,
-Porto Rico,crypto,16,porto rico,,
+Pays-Bas,crypto,67,netherlands,NLD,Europe
+Pays-Bas caribéens,crypto,30,pays-bas caribeens,,
+Philippines,crypto,21,philippines,PHL,Asia
+Pologne,crypto,13,poland,POL,Europe
+Polynésie française,crypto,56,polynesie francaise,,
+Porto Rico,crypto,17,porto rico,,
 Portugal,crypto,25,portugal,PRT,Europe
 Pérou,crypto,5,peru,PER,South America
-Qatar,crypto,20,qatar,,
-Roumanie,crypto,27,romania,ROU,Europe
+Qatar,crypto,21,qatar,,
+Roumanie,crypto,26,romania,ROU,Europe
 Royaume-Uni,crypto,30,united kingdom,GBR,Europe
 Russie,crypto,8,russia,RUS,Europe
-Rwanda,crypto,16,rwanda,,
-République centrafricaine,crypto,8,republique centrafricaine,,
-République dominicaine,crypto,7,republique dominicaine,,
-Sahara occidental,crypto,15,sahara occidental,,
-Saint-Barthélemy,crypto,36,saint-barthelemy,,
-Saint-Christophe-et-Niévès,crypto,26,saint-christophe-et-nieves,,
-Saint-Marin,crypto,25,saint-marin,,
-Saint-Martin,crypto,67,saint-martin,,
-Saint-Martin (partie néerlandaise),crypto,40,saint-martin (partie neerlandaise),,
+Rwanda,crypto,17,rwanda,,
+République centrafricaine,crypto,9,republique centrafricaine,,
+République dominicaine,crypto,8,republique dominicaine,,
+Sahara occidental,crypto,13,sahara occidental,,
+Saint-Barthélemy,crypto,37,saint-barthelemy,,
+Saint-Christophe-et-Niévès,crypto,27,saint-christophe-et-nieves,,
+Saint-Marin,crypto,23,saint-marin,,
+Saint-Martin,crypto,59,saint-martin,,
+Saint-Martin (partie néerlandaise),crypto,44,saint-martin (partie neerlandaise),,
 Saint-Pierre-et-Miquelon,crypto,0,saint-pierre-et-miquelon,,
-Saint-Vincent-et-les Grenadines,crypto,33,saint-vincent-et-les grenadines,,
-Sainte-Hélène,crypto,66,sainte-helene,,
-Sainte-Lucie,crypto,36,sainte-lucie,,
+Saint-Vincent-et-les Grenadines,crypto,34,saint-vincent-et-les grenadines,,
+Sainte-Hélène,crypto,69,sainte-helene,,
+Sainte-Lucie,crypto,38,sainte-lucie,,
 Salvador,crypto,6,salvador,,
-Samoa,crypto,10,samoa,,
-Samoa américaines,crypto,32,samoa americaines,,
+Samoa,crypto,11,samoa,,
+Samoa américaines,crypto,27,samoa americaines,,
 Sao Tomé-et-Principe,crypto,0,sao tome-et-principe,,
 Serbie,crypto,20,serbie,,
-Seychelles,crypto,20,seychelles,,
+Seychelles,crypto,22,seychelles,,
 Sierra Leone,crypto,16,sierra leone,,
-Singapour,crypto,57,singapore,,
+Singapour,crypto,58,singapore,,
 Slovaquie,crypto,17,slovakia,,
-Slovénie,crypto,43,slovenia,,
-Somalie,crypto,69,somalie,,
+Slovénie,crypto,42,slovenia,,
+Somalie,crypto,71,somalie,,
 Soudan,crypto,5,soudan,,
 Soudan du Sud,crypto,16,soudan du sud,,
-Sri Lanka,crypto,29,sri lanka,,
-Suisse,crypto,33,switzerland,CHE,Europe
-Suriname,crypto,33,suriname,,
+Sri Lanka,crypto,28,sri lanka,,
+Suisse,crypto,36,switzerland,CHE,Europe
+Suriname,crypto,34,suriname,,
 Suède,crypto,19,sweden,SWE,Europe
-Svalbard et Jan Mayen,crypto,0,svalbard et jan mayen,,
+Svalbard et Jan Mayen,crypto,56,svalbard et jan mayen,,
 Syrie,crypto,6,syrie,,
 Sénégal,crypto,15,senegal,,
 Tadjikistan,crypto,7,tadjikistan,,
 Tanzanie,crypto,10,tanzanie,,
 Taïwan,crypto,8,taiwan,,
-Tchad,crypto,10,tchad,,
-Tchéquie,crypto,17,czechia,,
+Tchad,crypto,9,tchad,,
+Tchéquie,crypto,16,czechia,,
 Terres australes françaises,crypto,0,terres australes francaises,,
 Territoire britannique de l’océan Indien,crypto,0,territoire britannique de locean indien,,
 Thaïlande,crypto,13,thailand,THA,Asia
 Timor oriental,crypto,10,timor oriental,,
 Togo,crypto,37,togo,,
 Tokelau,crypto,0,tokelau,,
-Tonga,crypto,23,tonga,,
+Tonga,crypto,29,tonga,,
 Trinité-et-Tobago,crypto,30,trinite-et-tobago,,
-Tunisie,crypto,16,tunisia,,
+Tunisie,crypto,18,tunisia,,
 Turkménistan,crypto,5,turkmenistan,,
 Turquie,crypto,6,turkey,TUR,Asia
 Tuvalu,crypto,0,tuvalu,,
 Ukraine,crypto,10,ukraine,UKR,Europe
 Uruguay,crypto,10,uruguay,,
-Vanuatu,crypto,20,vanuatu,,
+Vanuatu,crypto,19,vanuatu,,
 Venezuela,crypto,8,venezuela,,
 Viêt Nam,crypto,14,viet nam,,
 Wallis-et-Futuna,crypto,0,wallis-et-futuna,,
@@ -479,7 +479,7 @@ Zimbabwe,crypto,21,zimbabwe,,
 Érythrée,crypto,0,erythree,,
 État de la Cité du Vatican,crypto,0,etat de la cite du vatican,,
 États-Unis,crypto,34,united states,USA,North America
-Éthiopie,crypto,32,ethiopie,,
+Éthiopie,crypto,33,ethiopie,,
 Île Bouvet,crypto,0,ile bouvet,,
 Île Christmas,crypto,0,ile christmas,,
 Île Norfolk,crypto,0,ile norfolk,,
@@ -487,293 +487,293 @@ Zimbabwe,crypto,21,zimbabwe,,
 Îles Caïmans,crypto,100,iles caimans,,
 Îles Cocos,crypto,0,iles cocos,,
 Îles Cook,crypto,27,iles cook,,
-Îles Féroé,crypto,27,iles feroe,,
+Îles Féroé,crypto,26,iles feroe,,
 Îles Heard-et-MacDonald,crypto,0,iles heard-et-macdonald,,
 Îles Malouines (Îles Falkland),crypto,0,iles malouines (iles falkland),,
 Îles Mariannes du Nord,crypto,21,iles mariannes du nord,,
-Îles Marshall,crypto,26,iles marshall,,
+Îles Marshall,crypto,28,iles marshall,,
 Îles Pitcairn,crypto,0,iles pitcairn,,
-Îles Salomon,crypto,14,iles salomon,,
-Îles Turques-et-Caïques,crypto,31,iles turques-et-caiques,,
-Îles Vierges britanniques,crypto,58,iles vierges britanniques,,
-Îles Vierges des États-Unis,crypto,34,iles vierges des etats-unis,,
+Îles Salomon,crypto,10,iles salomon,,
+Îles Turques-et-Caïques,crypto,29,iles turques-et-caiques,,
+Îles Vierges britanniques,crypto,63,iles vierges britanniques,,
+Îles Vierges des États-Unis,crypto,38,iles vierges des etats-unis,,
 Îles mineures éloignées des États-Unis,crypto,0,iles mineures eloignees des etats-unis,,
-Îles Åland,crypto,30,iles aland,,
+Îles Åland,crypto,28,iles aland,,
 Afghanistan,Netflix,9,afghanistan,AFG,Asia
-Afrique du Sud,Netflix,71,south africa,ZAF,Africa
-Albanie,Netflix,39,albania,ALB,Europe
-Algérie,Netflix,18,algeria,DZA,Africa
-Allemagne,Netflix,44,germany,DEU,Europe
-Andorre,Netflix,63,andorre,,
-Angola,Netflix,38,angola,,
-Anguilla,Netflix,74,anguilla,,
+Afrique du Sud,Netflix,75,south africa,ZAF,Africa
+Albanie,Netflix,40,albania,ALB,Europe
+Algérie,Netflix,19,algeria,DZA,Africa
+Allemagne,Netflix,46,germany,DEU,Europe
+Andorre,Netflix,67,andorre,,
+Angola,Netflix,42,angola,,
+Anguilla,Netflix,70,anguilla,,
 Antarctique,Netflix,0,antarctique,,
-Antigua-et-Barbuda,Netflix,59,antigua-et-barbuda,,
-Arabie saoudite,Netflix,19,saudi arabia,SAU,Asia
-Argentine,Netflix,74,argentina,ARG,South America
+Antigua-et-Barbuda,Netflix,62,antigua-et-barbuda,,
+Arabie saoudite,Netflix,20,saudi arabia,SAU,Asia
+Argentine,Netflix,78,argentina,ARG,South America
 Arménie,Netflix,11,armenia,,
-Aruba,Netflix,65,aruba,,
-Australie,Netflix,56,australia,AUS,Oceania
-Autriche,Netflix,45,austria,AUT,Europe
-Azerbaïdjan,Netflix,18,azerbaidjan,,
-Bahamas,Netflix,61,bahamas,,
-Bahreïn,Netflix,32,bahrein,,
+Aruba,Netflix,69,aruba,,
+Australie,Netflix,58,australia,AUS,Oceania
+Autriche,Netflix,47,austria,AUT,Europe
+Azerbaïdjan,Netflix,20,azerbaidjan,,
+Bahamas,Netflix,64,bahamas,,
+Bahreïn,Netflix,35,bahrein,,
 Bangladesh,Netflix,14,bangladesh,,
-Barbade,Netflix,54,barbade,,
-Belgique,Netflix,58,belgium,BEL,Europe
-Belize,Netflix,52,belize,,
-Bermudes,Netflix,66,bermudes,,
-Bhoutan,Netflix,44,bhoutan,,
+Barbade,Netflix,56,barbade,,
+Belgique,Netflix,60,belgium,BEL,Europe
+Belize,Netflix,54,belize,,
+Bermudes,Netflix,69,bermudes,,
+Bhoutan,Netflix,46,bhoutan,,
 Biélorussie,Netflix,2,belarus,,
-Bolivie,Netflix,45,bolivia,,
-Bosnie-Herzégovine,Netflix,37,bosnie-herzegovine,,
-Botswana,Netflix,89,botswana,,
-Brunei,Netflix,63,brunei,,
-Brésil,Netflix,52,brazil,BRA,South America
-Bulgarie,Netflix,18,bulgaria,,
-Burkina Faso,Netflix,18,burkina faso,,
-Burundi,Netflix,26,burundi,,
-Bénin,Netflix,33,benin,,
-Cambodge,Netflix,23,cambodia,,
-Cameroun,Netflix,23,cameroon,,
-Canada,Netflix,57,canada,CAN,North America
-Cap-Vert,Netflix,64,cap-vert,,
-Chili,Netflix,64,chile,CHL,South America
+Bolivie,Netflix,48,bolivia,,
+Bosnie-Herzégovine,Netflix,38,bosnie-herzegovine,,
+Botswana,Netflix,93,botswana,,
+Brunei,Netflix,67,brunei,,
+Brésil,Netflix,56,brazil,BRA,South America
+Bulgarie,Netflix,19,bulgaria,,
+Burkina Faso,Netflix,20,burkina faso,,
+Burundi,Netflix,28,burundi,,
+Bénin,Netflix,35,benin,,
+Cambodge,Netflix,24,cambodia,,
+Cameroun,Netflix,25,cameroon,,
+Canada,Netflix,59,canada,CAN,North America
+Cap-Vert,Netflix,67,cap-vert,,
+Chili,Netflix,66,chile,CHL,South America
 Chine,Netflix,25,china,CHN,Asia
-Chypre,Netflix,55,chypre,,
-Colombie,Netflix,62,colombia,COL,South America
-Comores,Netflix,35,comores,,
-Congo-Brazzaville,Netflix,38,congo-brazzaville,,
-Congo-Kinshasa,Netflix,15,congo-kinshasa,,
-Corée du Nord,Netflix,64,coree du nord,,
+Chypre,Netflix,58,chypre,,
+Colombie,Netflix,67,colombia,COL,South America
+Comores,Netflix,39,comores,,
+Congo-Brazzaville,Netflix,39,congo-brazzaville,,
+Congo-Kinshasa,Netflix,16,congo-kinshasa,,
+Corée du Nord,Netflix,0,coree du nord,,
 Corée du Sud,Netflix,16,south korea,KOR,Asia
-Costa Rica,Netflix,55,costa rica,,
-Croatie,Netflix,50,croatia,,
-Cuba,Netflix,36,cuba,,
-Curaçao,Netflix,65,curacao,,
-Côte d’Ivoire,Netflix,40,cote divoire,,
-Danemark,Netflix,45,denmark,DNK,Europe
-Djibouti,Netflix,53,djibouti,,
-Dominique,Netflix,62,dominique,,
-Espagne,Netflix,58,spain,ESP,Europe
-Estonie,Netflix,28,estonia,,
-Eswatini,Netflix,37,eswatini,,
-Fidji,Netflix,60,fidji,,
-Finlande,Netflix,37,finland,FIN,Europe
-France,Netflix,60,france,FRA,Europe
-Gabon,Netflix,51,gabon,,
-Gambie,Netflix,23,gambie,,
-Ghana,Netflix,34,ghana,,
-Gibraltar,Netflix,69,gibraltar,,
-Grenade,Netflix,60,grenade,,
-Groenland,Netflix,53,groenland,,
-Grèce,Netflix,47,greece,GRC,Europe
-Guadeloupe,Netflix,66,guadeloupe,,
-Guam,Netflix,55,guam,,
-Guatemala,Netflix,47,guatemala,,
-Guernesey,Netflix,61,guernesey,,
-Guinée,Netflix,20,guinee,,
-Guinée équatoriale,Netflix,41,guinee equatoriale,,
-Guinée-Bissau,Netflix,23,guinee-bissau,,
-Guyana,Netflix,52,guyana,,
-Guyane française,Netflix,70,guyane francaise,,
-Géorgie,Netflix,19,georgie,,
+Costa Rica,Netflix,59,costa rica,,
+Croatie,Netflix,54,croatia,,
+Cuba,Netflix,38,cuba,,
+Curaçao,Netflix,69,curacao,,
+Côte d’Ivoire,Netflix,42,cote divoire,,
+Danemark,Netflix,48,denmark,DNK,Europe
+Djibouti,Netflix,56,djibouti,,
+Dominique,Netflix,65,dominique,,
+Espagne,Netflix,62,spain,ESP,Europe
+Estonie,Netflix,29,estonia,,
+Eswatini,Netflix,39,eswatini,,
+Fidji,Netflix,63,fidji,,
+Finlande,Netflix,39,finland,FIN,Europe
+France,Netflix,59,france,FRA,Europe
+Gabon,Netflix,54,gabon,,
+Gambie,Netflix,24,gambie,,
+Ghana,Netflix,36,ghana,,
+Gibraltar,Netflix,72,gibraltar,,
+Grenade,Netflix,63,grenade,,
+Groenland,Netflix,56,groenland,,
+Grèce,Netflix,51,greece,GRC,Europe
+Guadeloupe,Netflix,70,guadeloupe,,
+Guam,Netflix,58,guam,,
+Guatemala,Netflix,48,guatemala,,
+Guernesey,Netflix,64,guernesey,,
+Guinée,Netflix,21,guinee,,
+Guinée équatoriale,Netflix,42,guinee equatoriale,,
+Guinée-Bissau,Netflix,24,guinee-bissau,,
+Guyana,Netflix,53,guyana,,
+Guyane française,Netflix,74,guyane francaise,,
+Géorgie,Netflix,20,georgie,,
 Géorgie du Sud-et-les Îles Sandwich du Sud,Netflix,0,georgie du sud-et-les iles sandwich du sud,,
-Haïti,Netflix,32,haiti,,
-Honduras,Netflix,49,honduras,,
-Hong Kong,Netflix,38,hong kong,,
-Hongrie,Netflix,60,hungary,,
-Inde,Netflix,30,india,IND,Asia
-Indonésie,Netflix,28,indonesia,IDN,Asia
+Haïti,Netflix,35,haiti,,
+Honduras,Netflix,54,honduras,,
+Hong Kong,Netflix,42,hong kong,,
+Hongrie,Netflix,62,hungary,,
+Inde,Netflix,34,india,IND,Asia
+Indonésie,Netflix,30,indonesia,IDN,Asia
 Irak,Netflix,10,irak,,
 Iran,Netflix,1,iran,IRN,Asia
-Irlande,Netflix,68,ireland,IRL,Europe
-Islande,Netflix,56,iceland,,
-Israël,Netflix,28,israel,ISR,Asia
-Italie,Netflix,48,italy,ITA,Europe
-Jamaïque,Netflix,60,jamaique,,
-Japon,Netflix,11,japan,JPN,Asia
-Jersey,Netflix,59,jersey,,
-Jordanie,Netflix,18,jordanie,,
-Kazakhstan,Netflix,4,kazakhstan,,
-Kenya,Netflix,45,kenya,KEN,Africa
+Irlande,Netflix,67,ireland,IRL,Europe
+Islande,Netflix,58,iceland,,
+Israël,Netflix,30,israel,ISR,Asia
+Italie,Netflix,49,italy,ITA,Europe
+Jamaïque,Netflix,66,jamaique,,
+Japon,Netflix,12,japan,JPN,Asia
+Jersey,Netflix,63,jersey,,
+Jordanie,Netflix,19,jordanie,,
+Kazakhstan,Netflix,5,kazakhstan,,
+Kenya,Netflix,49,kenya,KEN,Africa
 Kirghizstan,Netflix,4,kirghizstan,,
-Kiribati,Netflix,73,kiribati,,
-Kosovo,Netflix,41,kosovo,,
-Koweït,Netflix,30,koweit,,
-La Réunion,Netflix,78,la reunion,,
-Laos,Netflix,27,laos,,
-Lesotho,Netflix,36,lesotho,,
-Lettonie,Netflix,23,lettonie,,
-Liban,Netflix,39,liban,,
-Liberia,Netflix,20,liberia,,
-Libye,Netflix,8,libye,,
-Liechtenstein,Netflix,38,liechtenstein,,
+Kiribati,Netflix,75,kiribati,,
+Kosovo,Netflix,43,kosovo,,
+Koweït,Netflix,31,koweit,,
+La Réunion,Netflix,83,la reunion,,
+Laos,Netflix,28,laos,,
+Lesotho,Netflix,38,lesotho,,
+Lettonie,Netflix,24,lettonie,,
+Liban,Netflix,41,liban,,
+Liberia,Netflix,21,liberia,,
+Libye,Netflix,9,libye,,
+Liechtenstein,Netflix,40,liechtenstein,,
 Lituanie,Netflix,30,lituanie,,
-Luxembourg,Netflix,55,luxembourg,,
-Macao,Netflix,37,macao,,
-Macédoine du Nord,Netflix,42,macedoine du nord,,
-Madagascar,Netflix,57,madagascar,,
+Luxembourg,Netflix,57,luxembourg,,
+Macao,Netflix,40,macao,,
+Macédoine du Nord,Netflix,45,macedoine du nord,,
+Madagascar,Netflix,58,madagascar,,
 Malaisie,Netflix,55,malaysia,,
-Malawi,Netflix,30,malawi,,
-Maldives,Netflix,62,maldives,,
-Mali,Netflix,15,mali,,
-Malte,Netflix,63,malte,,
-Maroc,Netflix,37,morocco,MAR,Africa
-Martinique,Netflix,69,martinique,,
-Maurice,Netflix,69,maurice,,
-Mauritanie,Netflix,21,mauritanie,,
-Mayotte,Netflix,73,mayotte,,
-Mexique,Netflix,61,mexico,MEX,North America
-Micronésie,Netflix,67,micronesie,,
+Malawi,Netflix,32,malawi,,
+Maldives,Netflix,64,maldives,,
+Mali,Netflix,16,mali,,
+Malte,Netflix,70,malte,,
+Maroc,Netflix,39,morocco,MAR,Africa
+Martinique,Netflix,72,martinique,,
+Maurice,Netflix,72,maurice,,
+Mauritanie,Netflix,23,mauritanie,,
+Mayotte,Netflix,77,mayotte,,
+Mexique,Netflix,64,mexico,MEX,North America
+Micronésie,Netflix,71,micronesie,,
 Moldavie,Netflix,15,moldavie,,
 Monaco,Netflix,0,monaco,,
-Mongolie,Netflix,30,mongolie,,
-Montserrat,Netflix,67,montserrat,,
-Monténégro,Netflix,37,montenegro,,
-Mozambique,Netflix,38,mozambique,,
-Myanmar (Birmanie),Netflix,16,myanmar (birmanie),,
-Namibie,Netflix,79,namibie,,
+Mongolie,Netflix,32,mongolie,,
+Montserrat,Netflix,64,montserrat,,
+Monténégro,Netflix,40,montenegro,,
+Mozambique,Netflix,41,mozambique,,
+Myanmar (Birmanie),Netflix,17,myanmar (birmanie),,
+Namibie,Netflix,85,namibie,,
 Nauru,Netflix,0,nauru,,
-Nicaragua,Netflix,46,nicaragua,,
+Nicaragua,Netflix,48,nicaragua,,
 Niger,Netflix,18,niger,,
 Nigeria,Netflix,34,nigeria,NGA,Africa
 Niue,Netflix,0,niue,,
-Norvège,Netflix,45,norway,NOR,Europe
-Nouvelle-Calédonie,Netflix,75,nouvelle-caledonie,,
-Nouvelle-Zélande,Netflix,62,new zealand,NZL,Oceania
+Norvège,Netflix,47,norway,NOR,Europe
+Nouvelle-Calédonie,Netflix,78,nouvelle-caledonie,,
+Nouvelle-Zélande,Netflix,66,new zealand,NZL,Oceania
 Népal,Netflix,33,nepal,,
-Oman,Netflix,23,oman,,
-Ouganda,Netflix,22,ouganda,,
+Oman,Netflix,25,oman,,
+Ouganda,Netflix,24,ouganda,,
 Ouzbékistan,Netflix,7,ouzbekistan,,
 Pakistan,Netflix,47,pakistan,PAK,Asia
-Palaos,Netflix,85,palaos,,
+Palaos,Netflix,89,palaos,,
 Palestine,Netflix,14,palestine,,
-Panama,Netflix,48,panama,,
-Papouasie-Nouvelle-Guinée,Netflix,41,papouasie-nouvelle-guinee,,
+Panama,Netflix,49,panama,,
+Papouasie-Nouvelle-Guinée,Netflix,43,papouasie-nouvelle-guinee,,
 Paraguay,Netflix,49,paraguay,,
-Pays-Bas,Netflix,48,netherlands,NLD,Europe
-Pays-Bas caribéens,Netflix,69,pays-bas caribeens,,
-Philippines,Netflix,54,philippines,PHL,Asia
-Pologne,Netflix,54,poland,POL,Europe
-Polynésie française,Netflix,61,polynesie francaise,,
-Porto Rico,Netflix,61,porto rico,,
-Portugal,Netflix,56,portugal,PRT,Europe
-Pérou,Netflix,65,peru,PER,South America
-Qatar,Netflix,35,qatar,,
-Roumanie,Netflix,62,romania,ROU,Europe
-Royaume-Uni,Netflix,56,united kingdom,GBR,Europe
+Pays-Bas,Netflix,51,netherlands,NLD,Europe
+Pays-Bas caribéens,Netflix,71,pays-bas caribeens,,
+Philippines,Netflix,56,philippines,PHL,Asia
+Pologne,Netflix,56,poland,POL,Europe
+Polynésie française,Netflix,64,polynesie francaise,,
+Porto Rico,Netflix,63,porto rico,,
+Portugal,Netflix,61,portugal,PRT,Europe
+Pérou,Netflix,67,peru,PER,South America
+Qatar,Netflix,36,qatar,,
+Roumanie,Netflix,68,romania,ROU,Europe
+Royaume-Uni,Netflix,59,united kingdom,GBR,Europe
 Russie,Netflix,2,russia,RUS,Europe
-Rwanda,Netflix,34,rwanda,,
-République centrafricaine,Netflix,9,republique centrafricaine,,
-République dominicaine,Netflix,59,republique dominicaine,,
-Sahara occidental,Netflix,28,sahara occidental,,
-Saint-Barthélemy,Netflix,66,saint-barthelemy,,
-Saint-Christophe-et-Niévès,Netflix,60,saint-christophe-et-nieves,,
-Saint-Marin,Netflix,47,saint-marin,,
-Saint-Martin,Netflix,88,saint-martin,,
-Saint-Martin (partie néerlandaise),Netflix,77,saint-martin (partie neerlandaise),,
-Saint-Pierre-et-Miquelon,Netflix,90,saint-pierre-et-miquelon,,
-Saint-Vincent-et-les Grenadines,Netflix,56,saint-vincent-et-les grenadines,,
-Sainte-Hélène,Netflix,18,sainte-helene,,
-Sainte-Lucie,Netflix,66,sainte-lucie,,
-Salvador,Netflix,53,salvador,,
-Samoa,Netflix,50,samoa,,
-Samoa américaines,Netflix,94,samoa americaines,,
-Sao Tomé-et-Principe,Netflix,60,sao tome-et-principe,,
-Serbie,Netflix,40,serbie,,
-Seychelles,Netflix,69,seychelles,,
-Sierra Leone,Netflix,27,sierra leone,,
+Rwanda,Netflix,37,rwanda,,
+République centrafricaine,Netflix,11,republique centrafricaine,,
+République dominicaine,Netflix,63,republique dominicaine,,
+Sahara occidental,Netflix,30,sahara occidental,,
+Saint-Barthélemy,Netflix,70,saint-barthelemy,,
+Saint-Christophe-et-Niévès,Netflix,64,saint-christophe-et-nieves,,
+Saint-Marin,Netflix,49,saint-marin,,
+Saint-Martin,Netflix,90,saint-martin,,
+Saint-Martin (partie néerlandaise),Netflix,78,saint-martin (partie neerlandaise),,
+Saint-Pierre-et-Miquelon,Netflix,98,saint-pierre-et-miquelon,,
+Saint-Vincent-et-les Grenadines,Netflix,59,saint-vincent-et-les grenadines,,
+Sainte-Hélène,Netflix,19,sainte-helene,,
+Sainte-Lucie,Netflix,70,sainte-lucie,,
+Salvador,Netflix,56,salvador,,
+Samoa,Netflix,52,samoa,,
+Samoa américaines,Netflix,99,samoa americaines,,
+Sao Tomé-et-Principe,Netflix,64,sao tome-et-principe,,
+Serbie,Netflix,41,serbie,,
+Seychelles,Netflix,74,seychelles,,
+Sierra Leone,Netflix,29,sierra leone,,
 Singapour,Netflix,52,singapore,,
-Slovaquie,Netflix,42,slovakia,,
-Slovénie,Netflix,38,slovenia,,
-Somalie,Netflix,26,somalie,,
+Slovaquie,Netflix,43,slovakia,,
+Slovénie,Netflix,40,slovenia,,
+Somalie,Netflix,27,somalie,,
 Soudan,Netflix,5,soudan,,
-Soudan du Sud,Netflix,23,soudan du sud,,
-Sri Lanka,Netflix,27,sri lanka,,
-Suisse,Netflix,50,switzerland,CHE,Europe
-Suriname,Netflix,49,suriname,,
-Suède,Netflix,45,sweden,SWE,Europe
-Svalbard et Jan Mayen,Netflix,34,svalbard et jan mayen,,
+Soudan du Sud,Netflix,25,soudan du sud,,
+Sri Lanka,Netflix,30,sri lanka,,
+Suisse,Netflix,54,switzerland,CHE,Europe
+Suriname,Netflix,43,suriname,,
+Suède,Netflix,48,sweden,SWE,Europe
+Svalbard et Jan Mayen,Netflix,38,svalbard et jan mayen,,
 Syrie,Netflix,3,syrie,,
-Sénégal,Netflix,42,senegal,,
+Sénégal,Netflix,44,senegal,,
 Tadjikistan,Netflix,3,tadjikistan,,
-Tanzanie,Netflix,23,tanzanie,,
-Taïwan,Netflix,51,taiwan,,
+Tanzanie,Netflix,25,tanzanie,,
+Taïwan,Netflix,54,taiwan,,
 Tchad,Netflix,10,tchad,,
-Tchéquie,Netflix,46,czechia,,
+Tchéquie,Netflix,48,czechia,,
 Terres australes françaises,Netflix,0,terres australes francaises,,
 Territoire britannique de l’océan Indien,Netflix,0,territoire britannique de locean indien,,
-Thaïlande,Netflix,49,thailand,THA,Asia
-Timor oriental,Netflix,15,timor oriental,,
-Togo,Netflix,38,togo,,
+Thaïlande,Netflix,51,thailand,THA,Asia
+Timor oriental,Netflix,16,timor oriental,,
+Togo,Netflix,40,togo,,
 Tokelau,Netflix,0,tokelau,,
-Tonga,Netflix,54,tonga,,
-Trinité-et-Tobago,Netflix,61,trinite-et-tobago,,
-Tunisie,Netflix,29,tunisia,,
+Tonga,Netflix,55,tonga,,
+Trinité-et-Tobago,Netflix,63,trinite-et-tobago,,
+Tunisie,Netflix,30,tunisia,,
 Turkménistan,Netflix,4,turkmenistan,,
-Turquie,Netflix,40,turkey,TUR,Asia
+Turquie,Netflix,43,turkey,TUR,Asia
 Tuvalu,Netflix,100,tuvalu,,
 Ukraine,Netflix,6,ukraine,UKR,Europe
-Uruguay,Netflix,72,uruguay,,
-Vanuatu,Netflix,47,vanuatu,,
-Venezuela,Netflix,40,venezuela,,
-Viêt Nam,Netflix,13,viet nam,,
+Uruguay,Netflix,76,uruguay,,
+Vanuatu,Netflix,49,vanuatu,,
+Venezuela,Netflix,42,venezuela,,
+Viêt Nam,Netflix,14,viet nam,,
 Wallis-et-Futuna,Netflix,0,wallis-et-futuna,,
-Yémen,Netflix,5,yemen,,
-Zambie,Netflix,38,zambie,,
-Zimbabwe,Netflix,53,zimbabwe,,
-Égypte,Netflix,12,egypt,EGY,Africa
-Émirats arabes unis,Netflix,38,united arab emirates,,
-Équateur,Netflix,51,equateur,,
-Érythrée,Netflix,16,erythree,,
+Yémen,Netflix,6,yemen,,
+Zambie,Netflix,40,zambie,,
+Zimbabwe,Netflix,51,zimbabwe,,
+Égypte,Netflix,13,egypt,EGY,Africa
+Émirats arabes unis,Netflix,43,united arab emirates,,
+Équateur,Netflix,55,equateur,,
+Érythrée,Netflix,0,erythree,,
 État de la Cité du Vatican,Netflix,0,etat de la cite du vatican,,
-États-Unis,Netflix,48,united states,USA,North America
-Éthiopie,Netflix,16,ethiopie,,
+États-Unis,Netflix,55,united states,USA,North America
+Éthiopie,Netflix,17,ethiopie,,
 Île Bouvet,Netflix,0,ile bouvet,,
 Île Christmas,Netflix,0,ile christmas,,
 Île Norfolk,Netflix,0,ile norfolk,,
-Île de Man,Netflix,52,ile de man,,
-Îles Caïmans,Netflix,64,iles caimans,,
+Île de Man,Netflix,55,ile de man,,
+Îles Caïmans,Netflix,67,iles caimans,,
 Îles Cocos,Netflix,0,iles cocos,,
-Îles Cook,Netflix,73,iles cook,,
-Îles Féroé,Netflix,54,iles feroe,,
+Îles Cook,Netflix,74,iles cook,,
+Îles Féroé,Netflix,56,iles feroe,,
 Îles Heard-et-MacDonald,Netflix,0,iles heard-et-macdonald,,
-Îles Malouines (Îles Falkland),Netflix,71,iles malouines (iles falkland),,
-Îles Mariannes du Nord,Netflix,61,iles mariannes du nord,,
-Îles Marshall,Netflix,62,iles marshall,,
+Îles Malouines (Îles Falkland),Netflix,70,iles malouines (iles falkland),,
+Îles Mariannes du Nord,Netflix,64,iles mariannes du nord,,
+Îles Marshall,Netflix,64,iles marshall,,
 Îles Pitcairn,Netflix,0,iles pitcairn,,
-Îles Salomon,Netflix,42,iles salomon,,
-Îles Turques-et-Caïques,Netflix,69,iles turques-et-caiques,,
-Îles Vierges britanniques,Netflix,51,iles vierges britanniques,,
-Îles Vierges des États-Unis,Netflix,58,iles vierges des etats-unis,,
+Îles Salomon,Netflix,43,iles salomon,,
+Îles Turques-et-Caïques,Netflix,73,iles turques-et-caiques,,
+Îles Vierges britanniques,Netflix,55,iles vierges britanniques,,
+Îles Vierges des États-Unis,Netflix,61,iles vierges des etats-unis,,
 Îles mineures éloignées des États-Unis,Netflix,0,iles mineures eloignees des etats-unis,,
-Îles Åland,Netflix,46,iles aland,,
-Afghanistan,Tesla,4,afghanistan,AFG,Asia
+Îles Åland,Netflix,47,iles aland,,
+Afghanistan,Tesla,5,afghanistan,AFG,Asia
 Afrique du Sud,Tesla,10,south africa,ZAF,Africa
-Albanie,Tesla,17,albania,ALB,Europe
+Albanie,Tesla,16,albania,ALB,Europe
 Algérie,Tesla,4,algeria,DZA,Africa
-Allemagne,Tesla,38,germany,DEU,Europe
+Allemagne,Tesla,35,germany,DEU,Europe
 Andorre,Tesla,36,andorre,,
 Angola,Tesla,7,angola,,
-Anguilla,Tesla,68,anguilla,,
+Anguilla,Tesla,0,anguilla,,
 Antarctique,Tesla,0,antarctique,,
-Antigua-et-Barbuda,Tesla,15,antigua-et-barbuda,,
+Antigua-et-Barbuda,Tesla,14,antigua-et-barbuda,,
 Arabie saoudite,Tesla,6,saudi arabia,SAU,Asia
 Argentine,Tesla,8,argentina,ARG,South America
 Arménie,Tesla,34,armenia,,
 Aruba,Tesla,22,aruba,,
-Australie,Tesla,38,australia,AUS,Oceania
-Autriche,Tesla,45,austria,AUT,Europe
+Australie,Tesla,37,australia,AUS,Oceania
+Autriche,Tesla,44,austria,AUT,Europe
 Azerbaïdjan,Tesla,15,azerbaidjan,,
 Bahamas,Tesla,22,bahamas,,
 Bahreïn,Tesla,11,bahrein,,
 Bangladesh,Tesla,4,bangladesh,,
 Barbade,Tesla,17,barbade,,
-Belgique,Tesla,42,belgium,BEL,Europe
-Belize,Tesla,14,belize,,
-Bermudes,Tesla,33,bermudes,,
-Bhoutan,Tesla,10,bhoutan,,
+Belgique,Tesla,43,belgium,BEL,Europe
+Belize,Tesla,13,belize,,
+Bermudes,Tesla,34,bermudes,,
+Bhoutan,Tesla,9,bhoutan,,
 Biélorussie,Tesla,7,belarus,,
 Bolivie,Tesla,6,bolivia,,
 Bosnie-Herzégovine,Tesla,25,bosnie-herzegovine,,
@@ -787,35 +787,35 @@ Bénin,Tesla,9,benin,,
 Cambodge,Tesla,9,cambodia,,
 Cameroun,Tesla,7,cameroon,,
 Canada,Tesla,60,canada,CAN,North America
-Cap-Vert,Tesla,13,cap-vert,,
+Cap-Vert,Tesla,12,cap-vert,,
 Chili,Tesla,12,chile,CHL,South America
 Chine,Tesla,27,china,CHN,Asia
-Chypre,Tesla,19,chypre,,
+Chypre,Tesla,18,chypre,,
 Colombie,Tesla,11,colombia,COL,South America
-Comores,Tesla,8,comores,,
+Comores,Tesla,6,comores,,
 Congo-Brazzaville,Tesla,7,congo-brazzaville,,
 Congo-Kinshasa,Tesla,7,congo-kinshasa,,
 Corée du Nord,Tesla,0,coree du nord,,
 Corée du Sud,Tesla,13,south korea,KOR,Asia
-Costa Rica,Tesla,12,costa rica,,
-Croatie,Tesla,33,croatia,,
+Costa Rica,Tesla,11,costa rica,,
+Croatie,Tesla,34,croatia,,
 Cuba,Tesla,8,cuba,,
-Curaçao,Tesla,24,curacao,,
+Curaçao,Tesla,23,curacao,,
 Côte d’Ivoire,Tesla,8,cote divoire,,
-Danemark,Tesla,85,denmark,DNK,Europe
-Djibouti,Tesla,14,djibouti,,
-Dominique,Tesla,11,dominique,,
+Danemark,Tesla,89,denmark,DNK,Europe
+Djibouti,Tesla,15,djibouti,,
+Dominique,Tesla,10,dominique,,
 Espagne,Tesla,25,spain,ESP,Europe
-Estonie,Tesla,35,estonia,,
-Eswatini,Tesla,7,eswatini,,
+Estonie,Tesla,34,estonia,,
+Eswatini,Tesla,8,eswatini,,
 Fidji,Tesla,9,fidji,,
-Finlande,Tesla,46,finland,FIN,Europe
+Finlande,Tesla,47,finland,FIN,Europe
 France,Tesla,28,france,FRA,Europe
 Gabon,Tesla,7,gabon,,
-Gambie,Tesla,7,gambie,,
+Gambie,Tesla,6,gambie,,
 Ghana,Tesla,8,ghana,,
-Gibraltar,Tesla,26,gibraltar,,
-Grenade,Tesla,19,grenade,,
+Gibraltar,Tesla,25,gibraltar,,
+Grenade,Tesla,18,grenade,,
 Groenland,Tesla,21,groenland,,
 Grèce,Tesla,17,greece,GRC,Europe
 Guadeloupe,Tesla,11,guadeloupe,,
@@ -824,29 +824,29 @@ Guatemala,Tesla,6,guatemala,,
 Guernesey,Tesla,27,guernesey,,
 Guinée,Tesla,9,guinee,,
 Guinée équatoriale,Tesla,10,guinee equatoriale,,
-Guinée-Bissau,Tesla,4,guinee-bissau,,
-Guyana,Tesla,11,guyana,,
+Guinée-Bissau,Tesla,3,guinee-bissau,,
+Guyana,Tesla,10,guyana,,
 Guyane française,Tesla,8,guyane francaise,,
 Géorgie,Tesla,26,georgie,,
 Géorgie du Sud-et-les Îles Sandwich du Sud,Tesla,0,georgie du sud-et-les iles sandwich du sud,,
 Haïti,Tesla,5,haiti,,
 Honduras,Tesla,7,honduras,,
-Hong Kong,Tesla,44,hong kong,,
+Hong Kong,Tesla,45,hong kong,,
 Hongrie,Tesla,32,hungary,,
 Inde,Tesla,8,india,IND,Asia
 Indonésie,Tesla,4,indonesia,IDN,Asia
 Irak,Tesla,7,irak,,
 Iran,Tesla,1,iran,IRN,Asia
-Irlande,Tesla,31,ireland,IRL,Europe
-Islande,Tesla,76,iceland,,
-Israël,Tesla,25,israel,ISR,Asia
+Irlande,Tesla,30,ireland,IRL,Europe
+Islande,Tesla,78,iceland,,
+Israël,Tesla,23,israel,ISR,Asia
 Italie,Tesla,26,italy,ITA,Europe
 Jamaïque,Tesla,12,jamaique,,
 Japon,Tesla,2,japan,JPN,Asia
 Jersey,Tesla,32,jersey,,
 Jordanie,Tesla,12,jordanie,,
-Kazakhstan,Tesla,4,kazakhstan,,
-Kenya,Tesla,10,kenya,KEN,Africa
+Kazakhstan,Tesla,5,kazakhstan,,
+Kenya,Tesla,9,kenya,KEN,Africa
 Kirghizstan,Tesla,4,kirghizstan,,
 Kiribati,Tesla,0,kiribati,,
 Kosovo,Tesla,25,kosovo,,
@@ -855,34 +855,34 @@ La Réunion,Tesla,10,la reunion,,
 Laos,Tesla,7,laos,,
 Lesotho,Tesla,6,lesotho,,
 Lettonie,Tesla,25,lettonie,,
-Liban,Tesla,12,liban,,
+Liban,Tesla,11,liban,,
 Liberia,Tesla,7,liberia,,
 Libye,Tesla,3,libye,,
-Liechtenstein,Tesla,69,liechtenstein,,
-Lituanie,Tesla,37,lituanie,,
-Luxembourg,Tesla,53,luxembourg,,
+Liechtenstein,Tesla,70,liechtenstein,,
+Lituanie,Tesla,38,lituanie,,
+Luxembourg,Tesla,54,luxembourg,,
 Macao,Tesla,33,macao,,
 Macédoine du Nord,Tesla,22,macedoine du nord,,
 Madagascar,Tesla,9,madagascar,,
-Malaisie,Tesla,20,malaysia,,
+Malaisie,Tesla,21,malaysia,,
 Malawi,Tesla,5,malawi,,
 Maldives,Tesla,12,maldives,,
-Mali,Tesla,5,mali,,
+Mali,Tesla,4,mali,,
 Malte,Tesla,20,malte,,
 Maroc,Tesla,9,morocco,MAR,Africa
-Martinique,Tesla,11,martinique,,
-Maurice,Tesla,11,maurice,,
+Martinique,Tesla,12,martinique,,
+Maurice,Tesla,10,maurice,,
 Mauritanie,Tesla,5,mauritanie,,
-Mayotte,Tesla,10,mayotte,,
+Mayotte,Tesla,12,mayotte,,
 Mexique,Tesla,13,mexico,MEX,North America
-Micronésie,Tesla,15,micronesie,,
+Micronésie,Tesla,12,micronesie,,
 Moldavie,Tesla,16,moldavie,,
 Monaco,Tesla,0,monaco,,
 Mongolie,Tesla,12,mongolie,,
 Montserrat,Tesla,0,montserrat,,
-Monténégro,Tesla,31,montenegro,,
+Monténégro,Tesla,32,montenegro,,
 Mozambique,Tesla,5,mozambique,,
-Myanmar (Birmanie),Tesla,6,myanmar (birmanie),,
+Myanmar (Birmanie),Tesla,5,myanmar (birmanie),,
 Namibie,Tesla,8,namibie,,
 Nauru,Tesla,0,nauru,,
 Nicaragua,Tesla,6,nicaragua,,
@@ -890,51 +890,51 @@ Niger,Tesla,6,niger,,
 Nigeria,Tesla,10,nigeria,NGA,Africa
 Niue,Tesla,0,niue,,
 Norvège,Tesla,100,norway,NOR,Europe
-Nouvelle-Calédonie,Tesla,9,nouvelle-caledonie,,
-Nouvelle-Zélande,Tesla,32,new zealand,NZL,Oceania
-Népal,Tesla,12,nepal,,
-Oman,Tesla,9,oman,,
+Nouvelle-Calédonie,Tesla,8,nouvelle-caledonie,,
+Nouvelle-Zélande,Tesla,31,new zealand,NZL,Oceania
+Népal,Tesla,11,nepal,,
+Oman,Tesla,10,oman,,
 Ouganda,Tesla,6,ouganda,,
 Ouzbékistan,Tesla,9,ouzbekistan,,
 Pakistan,Tesla,9,pakistan,PAK,Asia
-Palaos,Tesla,12,palaos,,
+Palaos,Tesla,11,palaos,,
 Palestine,Tesla,7,palestine,,
-Panama,Tesla,9,panama,,
+Panama,Tesla,10,panama,,
 Papouasie-Nouvelle-Guinée,Tesla,6,papouasie-nouvelle-guinee,,
 Paraguay,Tesla,6,paraguay,,
-Pays-Bas,Tesla,44,netherlands,NLD,Europe
-Pays-Bas caribéens,Tesla,25,pays-bas caribeens,,
-Philippines,Tesla,9,philippines,PHL,Asia
+Pays-Bas,Tesla,45,netherlands,NLD,Europe
+Pays-Bas caribéens,Tesla,26,pays-bas caribeens,,
+Philippines,Tesla,8,philippines,PHL,Asia
 Pologne,Tesla,18,poland,POL,Europe
 Polynésie française,Tesla,18,polynesie francaise,,
 Porto Rico,Tesla,28,porto rico,,
 Portugal,Tesla,47,portugal,PRT,Europe
-Pérou,Tesla,7,peru,PER,South America
-Qatar,Tesla,18,qatar,,
-Roumanie,Tesla,27,romania,ROU,Europe
-Royaume-Uni,Tesla,34,united kingdom,GBR,Europe
+Pérou,Tesla,6,peru,PER,South America
+Qatar,Tesla,19,qatar,,
+Roumanie,Tesla,26,romania,ROU,Europe
+Royaume-Uni,Tesla,33,united kingdom,GBR,Europe
 Russie,Tesla,3,russia,RUS,Europe
 Rwanda,Tesla,6,rwanda,,
 République centrafricaine,Tesla,6,republique centrafricaine,,
 République dominicaine,Tesla,9,republique dominicaine,,
 Sahara occidental,Tesla,5,sahara occidental,,
 Saint-Barthélemy,Tesla,11,saint-barthelemy,,
-Saint-Christophe-et-Niévès,Tesla,14,saint-christophe-et-nieves,,
-Saint-Marin,Tesla,35,saint-marin,,
-Saint-Martin,Tesla,17,saint-martin,,
-Saint-Martin (partie néerlandaise),Tesla,16,saint-martin (partie neerlandaise),,
+Saint-Christophe-et-Niévès,Tesla,13,saint-christophe-et-nieves,,
+Saint-Marin,Tesla,37,saint-marin,,
+Saint-Martin,Tesla,19,saint-martin,,
+Saint-Martin (partie néerlandaise),Tesla,18,saint-martin (partie neerlandaise),,
 Saint-Pierre-et-Miquelon,Tesla,0,saint-pierre-et-miquelon,,
-Saint-Vincent-et-les Grenadines,Tesla,9,saint-vincent-et-les grenadines,,
+Saint-Vincent-et-les Grenadines,Tesla,10,saint-vincent-et-les grenadines,,
 Sainte-Hélène,Tesla,21,sainte-helene,,
 Sainte-Lucie,Tesla,15,sainte-lucie,,
 Salvador,Tesla,7,salvador,,
-Samoa,Tesla,7,samoa,,
-Samoa américaines,Tesla,7,samoa americaines,,
-Sao Tomé-et-Principe,Tesla,10,sao tome-et-principe,,
+Samoa,Tesla,6,samoa,,
+Samoa américaines,Tesla,0,samoa americaines,,
+Sao Tomé-et-Principe,Tesla,13,sao tome-et-principe,,
 Serbie,Tesla,68,serbie,,
-Seychelles,Tesla,16,seychelles,,
+Seychelles,Tesla,15,seychelles,,
 Sierra Leone,Tesla,8,sierra leone,,
-Singapour,Tesla,45,singapore,,
+Singapour,Tesla,43,singapore,,
 Slovaquie,Tesla,32,slovakia,,
 Slovénie,Tesla,41,slovenia,,
 Somalie,Tesla,9,somalie,,
@@ -943,7 +943,7 @@ Soudan du Sud,Tesla,6,soudan du sud,,
 Sri Lanka,Tesla,9,sri lanka,,
 Suisse,Tesla,52,switzerland,CHE,Europe
 Suriname,Tesla,10,suriname,,
-Suède,Tesla,56,sweden,SWE,Europe
+Suède,Tesla,55,sweden,SWE,Europe
 Svalbard et Jan Mayen,Tesla,0,svalbard et jan mayen,,
 Syrie,Tesla,2,syrie,,
 Sénégal,Tesla,6,senegal,,
@@ -955,18 +955,18 @@ Tchéquie,Tesla,35,czechia,,
 Terres australes françaises,Tesla,0,terres australes francaises,,
 Territoire britannique de l’océan Indien,Tesla,0,territoire britannique de locean indien,,
 Thaïlande,Tesla,11,thailand,THA,Asia
-Timor oriental,Tesla,3,timor oriental,,
+Timor oriental,Tesla,4,timor oriental,,
 Togo,Tesla,12,togo,,
 Tokelau,Tesla,0,tokelau,,
-Tonga,Tesla,0,tonga,,
-Trinité-et-Tobago,Tesla,13,trinite-et-tobago,,
+Tonga,Tesla,8,tonga,,
+Trinité-et-Tobago,Tesla,14,trinite-et-tobago,,
 Tunisie,Tesla,10,tunisia,,
 Turkménistan,Tesla,7,turkmenistan,,
-Turquie,Tesla,31,turkey,TUR,Asia
+Turquie,Tesla,32,turkey,TUR,Asia
 Tuvalu,Tesla,0,tuvalu,,
-Ukraine,Tesla,12,ukraine,UKR,Europe
+Ukraine,Tesla,13,ukraine,UKR,Europe
 Uruguay,Tesla,10,uruguay,,
-Vanuatu,Tesla,7,vanuatu,,
+Vanuatu,Tesla,9,vanuatu,,
 Venezuela,Tesla,6,venezuela,,
 Viêt Nam,Tesla,6,viet nam,,
 Wallis-et-Futuna,Tesla,0,wallis-et-futuna,,
@@ -976,9 +976,9 @@ Zimbabwe,Tesla,11,zimbabwe,,
 Égypte,Tesla,4,egypt,EGY,Africa
 Émirats arabes unis,Tesla,31,united arab emirates,,
 Équateur,Tesla,7,equateur,,
-Érythrée,Tesla,29,erythree,,
+Érythrée,Tesla,33,erythree,,
 État de la Cité du Vatican,Tesla,0,etat de la cite du vatican,,
-États-Unis,Tesla,61,united states,USA,North America
+États-Unis,Tesla,60,united states,USA,North America
 Éthiopie,Tesla,11,ethiopie,,
 Île Bouvet,Tesla,0,ile bouvet,,
 Île Christmas,Tesla,0,ile christmas,,
@@ -987,7 +987,7 @@ Zimbabwe,Tesla,11,zimbabwe,,
 Îles Caïmans,Tesla,32,iles caimans,,
 Îles Cocos,Tesla,0,iles cocos,,
 Îles Cook,Tesla,0,iles cook,,
-Îles Féroé,Tesla,41,iles feroe,,
+Îles Féroé,Tesla,42,iles feroe,,
 Îles Heard-et-MacDonald,Tesla,0,iles heard-et-macdonald,,
 Îles Malouines (Îles Falkland),Tesla,0,iles malouines (iles falkland),,
 Îles Mariannes du Nord,Tesla,11,iles mariannes du nord,,
@@ -995,32 +995,32 @@ Zimbabwe,Tesla,11,zimbabwe,,
 Îles Pitcairn,Tesla,0,iles pitcairn,,
 Îles Salomon,Tesla,6,iles salomon,,
 Îles Turques-et-Caïques,Tesla,27,iles turques-et-caiques,,
-Îles Vierges britanniques,Tesla,22,iles vierges britanniques,,
-Îles Vierges des États-Unis,Tesla,28,iles vierges des etats-unis,,
+Îles Vierges britanniques,Tesla,21,iles vierges britanniques,,
+Îles Vierges des États-Unis,Tesla,29,iles vierges des etats-unis,,
 Îles mineures éloignées des États-Unis,Tesla,0,iles mineures eloignees des etats-unis,,
-Îles Åland,Tesla,45,iles aland,,
+Îles Åland,Tesla,44,iles aland,,
 Afghanistan,ChatGPT,24,afghanistan,AFG,Asia
 Afrique du Sud,ChatGPT,27,south africa,ZAF,Africa
-Albanie,ChatGPT,38,albania,ALB,Europe
-Algérie,ChatGPT,22,algeria,DZA,Africa
-Allemagne,ChatGPT,12,germany,DEU,Europe
-Andorre,ChatGPT,19,andorre,,
+Albanie,ChatGPT,39,albania,ALB,Europe
+Algérie,ChatGPT,23,algeria,DZA,Africa
+Allemagne,ChatGPT,13,germany,DEU,Europe
+Andorre,ChatGPT,20,andorre,,
 Angola,ChatGPT,27,angola,,
-Anguilla,ChatGPT,26,anguilla,,
+Anguilla,ChatGPT,24,anguilla,,
 Antarctique,ChatGPT,0,antarctique,,
-Antigua-et-Barbuda,ChatGPT,24,antigua-et-barbuda,,
-Arabie saoudite,ChatGPT,11,saudi arabia,SAU,Asia
+Antigua-et-Barbuda,ChatGPT,22,antigua-et-barbuda,,
+Arabie saoudite,ChatGPT,10,saudi arabia,SAU,Asia
 Argentine,ChatGPT,15,argentina,ARG,South America
 Arménie,ChatGPT,22,armenia,,
-Aruba,ChatGPT,22,aruba,,
+Aruba,ChatGPT,21,aruba,,
 Australie,ChatGPT,16,australia,AUS,Oceania
-Autriche,ChatGPT,17,austria,AUT,Europe
-Azerbaïdjan,ChatGPT,26,azerbaidjan,,
+Autriche,ChatGPT,16,austria,AUT,Europe
+Azerbaïdjan,ChatGPT,27,azerbaidjan,,
 Bahamas,ChatGPT,19,bahamas,,
 Bahreïn,ChatGPT,27,bahrein,,
-Bangladesh,ChatGPT,33,bangladesh,,
+Bangladesh,ChatGPT,35,bangladesh,,
 Barbade,ChatGPT,20,barbade,,
-Belgique,ChatGPT,20,belgium,BEL,Europe
+Belgique,ChatGPT,21,belgium,BEL,Europe
 Belize,ChatGPT,44,belize,,
 Bermudes,ChatGPT,15,bermudes,,
 Bhoutan,ChatGPT,100,bhoutan,,
@@ -1028,157 +1028,157 @@ Biélorussie,ChatGPT,1,belarus,,
 Bolivie,ChatGPT,38,bolivia,,
 Bosnie-Herzégovine,ChatGPT,20,bosnie-herzegovine,,
 Botswana,ChatGPT,58,botswana,,
-Brunei,ChatGPT,36,brunei,,
+Brunei,ChatGPT,35,brunei,,
 Brésil,ChatGPT,23,brazil,BRA,South America
 Bulgarie,ChatGPT,11,bulgaria,,
 Burkina Faso,ChatGPT,17,burkina faso,,
-Burundi,ChatGPT,32,burundi,,
-Bénin,ChatGPT,27,benin,,
-Cambodge,ChatGPT,34,cambodia,,
-Cameroun,ChatGPT,10,cameroon,,
-Canada,ChatGPT,19,canada,CAN,North America
-Cap-Vert,ChatGPT,70,cap-vert,,
-Chili,ChatGPT,21,chile,CHL,South America
-Chine,ChatGPT,37,china,CHN,Asia
+Burundi,ChatGPT,30,burundi,,
+Bénin,ChatGPT,26,benin,,
+Cambodge,ChatGPT,35,cambodia,,
+Cameroun,ChatGPT,11,cameroon,,
+Canada,ChatGPT,18,canada,CAN,North America
+Cap-Vert,ChatGPT,66,cap-vert,,
+Chili,ChatGPT,22,chile,CHL,South America
+Chine,ChatGPT,35,china,CHN,Asia
 Chypre,ChatGPT,23,chypre,,
-Colombie,ChatGPT,31,colombia,COL,South America
-Comores,ChatGPT,25,comores,,
-Congo-Brazzaville,ChatGPT,19,congo-brazzaville,,
+Colombie,ChatGPT,34,colombia,COL,South America
+Comores,ChatGPT,26,comores,,
+Congo-Brazzaville,ChatGPT,20,congo-brazzaville,,
 Congo-Kinshasa,ChatGPT,8,congo-kinshasa,,
 Corée du Nord,ChatGPT,0,coree du nord,,
 Corée du Sud,ChatGPT,7,south korea,KOR,Asia
 Costa Rica,ChatGPT,36,costa rica,,
 Croatie,ChatGPT,14,croatia,,
 Cuba,ChatGPT,4,cuba,,
-Curaçao,ChatGPT,26,curacao,,
-Côte d’Ivoire,ChatGPT,18,cote divoire,,
-Danemark,ChatGPT,13,denmark,DNK,Europe
+Curaçao,ChatGPT,27,curacao,,
+Côte d’Ivoire,ChatGPT,19,cote divoire,,
+Danemark,ChatGPT,14,denmark,DNK,Europe
 Djibouti,ChatGPT,44,djibouti,,
-Dominique,ChatGPT,33,dominique,,
-Espagne,ChatGPT,22,spain,ESP,Europe
-Estonie,ChatGPT,17,estonia,,
-Eswatini,ChatGPT,27,eswatini,,
-Fidji,ChatGPT,66,fidji,,
+Dominique,ChatGPT,30,dominique,,
+Espagne,ChatGPT,21,spain,ESP,Europe
+Estonie,ChatGPT,18,estonia,,
+Eswatini,ChatGPT,26,eswatini,,
+Fidji,ChatGPT,67,fidji,,
 Finlande,ChatGPT,9,finland,FIN,Europe
 France,ChatGPT,12,france,FRA,Europe
 Gabon,ChatGPT,20,gabon,,
-Gambie,ChatGPT,18,gambie,,
+Gambie,ChatGPT,17,gambie,,
 Ghana,ChatGPT,22,ghana,,
-Gibraltar,ChatGPT,25,gibraltar,,
-Grenade,ChatGPT,32,grenade,,
+Gibraltar,ChatGPT,26,gibraltar,,
+Grenade,ChatGPT,33,grenade,,
 Groenland,ChatGPT,11,groenland,,
-Grèce,ChatGPT,15,greece,GRC,Europe
+Grèce,ChatGPT,16,greece,GRC,Europe
 Guadeloupe,ChatGPT,14,guadeloupe,,
 Guam,ChatGPT,16,guam,,
-Guatemala,ChatGPT,30,guatemala,,
+Guatemala,ChatGPT,29,guatemala,,
 Guernesey,ChatGPT,9,guernesey,,
 Guinée,ChatGPT,16,guinee,,
 Guinée équatoriale,ChatGPT,12,guinee equatoriale,,
 Guinée-Bissau,ChatGPT,14,guinee-bissau,,
-Guyana,ChatGPT,25,guyana,,
+Guyana,ChatGPT,24,guyana,,
 Guyane française,ChatGPT,17,guyane francaise,,
 Géorgie,ChatGPT,20,georgie,,
 Géorgie du Sud-et-les Îles Sandwich du Sud,ChatGPT,0,georgie du sud-et-les iles sandwich du sud,,
 Haïti,ChatGPT,17,haiti,,
-Honduras,ChatGPT,31,honduras,,
+Honduras,ChatGPT,30,honduras,,
 Hong Kong,ChatGPT,6,hong kong,,
-Hongrie,ChatGPT,17,hungary,,
-Inde,ChatGPT,29,india,IND,Asia
+Hongrie,ChatGPT,18,hungary,,
+Inde,ChatGPT,30,india,IND,Asia
 Indonésie,ChatGPT,23,indonesia,IDN,Asia
-Irak,ChatGPT,8,irak,,
+Irak,ChatGPT,9,irak,,
 Iran,ChatGPT,7,iran,IRN,Asia
-Irlande,ChatGPT,14,ireland,IRL,Europe
+Irlande,ChatGPT,15,ireland,IRL,Europe
 Islande,ChatGPT,12,iceland,,
 Israël,ChatGPT,10,israel,ISR,Asia
-Italie,ChatGPT,14,italy,ITA,Europe
-Jamaïque,ChatGPT,26,jamaique,,
+Italie,ChatGPT,15,italy,ITA,Europe
+Jamaïque,ChatGPT,27,jamaique,,
 Japon,ChatGPT,4,japan,JPN,Asia
-Jersey,ChatGPT,9,jersey,,
-Jordanie,ChatGPT,17,jordanie,,
+Jersey,ChatGPT,10,jersey,,
+Jordanie,ChatGPT,18,jordanie,,
 Kazakhstan,ChatGPT,8,kazakhstan,,
 Kenya,ChatGPT,46,kenya,KEN,Africa
 Kirghizstan,ChatGPT,8,kirghizstan,,
 Kiribati,ChatGPT,62,kiribati,,
-Kosovo,ChatGPT,45,kosovo,,
+Kosovo,ChatGPT,46,kosovo,,
 Koweït,ChatGPT,16,koweit,,
 La Réunion,ChatGPT,15,la reunion,,
 Laos,ChatGPT,14,laos,,
-Lesotho,ChatGPT,40,lesotho,,
+Lesotho,ChatGPT,36,lesotho,,
 Lettonie,ChatGPT,14,lettonie,,
 Liban,ChatGPT,34,liban,,
 Liberia,ChatGPT,23,liberia,,
 Libye,ChatGPT,7,libye,,
-Liechtenstein,ChatGPT,24,liechtenstein,,
+Liechtenstein,ChatGPT,22,liechtenstein,,
 Lituanie,ChatGPT,18,lituanie,,
 Luxembourg,ChatGPT,22,luxembourg,,
 Macao,ChatGPT,4,macao,,
-Macédoine du Nord,ChatGPT,30,macedoine du nord,,
-Madagascar,ChatGPT,65,madagascar,,
+Macédoine du Nord,ChatGPT,29,macedoine du nord,,
+Madagascar,ChatGPT,66,madagascar,,
 Malaisie,ChatGPT,46,malaysia,,
-Malawi,ChatGPT,24,malawi,,
-Maldives,ChatGPT,40,maldives,,
+Malawi,ChatGPT,23,malawi,,
+Maldives,ChatGPT,39,maldives,,
 Mali,ChatGPT,9,mali,,
 Malte,ChatGPT,30,malte,,
 Maroc,ChatGPT,34,morocco,MAR,Africa
 Martinique,ChatGPT,13,martinique,,
-Maurice,ChatGPT,40,maurice,,
-Mauritanie,ChatGPT,13,mauritanie,,
+Maurice,ChatGPT,39,maurice,,
+Mauritanie,ChatGPT,14,mauritanie,,
 Mayotte,ChatGPT,19,mayotte,,
-Mexique,ChatGPT,20,mexico,MEX,North America
+Mexique,ChatGPT,21,mexico,MEX,North America
 Micronésie,ChatGPT,32,micronesie,,
 Moldavie,ChatGPT,15,moldavie,,
 Monaco,ChatGPT,0,monaco,,
-Mongolie,ChatGPT,47,mongolie,,
-Montserrat,ChatGPT,14,montserrat,,
+Mongolie,ChatGPT,48,mongolie,,
+Montserrat,ChatGPT,17,montserrat,,
 Monténégro,ChatGPT,18,montenegro,,
 Mozambique,ChatGPT,29,mozambique,,
 Myanmar (Birmanie),ChatGPT,42,myanmar (birmanie),,
-Namibie,ChatGPT,54,namibie,,
+Namibie,ChatGPT,55,namibie,,
 Nauru,ChatGPT,0,nauru,,
 Nicaragua,ChatGPT,27,nicaragua,,
 Niger,ChatGPT,10,niger,,
-Nigeria,ChatGPT,17,nigeria,NGA,Africa
+Nigeria,ChatGPT,16,nigeria,NGA,Africa
 Niue,ChatGPT,0,niue,,
 Norvège,ChatGPT,11,norway,NOR,Europe
 Nouvelle-Calédonie,ChatGPT,16,nouvelle-caledonie,,
 Nouvelle-Zélande,ChatGPT,16,new zealand,NZL,Oceania
-Népal,ChatGPT,43,nepal,,
+Népal,ChatGPT,44,nepal,,
 Oman,ChatGPT,25,oman,,
 Ouganda,ChatGPT,19,ouganda,,
-Ouzbékistan,ChatGPT,40,ouzbekistan,,
-Pakistan,ChatGPT,46,pakistan,PAK,Asia
+Ouzbékistan,ChatGPT,42,ouzbekistan,,
+Pakistan,ChatGPT,47,pakistan,PAK,Asia
 Palaos,ChatGPT,29,palaos,,
-Palestine,ChatGPT,18,palestine,,
-Panama,ChatGPT,40,panama,,
+Palestine,ChatGPT,19,palestine,,
+Panama,ChatGPT,41,panama,,
 Papouasie-Nouvelle-Guinée,ChatGPT,34,papouasie-nouvelle-guinee,,
-Paraguay,ChatGPT,23,paraguay,,
+Paraguay,ChatGPT,22,paraguay,,
 Pays-Bas,ChatGPT,15,netherlands,NLD,Europe
-Pays-Bas caribéens,ChatGPT,25,pays-bas caribeens,,
-Philippines,ChatGPT,48,philippines,PHL,Asia
+Pays-Bas caribéens,ChatGPT,26,pays-bas caribeens,,
+Philippines,ChatGPT,47,philippines,PHL,Asia
 Pologne,ChatGPT,7,poland,POL,Europe
 Polynésie française,ChatGPT,20,polynesie francaise,,
 Porto Rico,ChatGPT,22,porto rico,,
-Portugal,ChatGPT,27,portugal,PRT,Europe
+Portugal,ChatGPT,26,portugal,PRT,Europe
 Pérou,ChatGPT,50,peru,PER,South America
-Qatar,ChatGPT,34,qatar,,
+Qatar,ChatGPT,33,qatar,,
 Roumanie,ChatGPT,15,romania,ROU,Europe
-Royaume-Uni,ChatGPT,10,united kingdom,GBR,Europe
+Royaume-Uni,ChatGPT,11,united kingdom,GBR,Europe
 Russie,ChatGPT,2,russia,RUS,Europe
-Rwanda,ChatGPT,66,rwanda,,
+Rwanda,ChatGPT,67,rwanda,,
 République centrafricaine,ChatGPT,12,republique centrafricaine,,
-République dominicaine,ChatGPT,32,republique dominicaine,,
-Sahara occidental,ChatGPT,30,sahara occidental,,
+République dominicaine,ChatGPT,31,republique dominicaine,,
+Sahara occidental,ChatGPT,28,sahara occidental,,
 Saint-Barthélemy,ChatGPT,14,saint-barthelemy,,
 Saint-Christophe-et-Niévès,ChatGPT,26,saint-christophe-et-nieves,,
-Saint-Marin,ChatGPT,21,saint-marin,,
-Saint-Martin,ChatGPT,18,saint-martin,,
+Saint-Marin,ChatGPT,22,saint-marin,,
+Saint-Martin,ChatGPT,17,saint-martin,,
 Saint-Martin (partie néerlandaise),ChatGPT,19,saint-martin (partie neerlandaise),,
-Saint-Pierre-et-Miquelon,ChatGPT,9,saint-pierre-et-miquelon,,
+Saint-Pierre-et-Miquelon,ChatGPT,11,saint-pierre-et-miquelon,,
 Saint-Vincent-et-les Grenadines,ChatGPT,29,saint-vincent-et-les grenadines,,
 Sainte-Hélène,ChatGPT,3,sainte-helene,,
-Sainte-Lucie,ChatGPT,34,sainte-lucie,,
+Sainte-Lucie,ChatGPT,33,sainte-lucie,,
 Salvador,ChatGPT,36,salvador,,
-Samoa,ChatGPT,45,samoa,,
+Samoa,ChatGPT,42,samoa,,
 Samoa américaines,ChatGPT,51,samoa americaines,,
 Sao Tomé-et-Principe,ChatGPT,36,sao tome-et-principe,,
 Serbie,ChatGPT,18,serbie,,
@@ -1186,64 +1186,64 @@ Seychelles,ChatGPT,37,seychelles,,
 Sierra Leone,ChatGPT,21,sierra leone,,
 Singapour,ChatGPT,30,singapore,,
 Slovaquie,ChatGPT,12,slovakia,,
-Slovénie,ChatGPT,18,slovenia,,
-Somalie,ChatGPT,48,somalie,,
+Slovénie,ChatGPT,19,slovenia,,
+Somalie,ChatGPT,47,somalie,,
 Soudan,ChatGPT,4,soudan,,
-Soudan du Sud,ChatGPT,22,soudan du sud,,
-Sri Lanka,ChatGPT,55,sri lanka,,
+Soudan du Sud,ChatGPT,23,soudan du sud,,
+Sri Lanka,ChatGPT,54,sri lanka,,
 Suisse,ChatGPT,19,switzerland,CHE,Europe
-Suriname,ChatGPT,33,suriname,,
+Suriname,ChatGPT,34,suriname,,
 Suède,ChatGPT,12,sweden,SWE,Europe
 Svalbard et Jan Mayen,ChatGPT,12,svalbard et jan mayen,,
 Syrie,ChatGPT,3,syrie,,
-Sénégal,ChatGPT,22,senegal,,
+Sénégal,ChatGPT,21,senegal,,
 Tadjikistan,ChatGPT,6,tadjikistan,,
-Tanzanie,ChatGPT,28,tanzanie,,
-Taïwan,ChatGPT,21,taiwan,,
+Tanzanie,ChatGPT,29,tanzanie,,
+Taïwan,ChatGPT,22,taiwan,,
 Tchad,ChatGPT,8,tchad,,
 Tchéquie,ChatGPT,10,czechia,,
 Terres australes françaises,ChatGPT,0,terres australes francaises,,
 Territoire britannique de l’océan Indien,ChatGPT,0,territoire britannique de locean indien,,
 Thaïlande,ChatGPT,11,thailand,THA,Asia
 Timor oriental,ChatGPT,33,timor oriental,,
-Togo,ChatGPT,21,togo,,
+Togo,ChatGPT,22,togo,,
 Tokelau,ChatGPT,0,tokelau,,
-Tonga,ChatGPT,48,tonga,,
-Trinité-et-Tobago,ChatGPT,22,trinite-et-tobago,,
+Tonga,ChatGPT,47,tonga,,
+Trinité-et-Tobago,ChatGPT,23,trinite-et-tobago,,
 Tunisie,ChatGPT,40,tunisia,,
 Turkménistan,ChatGPT,3,turkmenistan,,
-Turquie,ChatGPT,15,turkey,TUR,Asia
-Tuvalu,ChatGPT,57,tuvalu,,
+Turquie,ChatGPT,14,turkey,TUR,Asia
+Tuvalu,ChatGPT,54,tuvalu,,
 Ukraine,ChatGPT,4,ukraine,UKR,Europe
 Uruguay,ChatGPT,20,uruguay,,
-Vanuatu,ChatGPT,87,vanuatu,,
+Vanuatu,ChatGPT,86,vanuatu,,
 Venezuela,ChatGPT,4,venezuela,,
 Viêt Nam,ChatGPT,10,viet nam,,
-Wallis-et-Futuna,ChatGPT,38,wallis-et-futuna,,
+Wallis-et-Futuna,ChatGPT,39,wallis-et-futuna,,
 Yémen,ChatGPT,5,yemen,,
-Zambie,ChatGPT,19,zambie,,
-Zimbabwe,ChatGPT,21,zimbabwe,,
+Zambie,ChatGPT,18,zambie,,
+Zimbabwe,ChatGPT,22,zimbabwe,,
 Égypte,ChatGPT,13,egypt,EGY,Africa
-Émirats arabes unis,ChatGPT,38,united arab emirates,,
-Équateur,ChatGPT,50,equateur,,
+Émirats arabes unis,ChatGPT,39,united arab emirates,,
+Équateur,ChatGPT,47,equateur,,
 Érythrée,ChatGPT,25,erythree,,
 État de la Cité du Vatican,ChatGPT,0,etat de la cite du vatican,,
 États-Unis,ChatGPT,12,united states,USA,North America
-Éthiopie,ChatGPT,40,ethiopie,,
+Éthiopie,ChatGPT,41,ethiopie,,
 Île Bouvet,ChatGPT,0,ile bouvet,,
 Île Christmas,ChatGPT,0,ile christmas,,
 Île Norfolk,ChatGPT,0,ile norfolk,,
 Île de Man,ChatGPT,10,ile de man,,
-Îles Caïmans,ChatGPT,19,iles caimans,,
+Îles Caïmans,ChatGPT,20,iles caimans,,
 Îles Cocos,ChatGPT,0,iles cocos,,
 Îles Cook,ChatGPT,36,iles cook,,
 Îles Féroé,ChatGPT,13,iles feroe,,
 Îles Heard-et-MacDonald,ChatGPT,0,iles heard-et-macdonald,,
-Îles Malouines (Îles Falkland),ChatGPT,8,iles malouines (iles falkland),,
+Îles Malouines (Îles Falkland),ChatGPT,7,iles malouines (iles falkland),,
 Îles Mariannes du Nord,ChatGPT,28,iles mariannes du nord,,
 Îles Marshall,ChatGPT,26,iles marshall,,
 Îles Pitcairn,ChatGPT,0,iles pitcairn,,
-Îles Salomon,ChatGPT,78,iles salomon,,
+Îles Salomon,ChatGPT,81,iles salomon,,
 Îles Turques-et-Caïques,ChatGPT,22,iles turques-et-caiques,,
 Îles Vierges britanniques,ChatGPT,23,iles vierges britanniques,,
 Îles Vierges des États-Unis,ChatGPT,14,iles vierges des etats-unis,,

@@ -53,7 +53,7 @@ COLORS = {
     "crypto": "#F87171",
     "Netflix": "#34D399",
     "Tesla": "#A78BFA",
-    "intelligence artificielle": "#FB923C"
+    "artificial intelligence": "#FB923C"
 }
 
 SLIDE_W = 1600
@@ -113,6 +113,7 @@ df_line["score_lisse"] = (
     df_line.groupby("mot_cle")["score"]
     .transform(lambda s: s.rolling(window=6, min_periods=1).mean())
 )
+
 
 # =========================================================
 # FIGURE 1 - LINE
@@ -225,31 +226,40 @@ try:
 except Exception as e:
     print(f"[ERREUR FIG4] {e}")
 
-# =========================================================
-# FIGURE 5 - CONTINENT LEADERS
+
+    # =========================================================
+# FIGURE 5 - MOYENNE PAR MOT-CLE
 # =========================================================
 try:
-    df_cont = (
-        df_country.groupby(["continent", "mot_cle"], as_index=False)["score"]
+    df_avg = (
+        df_time.groupby("mot_cle", as_index=False)["score"]
         .mean()
+        .sort_values("score", ascending=True)
     )
-    idx = df_cont.groupby("continent")["score"].idxmax()
-    df_cont_leaders = df_cont.loc[idx].copy().sort_values("score", ascending=True)
 
-    fig5 = px.bar(
-        df_cont_leaders,
+    fig7 = px.bar(
+        df_avg,
         x="score",
-        y="continent",
+        y="mot_cle",
         orientation="h",
         text="score",
         color="mot_cle",
         color_discrete_map=COLORS
     )
-    fig5 = apply_plotly_dark(fig5, "Continental Leaders", "Average score", "Continent")
-    fig5.update_traces(texttemplate="%{text:.1f}", textposition="outside")
 
-    safe_save_plotly(fig5, "05_continental_leaders_dark.png")
+    fig7 = apply_plotly_dark(
+        fig7,
+        "Average Interest by Keyword",
+        "Average Score",
+        "Keyword"
+    )
+
+    fig7.update_traces(
+        texttemplate="%{text:.1f}",
+        textposition="outside"
+    )
+
+    safe_save_plotly(fig7, "07_average_by_keyword.png")
+
 except Exception as e:
-    print(f"[ERREUR FIG5] {e}")
-
-print("\nTerminé.")
+    print(f"[ERREUR FIG7] {e}")
