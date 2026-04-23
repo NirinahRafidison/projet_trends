@@ -1,7 +1,3 @@
-Voici une version propre, claire et directement réutilisable dans ton `README.md`.
-
----
-
 # Google Trends Ultra Dashboard
 
 ## Présentation
@@ -456,7 +452,12 @@ pip install streamlit pandas numpy plotly
 ```bash
 streamlit run app/dashboard.py
 ```
+```bash
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.107:8501
 
+python -m streamlit run app/streamlit_app.py
+```
 Adapte le chemin selon le nom réel de ton fichier.
 
 ---
