@@ -26,7 +26,27 @@ tout en tenant compte du fait que Google Trends fournit des données relatives (
 
 ## 🏗️ Architecture du projet
 
-bash projet_trends/ │ ├── data/ │   ├── raw/                  # données brutes Google Trends │   ├── processed/            # datasets nettoyés et enrichis │   └── kaggle/               # métadonnées pays │ ├── scripts/ │   ├── collect_trends.py     # collecte Google Trends │   ├── clean_merge.py        # nettoyage + enrichissement │   ├── country_insights.py   # calcul des indicateurs │   └── slides_graphs.py      # génération des graphes │ ├── app/ │   └── streamlit_app.py      # application interactive │ ├── outputs/ │   └── figures/              # graphes pour les slides │ ├── requirements.txt └── README.md 
+projet_trends/
+│
+├── data/
+│   ├── raw/                  # données brutes Google Trends
+│   ├── processed/            # datasets nettoyés et enrichis
+│   └── kaggle/               # métadonnées pays
+│
+├── scripts/
+│   ├── collect_trends.py     # collecte Google Trends
+│   ├── clean_merge.py        # nettoyage + enrichissement
+│   ├── country_insights.py   # calcul des indicateurs
+│   └── graphs_final.py       # génération des graphes
+│
+├── app/
+│   └── streamlit_app.py      # application interactive
+│
+├── outputs/
+│   └── figures/              # graphes générés
+│
+├── requirements.txt
+└── README.md
 
 ---
 
